@@ -1,4 +1,7 @@
+import DarkModeButton from './DarkmodeButton'
+import Providers from './Providers'
 import './globals.css'
+
 
 export default function RootLayout({
   children,
@@ -7,14 +10,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <div className="flex flex-row-reverse bg-slate-500">
-            <button className="rounded bg-white w-10 h-10" >
-              Light
-            </button>
-        </div>
-        {children}
+      <head/>
+      <body className='bg-slate-300 dark:bg-slate-700 text-black dark:text-white'>
+        <Providers>
+          {children}
+        </Providers>
       </body>
-    </html>
+  </html>
   )
 }
+
+

@@ -14,7 +14,7 @@ export default function about_Me () {
                     <a className="transition ease-in-out delay-150 duration-300 bg-yellow-500 inline-block py-2 px-4 text-black font-semibold rounded hover:scale-125 hover:shadow-lg " href="/Home">Welcome</a>
                 </li>
                 <li className="mr-1">
-                    <a className="bg-red-500 inline-block  rounded py-2 px-4 text-black font-semibold" href="#">About me</a>
+                    <a className="bg-red-500 inline-block  rounded py-2 px-4 text-black font-semibold" href="">About me</a>
                 </li>
                 <li className="mr-1 hover:px-3 duration-500 delay-75">
                     <a className="transition ease-in-out delay-150 duration-300 bg-blue-500 inline-block py-2 px-4 text-black font-semibold rounded hover:scale-125 hover:shadow-lg " href="/Projects">Projects</a>

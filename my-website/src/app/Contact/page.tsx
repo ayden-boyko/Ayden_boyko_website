@@ -20,7 +20,7 @@ export default function my_Contact () {
                     <a className="transition ease-in-out delay-150 duration-300 bg-blue-500 inline-block py-2 px-4 text-black font-semibold rounded hover:scale-125 hover:shadow-lg " href="/Projects">Projects</a>
                 </li>
                 <li className="mr-1">
-                    <a className="bg-green-500 inline-block rounded py-2 px-4 text-black font-semibold" href="#">Contact</a>
+                    <a className="bg-green-500 inline-block rounded py-2 px-4 text-black font-semibold" href="">Contact</a>
                 </li>
             </ul>
             <body>
