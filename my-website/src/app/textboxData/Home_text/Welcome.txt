@@ -1,0 +1,9 @@
+Welcome to my Personal Website!
+My name is Ayden Boyko.
+ANIMATIONS ON TEXT BOXES, SLIDE IN FROM THE SIDE UPON PAGE LOADING,
+ANIMATION ON PAGE CHANGE, CUBE EXPANDS ON HOVER,
+ON CLICK IT CONTRACTS AND TINY BLACK OR dark:WHITE SQUARE PARTICLES EMINATE WHEN SQUARE CRUNCHES DOWN,
+WHEN PARTICLES ARE EMIANTED TEXT BOXES SLIDE OFF SCREEN, LEAVING PARTICLES AS WELL
+
+might have to turn taskbar buttons into seperate components like textbox, 
+that way the animations can be rendered clientside when button is clicked

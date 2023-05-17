@@ -3,7 +3,7 @@ import { ThemeProvider } from "next-themes";
 import React from "react";
 
 type ContainerProps = {
-    children: React.ReactNode; //👈 children prop typr
+    children: React.ReactNode;
   };
 
 const Providers = (props: ContainerProps) => {

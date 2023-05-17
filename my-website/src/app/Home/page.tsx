@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import TextBox from '../TextBox';
  
 export const metadata: Metadata = {
   title: 'Home',
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
 export default function Welcome () {
     
     return (
-        <div className="h-screen bg-slate-500">
+        <div className="h-screen bg-transparent dark:bg-slate-700">
             <ul className="flex items-center justify-center translate-y-4">
                 <li className="-mb-px mr-1">
                     <a className="bg-yellow-500 inline-block rounded py-2 px-4 text-black font-semibold" href="">Welcome</a>
@@ -23,9 +24,9 @@ export default function Welcome () {
                     <a className="transition ease-in-out delay-150 duration-300 bg-green-500 inline-block py-2 px-4 text-black font-semibold rounded hover:scale-125 hover:shadow-lg" href="/Contact">Contact</a>
                 </li>
             </ul>
-            <body>
-
-            </body>
+            <div className='inline-flex my-16'>
+                <TextBox file="textboxData/Home_text/Welcome.txt" style="bg-red-500" side="left"></TextBox>
+            </div>
         </div>
     )
 }
