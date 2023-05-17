@@ -11,7 +11,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head/>
-      <body className='bg-slate-300 dark:bg-slate-700 text-black dark:text-white mx-72'>
+      <body className='bg-slate-300 dark:bg-slate-700 dark:text-white mx-72'>
         <Providers>
           <DarkModeButton>{children}</DarkModeButton>
         </Providers>

@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main>
       <div className="transition delay-200 flex min-h-screen flex-col items-center justify-between p-24">
-        <div className="grid items-center justify-center grid-rows-2 grid-flow-col gap-4 translate-y-24 duration-300 delay-100">
+        <div className="grid items-center justify-center grid-rows-2 grid-flow-col gap-4 translate-y-24 duration-300 delay-100 text-black dark:text-white">
           <a href="/Home" className="hover:pr-4 hover:pb-2 duration-300">
             <div className="transition ease-in-out delay-75 duration-300 border-black border-solid  bg-yellow-500 w-40 h-40 relative rounded p-10 text-center inline-block  hover:shadow-2xl hover:scale-125"> 
               <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Welcome</p>

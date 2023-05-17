@@ -1,6 +1,9 @@
 'use client';
 
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
+import sun from "src/app/icons/sun.svg";
+import moon from "src/app/icons/moon.svg";
 
 type ContainerProps = {
   children: React.ReactNode;
@@ -30,6 +33,7 @@ const DarkModeButton = (props: ContainerProps) => {
     {text === "Dark" ? setText("Light") : setText('Dark')}
   };
 
+
   return (
     <main>
       <div className="flex flex-row-reverse translate-y-6 -translate-x-6">
@@ -38,36 +42,11 @@ const DarkModeButton = (props: ContainerProps) => {
           text-white dark:text-black hover:shadow-xl hover:-translate-y-1 dark:hover:shadow-slate-300 -mx-72"
           onClick={toggleDarkMode}
           >
-          {text}
-          {/* {darkMode ? (
-              <svg
-              className="w-6 h-6 text-yellow-400 dark:text-yellow-300"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              >
-              <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
-              />
-              </svg>
+          {darkMode ? (
+            <Image src={sun} alt="sun"/>
           ) : (
-              <svg
-              className="w-6 h-6 text-yellow-400 dark:text-yellow-300"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              >
-              <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M5 13l4 4L19 7"
-              />
-              </svg>
-          )} */}
+            <Image src={moon} alt="moon"/>
+          )}
           </button>
       </div>
       {props.children}
