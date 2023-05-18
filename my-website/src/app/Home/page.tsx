@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function Welcome () {
     
     return (
-        <div className="h-screen bg-transparent dark:bg-slate-700">
+        <div className="h-screen bg-transparent">
             <ul className="flex items-center justify-center translate-y-4">
                 <li className="-mb-px mr-1">
                     <a className="bg-yellow-500 inline-block rounded py-2 px-4 text-black font-semibold" href="">Welcome</a>
@@ -27,7 +27,6 @@ export default function Welcome () {
             <div className='inline-flex my-16'>
                 <TextBox file="textboxData/Home_text/Welcome.txt" style="bg-yellow-500" side="left"></TextBox>
             </div>
-            <div className='inner-round h-20 w-20 border-yellow-500 border-solid border-4 bg-black'></div>
         </div>
     )
 }

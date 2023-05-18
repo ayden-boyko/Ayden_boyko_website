@@ -18,11 +18,22 @@
 
 @layer components{
   .inner-round {
-    -webkit-mask-image: radial-gradient(circle 10px at 0 0, transparent 0, transparent 20px, black 21px), radial-gradient(circle 10px at 0 0, transparent 0, transparent 20px, black 21px);
-    mask-image: radial-gradient(circle 10px at 0 0, transparent 0, transparent 20px, black 21px),
-                radial-gradient(circle 10px at 0 100%, transparent 0, transparent 20px, black 21px),
-                radial-gradient(circle 10px at 100% 0, transparent 0, transparent 20px, black 21px),
-                radial-gradient(circle 10px at 100% 100%, transparent 0, transparent 20px, black 21px);
+    -webkit-mask-image:
+        radial-gradient(circle at top left, transparent 0, transparent  20px, black 21px),
+        radial-gradient(circle at top right, transparent 0, transparent  20px, black 21px),
+        radial-gradient(circle at bottom left, transparent 0, transparent  20px, black 21px),
+        radial-gradient(circle at bottom right, transparent 0, transparent  20px, black 21px);
+    -webkit-mask-position: top left, top right, bottom left, bottom right;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 50% 50%;
+    mask-image:
+        radial-gradient(circle at top left, transparent 0, transparent 20px, black 21px),
+        radial-gradient(circle at top right, transparent 0, transparent 20px, black 21px),
+        radial-gradient(circle at bottom left, transparent 0, transparent 20px, black 21px),
+        radial-gradient(circle at bottom right, transparent 0, transparent 20px, black 21px);
+    mask-position: top left, top right, bottom left, bottom right;
+    mask-repeat: no-repeat;
+    mask-size: 50% 50%;
   }
 }
 
@@ -55,3 +66,4 @@
   animation: idle-right 1s infinite;
   animation-duration: 5s;
 }
+

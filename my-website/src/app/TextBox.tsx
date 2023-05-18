@@ -30,17 +30,17 @@ const TextBox = (text:textboxinfo) => {
         <>
             {text.side === "left" ?
             <div className={final_style1}>
-                <p className='bg-slate-300 text-black translate-x-2 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-600 px-2 py-2 animate-cancel'>
+                <p className='bg-slate-200 text-black translate-x-2 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 px-2 py-2 animate-none'>
                     {fileToText(text.file)}
                 </p>
             </div> 
             : 
             <div className={final_style2}>
-                <p className='bg-slate-300 text-black -translate-x-2 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-600 px-2 py-2 animate-cancel'>
+                <div className='bg-slate-200 text-black -translate-x-2 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 px-2 py-2 animate-none'>
                     {fileToText(text.file)}
-                </p>
-            </div> 
-            }   
+                </div>
+            </div>
+            }
         </>
     )
 }
