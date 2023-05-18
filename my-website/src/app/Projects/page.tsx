@@ -25,10 +25,10 @@ export default function projects () {
                 </li>
             </ul>
             <div className='inline-flex my-16'>
-                <TextBox file="textboxData/Projects_text/MyProjects.txt" style="bg-red-500" side="left"></TextBox>
+                <TextBox file="textboxData/Projects_text/MyProjects.txt" style="bg-blue-500" side="left"></TextBox>
             </div>
             <div className='inline-flex flex-row-reverse'>
-                <TextBox file="textboxData/Projects_text/Project1.txt" style="bg-red-500" side="right"></TextBox>
+                <TextBox file="textboxData/Projects_text/Project1.txt" style="bg-blue-500" side="right"></TextBox>
             </div>
         </div>
     )

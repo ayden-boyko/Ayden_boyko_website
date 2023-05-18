@@ -16,6 +16,16 @@
   }
 }
 
+@layer components{
+  .inner-round {
+    -webkit-mask-image: radial-gradient(circle 10px at 0 0, transparent 0, transparent 20px, black 21px), radial-gradient(circle 10px at 0 0, transparent 0, transparent 20px, black 21px);
+    mask-image: radial-gradient(circle 10px at 0 0, transparent 0, transparent 20px, black 21px),
+                radial-gradient(circle 10px at 0 100%, transparent 0, transparent 20px, black 21px),
+                radial-gradient(circle 10px at 100% 0, transparent 0, transparent 20px, black 21px),
+                radial-gradient(circle 10px at 100% 100%, transparent 0, transparent 20px, black 21px);
+  }
+}
+
 @keyframes idle-left {
   0%, 100% {
       transform: translate(1%, -3%);  

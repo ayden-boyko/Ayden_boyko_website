@@ -13,7 +13,9 @@ export default function RootLayout({
       <head/>
       <body className='bg-slate-300 dark:bg-slate-700 dark:text-white mx-72'>
         <Providers>
-          <DarkModeButton>{children}</DarkModeButton>
+          <div className="">
+            <DarkModeButton>{children}</DarkModeButton>
+          </div>
         </Providers>
       </body>
   </html>

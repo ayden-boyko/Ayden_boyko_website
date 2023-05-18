@@ -25,7 +25,7 @@ export default function my_Contact () {
                 </li>
             </ul>
             <div className='inline-flex my-16'>
-                <TextBox file="textboxData/Contact_text/Contact_Me.txt" style="bg-red-500" side="left"></TextBox>
+                <TextBox file="textboxData/Contact_text/Contact_Me.txt" style="bg-green-500" side="left"></TextBox>
             </div>
         </div>
     )

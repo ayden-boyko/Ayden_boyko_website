@@ -25,8 +25,9 @@ export default function Welcome () {
                 </li>
             </ul>
             <div className='inline-flex my-16'>
-                <TextBox file="textboxData/Home_text/Welcome.txt" style="bg-red-500" side="left"></TextBox>
+                <TextBox file="textboxData/Home_text/Welcome.txt" style="bg-yellow-500" side="left"></TextBox>
             </div>
+            <div className='inner-round h-20 w-20 border-yellow-500 border-solid border-4 bg-black'></div>
         </div>
     )
 }
