@@ -12,7 +12,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head/>
-      <body className="  bg-slate-300 dark:bg-slate-700 dark:text-white mx-72">
+      <body className=" bg-[url('../app/icons/lightgrid.svg')] bg-slate-300 dark:bg-[url('../app/icons/darkgrid.svg')] dark:bg-slate-700 dark:text-white mx-72">
         <Providers>
           <div className="">
             <DarkModeButton>{children}</DarkModeButton>
