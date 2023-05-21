@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
-import TextBox from '../TextBox';
-import ContactMe from '../email';
+import TextBox from '../api/TextBox';
+import ContactMe from '../api/email';
  
 export const metadata: Metadata = {
   title: 'Contact',

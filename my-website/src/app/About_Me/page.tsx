@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import 'src/app/globals.css';
-import TextBox from '../TextBox';
+import TextBox from '../api/TextBox';
 
  
 export const metadata: Metadata = {

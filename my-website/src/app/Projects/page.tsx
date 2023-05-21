@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import TextBox from '../TextBox';
+import TextBox from '../api/TextBox';
  
 export const metadata: Metadata = {
   title: 'Projects',
