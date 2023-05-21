@@ -1,5 +1,5 @@
-import DarkModeButton from './DarkmodeButton'
 import Providers from './Providers'
+import DarkModeButton from './api/DarkmodeButton'
 import './globals.css'
 
 //bg-[url('../app/icons/lightgrid.svg')] dark:bg-[url('../app/icons/darkgrid.svg')] grid background, needs to be changed
