@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import TextBox from '../TextBox';
+import ContactMe from '../email';
  
 export const metadata: Metadata = {
   title: 'Contact',
@@ -24,8 +25,11 @@ export default function my_Contact () {
                     <a className="bg-green-500 inline-block rounded py-2 px-4 text-black font-semibold" href="">Contact</a>
                 </li>
             </ul>
-            <div className='inline-flex my-16'>
+            <div className='flex my-16'>
                 <TextBox file="textboxData/Contact_text/Contact_Me.txt" style="bg-green-500" side="left"></TextBox>
+            </div>
+            <div className='flex flex-row-reverse my-16'>
+                <ContactMe/>
             </div>
         </div>
     )
