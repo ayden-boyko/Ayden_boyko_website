@@ -2,20 +2,20 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import ReCAPTCHA from "react-google-recaptcha";
-const captchasitekey = process.env.RECAPTCHA_CODE;
 
 const ContactMe = () => {
     const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
-        document.getElementById('user_name').value="";
-        document.getElementById('email').value="";
-        document.getElementById('message').value="";
+        
 
         emailjs.sendForm(process.env.SERVICE_CODE, process.env.TEMPLATE_CODE, form.current, process.env.USER_CODE)
         .then((result) => {
             alert(result.text);
+            document.getElementById('user_name').value="";
+            document.getElementById('email').value="";
+            document.getElementById('message').value="";
         },
         (error) => {
             alert(error.text);
@@ -39,7 +39,7 @@ const ContactMe = () => {
                 <br />
                 <input type="submit" value="Send" className='transition duration-500 delay-100 rounded-sm border-black border p-1 hover:bg-gray-400 bg-white'/>
                 <br />
-                <ReCAPTCHA size="normal" sitekey={captchasitekey} />
+                <ReCAPTCHA size="normal" sitekey={process.env.RECAPTCHA_CODE} className=" rounded-sm border-black border m-2 -translate-x-2 "/>
             </form>
         </div>
     );
