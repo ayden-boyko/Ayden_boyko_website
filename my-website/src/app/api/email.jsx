@@ -1,6 +1,8 @@
 'use client';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import ReCAPTCHA from "react-google-recaptcha";
+const captchasitekey = process.env.RECAPTCHA_CODE;
 
 const ContactMe = () => {
     const form = useRef();
@@ -11,10 +13,9 @@ const ContactMe = () => {
         document.getElementById('email').value="";
         document.getElementById('message').value="";
 
-        emailjs.sendForm("service_gdviopk", "template_pf5tfgc", form.current, "VMBSEm2oMwdq8BM0_")
+        emailjs.sendForm(process.env.SERVICE_CODE, process.env.TEMPLATE_CODE, form.current, process.env.USER_CODE)
         .then((result) => {
             alert(result.text);
-            
         },
         (error) => {
             alert(error.text);
@@ -22,6 +23,8 @@ const ContactMe = () => {
     };
     return (
         <div className="rounded-sm border-black border-2 animate-idle-right w-2/6 h-2/6 bg-green-500 ">
+            <ReCAPTCHA size="normal" sitekey={captchasitekey} />
+            
             <form  ref={form} onSubmit={sendEmail} className='bg-white text-black -translate-x-2 -translate-y-2 rounded-sm border-black border-2 p-2 dark:bg-slate-500'>
                 <label className="dark:text-white">Name</label>
                 <br />
