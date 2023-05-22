@@ -23,7 +23,6 @@ const ContactMe = () => {
     };
     return (
         <div className="rounded-sm border-black border-2 animate-idle-right w-2/6 h-2/6 bg-green-500 ">
-            <ReCAPTCHA size="normal" sitekey={captchasitekey} />
             
             <form  ref={form} onSubmit={sendEmail} className='bg-white text-black -translate-x-2 -translate-y-2 rounded-sm border-black border-2 p-2 dark:bg-slate-500'>
                 <label className="dark:text-white">Name</label>
@@ -39,6 +38,8 @@ const ContactMe = () => {
                 <textarea name="message" id="message" className="bg-white border-black rounded border w-2/3"/> 
                 <br />
                 <input type="submit" value="Send" className='transition duration-500 delay-100 rounded-sm border-black border p-1 hover:bg-gray-400 bg-white'/>
+                <br />
+                <ReCAPTCHA size="normal" sitekey={captchasitekey} />
             </form>
         </div>
     );
