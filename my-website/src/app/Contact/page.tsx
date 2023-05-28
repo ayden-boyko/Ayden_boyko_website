@@ -26,7 +26,7 @@ export default function my_Contact () {
                 </li>
             </ul>
             <div className='flex my-16'>
-                <TextBox file="../textboxData/Contact_text/Contact_Me.txt" style="bg-green-500" side="left"></TextBox>
+                <TextBox file="../textboxData/Contact_text/Contact_Me.txt" style="bg-green-500 w-2/6 h-2/6" side="left" image="none"></TextBox>
             </div>
             <div className='flex flex-row-reverse my-16'>
                 <ContactMe/>
