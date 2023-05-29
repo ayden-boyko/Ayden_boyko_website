@@ -44,7 +44,9 @@ const TextBox = (text:textboxinfo) => {
             </div>
             )
         default:
-            <div>Error</div>
+            return (
+                <div>Error</div>
+            )
     }
 }
 
