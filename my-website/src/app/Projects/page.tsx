@@ -28,7 +28,7 @@ export default function projects () {
                 <TextBox file="../textboxData/Projects_text/MyProjects.txt" style="bg-blue-500 w-2/6 h-2/6 " side="left" image="none"></TextBox>
             </div>
             <div className='inline-flex flex-row-reverse'>
-                <TextBox file="../textboxData/Projects_text/Project1.txt" style="bg-blue-500 w-4/6 h-full" side="right" image="none"></TextBox>
+                <TextBox file="../textboxData/Projects_text/Project1.txt" style="bg-blue-500 w-4/6 h-full" side="right" image="/app/icons/homepage.jpg"></TextBox>
             </div>
         </div>
     )

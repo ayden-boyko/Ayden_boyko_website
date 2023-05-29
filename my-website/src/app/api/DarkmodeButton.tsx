@@ -2,8 +2,8 @@
 
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
-import sun from "src/app/icons/sun.svg";
-import moon from "src/app/icons/moon.svg";
+import sun from "public/sun.svg";
+import moon from "public/moon.svg";
 
 type ContainerProps = {
   children: React.ReactNode;
