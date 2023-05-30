@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import TextBox from '../api/Displaybox';
+import Displaybox from '../api/Displaybox';
  
 export const metadata: Metadata = {
   title: 'Home',
@@ -25,7 +25,7 @@ export default function Welcome () {
                 </li>
             </ul>
             <div className='inline-flex my-16'>
-                <TextBox file="../textboxData/Home_text/Welcome.txt" style="bg-yellow-500 w-2/6 h-2/6" side="left" image="none"></TextBox>
+                <Displaybox file="../textboxData/Home_text/Welcome.txt" style="bg-yellow-500 w-2/6 h-2/6" side="left" image="none" size={0}/>
             </div>
         </div>
     )

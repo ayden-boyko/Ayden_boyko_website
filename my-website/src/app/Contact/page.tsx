@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import TextBox from '../api/Displaybox';
+import Displaybox from '../api/Displaybox';
 import ContactMe from '../api/email';
  
 export const metadata: Metadata = {
@@ -26,7 +26,7 @@ export default function my_Contact () {
                 </li>
             </ul>
             <div className='flex my-16'>
-                <TextBox file="../textboxData/Contact_text/Contact_Me.txt" style="bg-green-500 w-2/6 h-2/6" side="left" image="none"></TextBox>
+                <Displaybox file="../textboxData/Contact_text/Contact_Me.txt" style="bg-green-500 w-2/6 h-2/6" side="left" image="none" size ={0}/>
             </div>
             <div className='flex flex-row-reverse my-16'>
                 <ContactMe/>

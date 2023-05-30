@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import 'src/app/globals.css';
-import TextBox from '../api/Displaybox';
+import Displaybox from '../api/Displaybox';
 
  
 export const metadata: Metadata = {
@@ -27,13 +27,13 @@ export default function about_Me () {
                 </li>
             </ul>
             <div className='inline-flex my-16'>
-                <TextBox file="../textboxData/About_Me_text/AboutMe.txt" style="bg-red-500 w-2/6 h-2/6" side="left" image="none"></TextBox>
+                <Displaybox file="../textboxData/About_Me_text/AboutMe.txt" style="bg-red-500 w-2/6 h-2/6" side="left" image="none" size={0}/>
             </div>
             <div className='inline-flex flex-row-reverse'>
-                <TextBox file="../textboxData/About_Me_text/Coding_Journey.txt" style="bg-red-500 w-2/6 h-2/6" side="right" image="none"></TextBox>
+                <Displaybox file="../textboxData/About_Me_text/Coding_Journey.txt" style="bg-red-500 w-2/6 h-2/6" side="right" image="none" size={0}/>
             </div>
             <div className='inline-flex '>
-                <TextBox file="../textboxData/About_Me_text/Coding_Journey2.txt" style="bg-red-500 w-2/6 h-2/6" side="left" image="none"></TextBox>
+                <Displaybox file="../textboxData/About_Me_text/Coding_Journey2.txt" style="bg-red-500 w-2/6 h-2/6" side="left" image="none" size={0}/>
             </div>
         </div>
     )

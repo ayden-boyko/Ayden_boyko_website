@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import TextBox from '../api/Displaybox';
+import Displaybox from '../api/Displaybox';
 
  
 export const metadata: Metadata = {
@@ -26,10 +26,10 @@ export default function projects () {
                 </li>
             </ul>
             <div className='inline-flex my-16'>
-                <TextBox file="../textboxData/Projects_text/MyProjects.txt" style="bg-blue-500 w-2/6 h-2/6 " side="left" image="none" size={0}></TextBox>
+                <Displaybox file="../textboxData/Projects_text/MyProjects.txt" style="bg-blue-500 w-2/6 h-2/6 " side="left" image="none" size={0}/>
             </div>
             <div className='inline-flex flex-row-reverse'>
-                <TextBox file="../textboxData/Projects_text/Project1.txt" style="bg-blue-500 w-4/6 h-full" side="right" image='/homepage.jpg' size={200}></TextBox>
+                <Displaybox file="../textboxData/Projects_text/Project1.txt" style="bg-blue-500 w-4/6 h-full" side="right" image='/homepage.jpg' size={200}/>
             </div>
         </div>
     )
