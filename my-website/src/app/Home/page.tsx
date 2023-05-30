@@ -25,7 +25,7 @@ export default function Welcome () {
                 </li>
             </ul>
             <div className='inline-flex my-16'>
-                <Displaybox file="../textboxData/Home_text/Welcome.txt" style="bg-yellow-500 w-2/6 h-2/6" side="left" image="none" size={0}/>
+                <Displaybox file="../textboxData/Home_text/Welcome.txt" style="bg-yellow-500 w-2/6 h-2/6" side="left"/>
             </div>
         </div>
     )

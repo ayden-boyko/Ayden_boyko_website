@@ -1,5 +1,8 @@
 import type { Metadata } from 'next';
 import Displaybox from '../api/Displaybox';
+import Image from "next/image";
+import fileToText from '../api/fileToText';
+
 
  
 export const metadata: Metadata = {
@@ -26,10 +29,17 @@ export default function projects () {
                 </li>
             </ul>
             <div className='inline-flex my-16'>
-                <Displaybox file="../textboxData/Projects_text/MyProjects.txt" style="bg-blue-500 w-2/6 h-2/6 " side="left" image="none" size={0}/>
+                <Displaybox file="../textboxData/Projects_text/MyProjects.txt" style="bg-blue-500 w-2/6 h-2/6 " side="left"/>
             </div>
             <div className='inline-flex flex-row-reverse'>
-                <Displaybox file="../textboxData/Projects_text/Project1.txt" style="bg-blue-500 w-4/6 h-full" side="right" image='/homepage.jpg' size={200}/>
+                <div className="bg-blue-500 w-4/6 h-full rounded-sm border-black border-2 animate-idle-right">
+                    <div className=" flex flex-row gap-3 p-2">
+                        <a className=" w-10/12 h-4/6" href="https://github.com/ayden-boyko/Website" aria-label="Website Repo" target="_blank" rel='noopener'><Image src="/homepage.jpg" alt="website Homepage" width={200} height={200} className="rounded-sm border border-black"/></a>
+                        <div className='bg-slate-200 text-black -translate-y-4 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 p-2 animate-none'>
+                            {fileToText("../textboxData/Projects_text/Project1.txt")}
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )

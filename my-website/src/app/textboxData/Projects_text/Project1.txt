@@ -4,4 +4,4 @@ log times,
 edit times logged,
 change the name of the user who was using the timer (this will change the name displayed when time is logged), 
 It is important to note that this project has no backend, therefore I only allowed one user to be made.
-include{GITHUB INTEGRATION}
+
