@@ -1,11 +1,13 @@
 import React from "react";
 import { readFile } from "fs/promises";
+import Image, { StaticImageData } from "next/image";
 
 type textboxinfo = {
     file: string;
     style: string;
     side: "left" | "right";
-    image: string
+    image: string | StaticImageData;
+    size: number;
   };
 
 
@@ -40,6 +42,28 @@ const TextBox = (text:textboxinfo) => {
             <div className={final_style2}>
                 <div className='bg-slate-200 text-black -translate-x-2 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 px-2 py-2 animate-none'>
                     {fileToText(text.file)}
+                </div>
+            </div>
+            )
+        case ((text.side === "left") && (text.image !== "none")):
+            return(
+                <div className={final_style1}>
+                    <div className="">
+                        <Image src={text.image} alt={text.image.toString()} width={text.size} height={text.size}/>
+                        <p className='bg-slate-200 text-black translate-x-2 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 px-2 py-2 animate-none'>
+                            {fileToText(text.file)}
+                        </p>
+                    </div>
+                </div>
+            );
+        case ((text.side === "right") && (text.image !== "none")):
+            return(
+            <div className={final_style2}>
+                <div className=" flex flex-row gap-3 p-2">
+                    <Image src={text.image} alt={text.image.toString()} width={text.size} height={text.size} className="rounded-sm border border-black"/>
+                    <div className='bg-slate-200 text-black -translate-y-4 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 p-2 animate-none'>
+                        {fileToText(text.file)}
+                    </div>
                 </div>
             </div>
             )
