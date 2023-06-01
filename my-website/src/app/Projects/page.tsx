@@ -37,7 +37,7 @@ export default function projects () {
                         <a className=" w-10/12 h-4/6 m-2" href="https://github.com/ayden-boyko/React-Timer" aria-label="Website Repo" target="_blank" rel='noopener'><Image src="/React_client_page.jpeg" alt="First React Client" width={200} height={200} className="rounded-sm border border-black"/></a>
                         <div className='inline-flex bg-blue-200 rounded-sm border-black border-2 -translate-y-2 -translate-x-2 gap-4'>
                             <div className='flex scale-110 flex-col-reverse m-2'>
-                                <a className=" w-10/12 h-4/6 m-2 py-4 rounded-full" href="https://react.dev/" aria-label="React homepage" target="_blank" rel='noopener'><Image src="/react.svg" alt="react Icon" width={250} height={200} className="rounded-full border bg-white scale-105"/></a>
+                                <a className=" w-10/12 h-4/6 m-2 py-4 rounded-full" href="https://react.dev/" aria-label="React homepage" target="_blank" rel='noopener'><Image src="/react.svg" alt="react Icon" width={250} height={200} className="rounded-full border bg-white"/></a>
                             </div>
                             <div className='bg-slate-200 text-black -translate-y-2 -translate-x-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 p-2 animate-none'>
                                 {fileToText("../textboxData/Projects_text/Project1.txt")}
@@ -54,11 +54,11 @@ export default function projects () {
                                 {fileToText("../textboxData/Projects_text/Project2.txt")}
                             </div>
                             <div className='flex scale-110 flex-col-reverse m-2'>
-                                <a className=" w-10/12 h-4/6 m-2 py-4 rounded-full" href="https://tailwindcss.com/" aria-label="Tailwindcss" target="_blank" rel='noopener'><Image src="/tailwind.svg" alt="tailwindcss Icon" width={200} height={200} className="rounded-full bg-white"/></a>
-                                <a className=" w-10/12 h-4/6 m-2 py-4 rounded-full" href="https://nextjs.org/" aria-label="Nextjs" target="_blank" rel='noopener'><Image src="/next-js.svg" alt="next Icon" width={200} height={200} className="rounded-full bg-white"/></a>
+                                <a className=" w-10/12 h-4/6 my-2 py-4 rounded-full" href="https://tailwindcss.com/" aria-label="Tailwindcss homepage" target="_blank" rel='noopener'><Image src="/tailwind.svg" alt="tailwindcss Icon" width={200} height={200} className="rounded-full bg-white"/></a>
+                                <a className=" w-10/12 h-4/6 my-2 py-4 rounded-full" href="https://nextjs.org/" aria-label="Nextjs homepage" target="_blank" rel='noopener'><Image src="/next-js.svg" alt="next Icon" width={200} height={200} className="rounded-full bg-white"/></a>
                             </div>
                         </div>
-                        <a className=" w-10/12 h-4/6" href="https://github.com/ayden-boyko/Website" aria-label="Website Repo" target="_blank" rel='noopener'><Image src="/homepage.jpg" alt="Website github" width={200} height={200} className="rounded-sm border border-black m-2"/></a>
+                        <a className=" w-10/12 h-4/6 my-4 ml-6" href="https://github.com/ayden-boyko/Website" aria-label="Website Repo" target="_blank" rel='noopener'><Image src="/homepage.jpg" alt="Website github" width={200} height={200} className="rounded-sm border border-black m-2"/></a>
                     </div>
                 </div>
             </div>
