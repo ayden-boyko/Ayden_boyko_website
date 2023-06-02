@@ -38,6 +38,7 @@ export default function projects () {
                         <div className='inline-flex bg-blue-200 rounded-sm border-black border-2 -translate-y-2 -translate-x-2 gap-4'>
                             <div className='flex scale-110 flex-col-reverse m-2'>
                                 <a className=" w-10/12 h-4/6 m-2 py-4 rounded-full" href="https://react.dev/" aria-label="React homepage" target="_blank" rel='noopener'><Image src="/react.svg" alt="react Icon" width={250} height={200} className="rounded-full border bg-white"/></a>
+                                <a className=" w-10/12 h-4/6 m-2 py-4 rounded-full" href="https://www.w3.org/Style/CSS/Overview.en.html#:~:text=Cascading%20Style%20Sheets%20(CSS)%20is,CSS%20and%20on%20available%20software." aria-label="Css" target="_blank" rel='noopener'><Image src="/css.svg" alt="css Icon" width={100} height={100} className="bg-white rounded-full scale-110"/></a>
                             </div>
                             <div className='bg-slate-200 text-black -translate-y-2 -translate-x-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 p-2 animate-none'>
                                 {fileToText("../textboxData/Projects_text/Project1.txt")}
