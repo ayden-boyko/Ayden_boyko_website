@@ -31,7 +31,7 @@ export default function projects () {
             <div className='inline-flex my-16'>
                 <Displaybox file="../textboxData/Projects_text/MyProjects.txt" style="bg-blue-500 w-2/6 h-2/6 " side="left"/>
             </div>
-            <div className='inline-flex flex-row-reverse'>
+            <div className='inline-flex flex-row-reverse my-16'>
                 <div className="bg-blue-500 w-9/12 h-full rounded-sm border-black border-2 animate-idle-right">
                     <div className=" flex flex-row">
                         <a className=" w-10/12 h-4/6 m-2" href="https://github.com/ayden-boyko/React-Timer" aria-label="Website Repo" target="_blank" rel='noopener'><Image src="/React_client_page.jpeg" alt="First React Client" width={200} height={200} className="rounded-sm border border-black"/></a>
@@ -60,6 +60,22 @@ export default function projects () {
                             </div>
                         </div>
                         <a className=" w-10/12 h-4/6 my-4 ml-6" href="https://github.com/ayden-boyko/Website" aria-label="Website Repo" target="_blank" rel='noopener'><Image src="/homepage.jpg" alt="Website github" width={200} height={200} className="rounded-sm border border-black m-2"/></a>
+                    </div>
+                </div>
+            </div>
+            <div className='inline-flex flex-row-reverse my-16'>
+                <div className="bg-blue-500 w-9/12 h-full rounded-sm border-black border-2 animate-idle-right">
+                    <div className=" flex flex-row">
+                        <a className=" w-10/12 h-4/6 m-2" href="https://github.com/ayden-boyko/React-Timer" aria-label="Website Repo" target="_blank" rel='noopener'><Image src="/React_client_page.jpeg" alt="First React Client" width={200} height={200} className="rounded-sm border border-black"/></a>
+                        <div className='inline-flex bg-blue-200 rounded-sm border-black border-2 -translate-y-2 -translate-x-2 gap-4'>
+                            <div className='flex scale-110 flex-col-reverse m-2'>
+                                <a className=" w-10/12 h-4/6 m-2 py-4 rounded-full" href="" aria-label="Postgresql" target="_blank" rel='noopener'><Image src="/postgresql.svg" alt="Postgres Icon" width={250} height={200} className="rounded-full bg-white"/></a>
+                                <a className=" w-10/12 h-4/6 m-2 py-4 rounded-full" href="" aria-label="Flask" target="_blank" rel='noopener'><Image src="/flask.svg" alt="Flask Icon" width={100} height={100} className="bg-white rounded-full"/></a>
+                            </div>
+                            <div className='bg-slate-200 text-black -translate-y-2 -translate-x-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 p-2 animate-none'>
+                                {fileToText("../textboxData/Projects_text/Project3.txt")}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
