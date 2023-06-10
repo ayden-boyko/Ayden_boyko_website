@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import Displaybox from '../api/Displaybox';
+import Displaybox from '../components/Displaybox';
  
 export const metadata: Metadata = {
   title: 'Home',

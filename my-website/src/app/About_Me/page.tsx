@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import 'src/app/globals.css';
-import Displaybox from '../api/Displaybox';
+import Displaybox from '../components/Displaybox';
 
  
 export const metadata: Metadata = {

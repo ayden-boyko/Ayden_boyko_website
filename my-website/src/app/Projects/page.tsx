@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
-import Displaybox from '../api/Displaybox';
+import Displaybox from '../components/Displaybox';
 import Image from "next/image";
-import fileToText from '../api/fileToText';
+import fileToText from '../components/fileToText';
 
 
  
