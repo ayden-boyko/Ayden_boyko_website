@@ -39,7 +39,7 @@ const ContactMe = () => {
                 <br />
                 <input type="submit" value="Send" className='transition duration-500 delay-100 rounded-sm border-black border p-1 hover:bg-gray-400 bg-white'/>
                 <br />
-                <ReCAPTCHA size="normal" sitekey={process.env.RECAPTCHA_CODE} className=" rounded-sm border-black border m-2 -translate-x-2 "/>
+                <ReCAPTCHA size="normal" sitekey={process.env.RECAPTCHA_CODE} className="m-2 -translate-x-2 "/>
             </form>
         </div>
     );
