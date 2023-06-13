@@ -1,13 +1,13 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import { useState, useEffect } from 'react';
+import Image from "next/image";
+import { useState, useEffect } from "react";
 import sun from "src/app/icons/sun.svg";
 import moon from "src/app/icons/moon.svg";
 
 type ContainerProps = {
   children: React.ReactNode;
-}
+};
 
 const DarkModeButton = (props: ContainerProps) => {
   const [darkMode, setDarkMode] = useState(false);
@@ -15,39 +15,43 @@ const DarkModeButton = (props: ContainerProps) => {
 
   useEffect(() => {
     // Check if the user has set a preferred color scheme
-    const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const prefersDarkMode = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    ).matches;
     setDarkMode(prefersDarkMode);
   }, []);
 
   useEffect(() => {
     // Apply dark mode styles
     if (darkMode) {
-      document.documentElement.classList.add('dark');
+      document.documentElement.classList.add("dark");
     } else {
-      document.documentElement.classList.remove('dark');
+      document.documentElement.classList.remove("dark");
     }
   }, [darkMode]);
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
-    {text === "Dark" ? setText("Light") : setText('Dark')}
+    {
+      text === "Dark" ? setText("Light") : setText("Dark");
+    }
   };
-
 
   return (
     <main>
-        <div className="flex flex-row-reverse">
-          <button
+      <div className="flex flex-row-reverse">
+        <button
           className="transition duration-200 bg-slate-700 dark:bg-slate-300 rounded p-2 w-12 h-12 flex items-center justify-center
           text-white dark:text-black hover:shadow-lg hover:translate-y-4 -mx-72 dark:hover:shadow-lg dark:hover:shadow-amber-300 translate-y-6 -translate-x-6"
-          onClick={toggleDarkMode}>
+          onClick={toggleDarkMode}
+        >
           {darkMode ? (
-            <Image src={sun} alt="sun"/>
+            <Image src={sun} alt="sun" />
           ) : (
-            <Image src={moon} alt="moon"/>
+            <Image src={moon} alt="moon" />
           )}
-          </button>
-        </div>
+        </button>
+      </div>
 
       {props.children}
     </main>
