@@ -17,9 +17,11 @@ export default function Home() {
     <main>
       <div className="transition delay-200 flex min-h-screen flex-col items-center justify-between p-24">
         <div className="h-screen bg-transparent ">
+          {/** Navbar */}
           <div className="flex flex-col">
             <Navbar></Navbar>
           </div>
+          {/** About Me */}
           <div className="inline-flex my-16">
             <Displaybox
               file="../textboxData/About_Me_text/AboutMe.txt"
@@ -41,6 +43,181 @@ export default function Home() {
               side="left"
             />
           </div>
+          {/** About Me texhnology */}
+          <div className="bg-red-500 w-9/12 h-1/5 rounded-sm border-black border-2 animate-idle-left my-16">
+            <div className=" bg-white rounded-sm border-black border-2 -translate-y-2 translate-x-2 text-black w-full h-full grid-cols-5 grid place-content-center dark:bg-slate-500 gap-x-16 pl-12">
+              <div>
+                <a
+                  className=" w-10/12 h-4/6 m-2"
+                  href="https://github.com/ayden-boyko/React-Timer"
+                  aria-label="Website Repo"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <Image
+                    src="/python-icon.svg"
+                    alt="Python"
+                    width={50}
+                    height={50}
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  className=" w-10/12 h-4/6 m-2"
+                  href="https://github.com/ayden-boyko/React-Timer"
+                  aria-label="Website Repo"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <Image
+                    src="/java-icon.svg"
+                    alt="Java"
+                    width={50}
+                    height={50}
+                    className="bg-white rounded-xl border-white border-2"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  className=" w-10/12 h-4/6 m-2"
+                  href="https://github.com/ayden-boyko/React-Timer"
+                  aria-label="Website Repo"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <Image
+                    src="/angular-icon.svg"
+                    alt="Angular"
+                    width={50}
+                    height={50}
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  className=" w-10/12 h-4/6 m-2"
+                  href="https://github.com/ayden-boyko/React-Timer"
+                  aria-label="Website Repo"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <Image
+                    src="/javascript-icon.svg"
+                    alt="JavaScript"
+                    width={50}
+                    height={50}
+                    className="bg-white rounded-xl border-white border-2"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  className=" w-10/12 h-4/6 m-2"
+                  href="https://github.com/ayden-boyko/React-Timer"
+                  aria-label="Website Repo"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <Image
+                    src="/typescript.svg"
+                    alt="TypeScript"
+                    width={50}
+                    height={50}
+                    className="bg-white rounded-xl"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  className=" w-10/12 h-4/6 m-2"
+                  href="https://github.com/ayden-boyko/React-Timer"
+                  aria-label="Website Repo"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <Image
+                    src="/postgresql.svg"
+                    alt="Postgresql"
+                    width={50}
+                    height={50}
+                    className="bg-white rounded-xl border-white border-2"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  className=" w-10/12 h-4/6 m-2"
+                  href="https://github.com/ayden-boyko/React-Timer"
+                  aria-label="Website Repo"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <Image
+                    src="/next-js.svg"
+                    alt="Nextjs"
+                    width={50}
+                    height={50}
+                    className="bg-white rounded-xl border-white border-2"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  className=" w-10/12 h-4/6 m-2"
+                  href="https://github.com/ayden-boyko/React-Timer"
+                  aria-label="Website Repo"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <Image
+                    src="/react.svg"
+                    alt="React"
+                    width={50}
+                    height={50}
+                    className="bg-white rounded-xl border-white border-2"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  className=" w-10/12 h-4/6 m-2"
+                  href="https://github.com/ayden-boyko/React-Timer"
+                  aria-label="Website Repo"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <Image
+                    src="/nodejs-icon.svg"
+                    alt="Nodejs"
+                    width={50}
+                    height={50}
+                    className="bg-white rounded-xl border-white border-2"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  className=" w-10/12 h-4/6 m-2"
+                  href="https://www.w3.org/Style/CSS/Overview.en.html#:~:text=Cascading%20Style%20Sheets%20(CSS)%20is,CSS%20and%20on%20available%20software."
+                  aria-label="Css"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <Image
+                    src="/docker-tile.svg"
+                    alt="Docker Icon"
+                    width={50}
+                    height={50}
+                    className="rounded-xl"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/** Projects */}
           <div className="inline-flex my-16">
             <Displaybox
               file="../textboxData/Projects_text/MyProjects.txt"
@@ -229,7 +406,8 @@ export default function Home() {
               side="left"
             />
           </div>
-          <div className="flex flex-row-reverse my-16">
+          {/** Contact */}
+          <div className="flex flex-row-reverse my-16 pb-6">
             <ContactMe />
           </div>
         </div>
