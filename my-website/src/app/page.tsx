@@ -400,16 +400,64 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex my-16">
-            <Displaybox
-              file="../textboxData/Contact_text/Contact_Me.txt"
-              style="bg-green-500 w-2/6 h-2/6 animate-left"
-              side="left"
-            />
-          </div>
           {/** Contact */}
-          <div className="flex flex-row-reverse my-16 pb-6">
-            <ContactMe animation="animate-right"></ContactMe>
+          <div className="flex flex-row">
+            <div className=" -translate-y-16">
+              <div className="bg-green-500 w-7/12 h-10/12 rounded-sm border-black border-2 my-16 animate-left">
+                <div className=" bg-white rounded-sm border-black border-2 -translate-y-2 translate-x-2 text-black w-full h-full dark:bg-slate-500 gap-x-16 pl-12">
+                  {fileToText("../textboxData/Contact_text/Contact_Me.txt")}
+                  <a
+                    className=" w-10/12 h-4/6 m-2 py-4 rounded-full"
+                    href=""
+                    aria-label="Flask"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <Image
+                      src="/discordapp.svg"
+                      alt="Flask Icon"
+                      width={200}
+                      height={200}
+                      className="bg-white p-2 rounded-full"
+                    />
+                  </a>
+                  <a
+                    className=" w-10/12 h-4/6 m-2 py-4 rounded-full"
+                    href=""
+                    aria-label="Flask"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <Image
+                      src="/github.svg"
+                      alt="Flask Icon"
+                      width={200}
+                      height={200}
+                      className="bg-white p-2 rounded-full"
+                    />
+                  </a>
+                  <a
+                    className=" w-10/12 h-4/6 m-2 py-4 rounded-full"
+                    href=""
+                    aria-label="Flask"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <Image
+                      src="/linkedin.svg"
+                      alt="Flask Icon"
+                      width={200}
+                      height={200}
+                      className="bg-white p-2 rounded-full"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className=" translate-x-16 -translate-y-0.5">
+              <ContactMe style="animate-right w-full h-10/12"></ContactMe>
+            </div>
           </div>
         </div>
       </div>

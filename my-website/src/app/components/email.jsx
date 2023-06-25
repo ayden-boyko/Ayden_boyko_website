@@ -3,7 +3,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import ReCAPTCHA from "react-google-recaptcha";
 
-const ContactMe = (prop) => {
+const ContactMe = ({ style }) => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -29,12 +29,7 @@ const ContactMe = (prop) => {
       );
   };
   return (
-    <div
-      className={
-        "rounded-sm border-black border-2 w-2/6 h-2/6 bg-green-500 " +
-        prop.animation
-      }
-    >
+    <div className={"rounded-sm border-black border-2 bg-green-500 " + style}>
       <form
         ref={form}
         onSubmit={sendEmail}
