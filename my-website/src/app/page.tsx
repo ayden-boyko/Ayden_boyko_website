@@ -408,14 +408,14 @@ export default function Home() {
                   {fileToText("../textboxData/Contact_text/Contact_Me.txt")}
                   <a
                     className=" w-10/12 h-4/6 m-2 py-4 rounded-full"
-                    href=""
-                    aria-label="Flask"
+                    href="https://discordapp.com/users/bb_tornado"
+                    aria-label="Discord"
                     target="_blank"
                     rel="noopener"
                   >
                     <Image
                       src="/discordapp.svg"
-                      alt="Flask Icon"
+                      alt="discord Icon"
                       width={200}
                       height={200}
                       className="bg-white p-2 rounded-full"
@@ -423,14 +423,14 @@ export default function Home() {
                   </a>
                   <a
                     className=" w-10/12 h-4/6 m-2 py-4 rounded-full"
-                    href=""
-                    aria-label="Flask"
+                    href="https://github.com/ayden-boyko?tab=overview&from=2023-06-01&to=2023-06-24"
+                    aria-label="Github"
                     target="_blank"
                     rel="noopener"
                   >
                     <Image
                       src="/github.svg"
-                      alt="Flask Icon"
+                      alt="github Icon"
                       width={200}
                       height={200}
                       className="bg-white p-2 rounded-full"
@@ -438,14 +438,14 @@ export default function Home() {
                   </a>
                   <a
                     className=" w-10/12 h-4/6 m-2 py-4 rounded-full"
-                    href=""
-                    aria-label="Flask"
+                    href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+                    aria-label="Linkedin"
                     target="_blank"
                     rel="noopener"
                   >
                     <Image
                       src="/linkedin.svg"
-                      alt="Flask Icon"
+                      alt="linkedin Icon"
                       width={200}
                       height={200}
                       className="bg-white p-2 rounded-full"
