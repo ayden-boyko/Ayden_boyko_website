@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import StartBox from "./components/StartBox";
-import React, { useState } from "react";
+import React from "react";
 import Displaybox from "./components/Displaybox";
 import Image from "next/image";
 import fileToText from "./components/fileToText";
 import ContactMe from "./components/email";
 import Navbar from "./components/Navbar";
+import { useInView } from "react-intersection-observer";
 
 export const metadata: Metadata = {
   title: "Home",
@@ -25,26 +26,26 @@ export default function Home() {
           <div className="inline-flex my-16">
             <Displaybox
               file="../textboxData/About_Me_text/AboutMe.txt"
-              style="bg-red-500 w-2/6 h-2/6"
+              style="bg-red-500 w-2/6 h-2/6 animate-left"
               side="left"
             />
           </div>
           <div className="inline-flex flex-row-reverse">
             <Displaybox
               file="../textboxData/About_Me_text/Coding_Journey.txt"
-              style="bg-red-500 w-2/6 h-2/6"
+              style="bg-red-500 w-2/6 h-2/6 animate-right"
               side="right"
             />
           </div>
           <div className="inline-flex ">
             <Displaybox
               file="../textboxData/About_Me_text/Coding_Journey2.txt"
-              style="bg-red-500 w-2/6 h-2/6"
+              style="bg-red-500 w-2/6 h-2/6 animate-left"
               side="left"
             />
           </div>
           {/** About Me texhnology */}
-          <div className="bg-red-500 w-9/12 h-1/5 rounded-sm border-black border-2 animate-idle-left my-16">
+          <div className="bg-red-500 w-9/12 h-1/5 rounded-sm border-black border-2 my-16 animate-left">
             <div className=" bg-white rounded-sm border-black border-2 -translate-y-2 translate-x-2 text-black w-full h-full grid-cols-5 grid place-content-center dark:bg-slate-500 gap-x-16 pl-12">
               <div>
                 <a
@@ -221,12 +222,12 @@ export default function Home() {
           <div className="inline-flex my-16">
             <Displaybox
               file="../textboxData/Projects_text/MyProjects.txt"
-              style="bg-blue-500 w-2/6 h-2/6 "
+              style="bg-blue-500 w-2/6 h-2/6 animate-left"
               side="left"
             />
           </div>
           <div className="inline-flex flex-row-reverse my-16">
-            <div className="bg-blue-500 w-9/12 h-full rounded-sm border-black border-2 animate-idle-right">
+            <div className="bg-blue-500 w-9/12 h-full rounded-sm border-black border-2 animate-right">
               <div className=" flex flex-row">
                 <a
                   className=" w-10/12 h-4/6 m-2"
@@ -284,7 +285,7 @@ export default function Home() {
             </div>
           </div>
           <div className="inline-flex flex-row my-16">
-            <div className="bg-blue-500 w-9/12 h-full rounded-sm border-black border-2 animate-idle-left">
+            <div className="bg-blue-500 w-9/12 h-full rounded-sm border-black border-2 animate-left ">
               <div className=" flex flex-row translate-x-4">
                 <div className="inline-flex bg-blue-200 rounded-sm border-black border-2 -translate-y-2 -translate-x-2 gap-4">
                   <div className="bg-slate-200 text-black translate-x-2 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 px-2 py-2 animate-none">
@@ -342,8 +343,8 @@ export default function Home() {
             </div>
           </div>
           <div className="inline-flex flex-row-reverse my-16">
-            <div className="bg-blue-500 w-10/12 h-full rounded-sm border-black border-2 animate-idle-right">
-              <div className=" flex flex-row">
+            <div className="bg-blue-500 w-10/12 h-full rounded-sm border-black border-2 animate-idle-right animate-right">
+              <div className=" flex flex-row ">
                 <a
                   className=" w-10/12 h-4/6 m-2"
                   href=""
@@ -402,13 +403,13 @@ export default function Home() {
           <div className="flex my-16">
             <Displaybox
               file="../textboxData/Contact_text/Contact_Me.txt"
-              style="bg-green-500 w-2/6 h-2/6"
+              style="bg-green-500 w-2/6 h-2/6 animate-left"
               side="left"
             />
           </div>
           {/** Contact */}
           <div className="flex flex-row-reverse my-16 pb-6">
-            <ContactMe />
+            <ContactMe animation="animate-right"></ContactMe>
           </div>
         </div>
       </div>
