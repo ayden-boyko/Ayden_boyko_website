@@ -6,7 +6,7 @@ import Image from "next/image";
 import fileToText from "./components/fileToText";
 import ContactMe from "./components/email";
 import Navbar from "./components/Navbar";
-import { useInView } from "react-intersection-observer";
+import { InView } from "react-intersection-observer";
 
 export const metadata: Metadata = {
   title: "Home",
@@ -401,7 +401,7 @@ export default function Home() {
             </div>
           </div>
           {/** Contact */}
-          <div className="flex flex-row">
+          <div className="flex flex-row my-16">
             <div className=" -translate-y-16">
               <div className="bg-green-500 w-7/12 h-10/12 rounded-sm border-black border-2 my-16 animate-left">
                 <div className=" bg-white rounded-sm border-black border-2 -translate-y-2 translate-x-2 text-black w-full h-full dark:bg-slate-500 gap-x-16 pl-12">

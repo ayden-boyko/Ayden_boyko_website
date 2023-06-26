@@ -2,6 +2,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import ReCAPTCHA from "react-google-recaptcha";
+import { InView } from "react-intersection-observer";
 
 const ContactMe = ({ style }) => {
   const form = useRef();
@@ -29,7 +30,17 @@ const ContactMe = ({ style }) => {
       );
   };
   return (
-    <div className={"rounded-sm border-black border-2 bg-green-500 " + style}>
+    <InView
+      as="div"
+      id="email"
+      onChange={(inView, entry) =>
+        inView
+          ? (document.getElementById("email").className =
+              "rounded-sm border-black border-2 bg-green-500 " + style)
+          : ""
+      }
+      ClassName=""
+    >
       <form
         ref={form}
         onSubmit={sendEmail}
@@ -73,7 +84,7 @@ const ContactMe = ({ style }) => {
           className="m-2 -translate-x-2 "
         />
       </form>
-    </div>
+    </InView>
   );
 };
 
