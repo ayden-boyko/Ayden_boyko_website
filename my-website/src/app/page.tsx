@@ -24,23 +24,30 @@ export default function Home() {
           {/** About Me */}
           <div className="inline-flex my-16">
             <Displaybox
-              file="../textboxData/About_Me_text/AboutMe.txt"
-              style="bg-red-500 w-2/6 h-2/6 animate-left"
+              content="I am currently a third year Software Enginner at Rochester Institute of Technology.
+              I enjoy Fullstack development, but I prefer frontend soley because I get to bring my ideas to life."
+              style="bg-red-500 w-2/6 h-2/6 "
               side="left"
+              num={"1"}
             />
           </div>
           <div className="inline-flex flex-row-reverse">
             <Displaybox
-              file="../textboxData/About_Me_text/Coding_Journey.txt"
-              style="bg-red-500 w-2/6 h-2/6 animate-right"
+              content="My coding journey is a long one, I had my first coding exposure with Scratch when I was around 10/11 years old.
+              It wasn't until highschool when I re-developed my love for coding.
+              I was so interested that I took college coding classes during the summer in order to learn more."
+              style="bg-red-500 w-2/6 h-2/6 "
               side="right"
+              num={"2"}
             />
           </div>
           <div className="inline-flex ">
             <Displaybox
-              file="../textboxData/About_Me_text/Coding_Journey2.txt"
-              style="bg-red-500 w-2/6 h-2/6 animate-left"
+              content="This desire to improve my skills has stuck me as I continue along my software development journey.
+              As a matter of fact this website was my introduction into Nextjs and Tailwindcss!"
+              style="bg-red-500 w-2/6 h-2/6 "
               side="left"
+              num={"3"}
             />
           </div>
           {/** About Me texhnology */}
@@ -220,9 +227,13 @@ export default function Home() {
           {/** Projects */}
           <div className="inline-flex my-16">
             <Displaybox
-              file="../textboxData/Projects_text/MyProjects.txt"
-              style="bg-blue-500 w-2/6 h-2/6 animate-left"
+              content="Below Are My projects.
+              For each one, I focused on a specific part of fulllstack development that I was not confident in.
+              This allowed me to round out my skills as a developer as well as create fun and interesting projects!
+              "
+              style="bg-blue-500 w-2/6 h-2/6 "
               side="left"
+              num={"4"}
             />
           </div>
           <div className="inline-flex flex-row-reverse my-16">
@@ -400,56 +411,43 @@ export default function Home() {
             </div>
           </div>
           {/** Contact */}
-          <div className="flex flex-row my-16">
+          <div className="flex flex-row my-16 justify-center pb-16">
             <div className=" -translate-y-16">
-              <div className="bg-green-500 w-7/12 h-10/12 rounded-sm border-black border-2 my-16 animate-left">
-                <div className=" bg-white rounded-sm border-black border-2 -translate-y-2 translate-x-2 text-black w-full h-full dark:bg-slate-500 gap-x-16 pl-12">
-                  {fileToText("../textboxData/Contact_text/Contact_Me.txt")}
-                  <a
-                    className=" w-10/12 h-4/6 m-2 py-4 rounded-full"
-                    href="https://discordapp.com/users/bb_tornado"
-                    aria-label="Discord"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    <Image
-                      src="/discordapp.svg"
-                      alt="discord Icon"
-                      width={200}
-                      height={200}
-                      className="bg-white p-2 rounded-full"
-                    />
-                  </a>
-                  <a
-                    className=" w-10/12 h-4/6 m-2 py-4 rounded-full"
-                    href="https://github.com/ayden-boyko?tab=overview&from=2023-06-01&to=2023-06-24"
-                    aria-label="Github"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    <Image
-                      src="/github.svg"
-                      alt="github Icon"
-                      width={200}
-                      height={200}
-                      className="bg-white p-2 rounded-full"
-                    />
-                  </a>
-                  <a
-                    className=" w-10/12 h-4/6 m-2 py-4 rounded-full"
-                    href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
-                    aria-label="Linkedin"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    <Image
-                      src="/linkedin.svg"
-                      alt="linkedin Icon"
-                      width={200}
-                      height={200}
-                      className="bg-white p-2 rounded-full"
-                    />
-                  </a>
+              <div className="bg-green-500 w-10/12 h-10/12 rounded-sm border-black border-2 my-16 animate-left">
+                <div className=" bg-white rounded-sm border-black border-2 -translate-y-2 translate-x-2 text-black w-full h-full dark:bg-slate-500 dark:text-white pl-16 pb-2 pr-16 pt-2 gap-x-16">
+                  <p>Other ways to contact me</p>
+                  <div className=" flex flex-row">
+                    <a
+                      className=" w-10/12 h-4/6 m-2 py-4 rounded-full"
+                      href="https://discordapp.com/users/bb_tornado"
+                      aria-label="Discord"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <Image
+                        src="/discordapp.svg"
+                        alt="discord Icon"
+                        width={200}
+                        height={200}
+                        className="bg-white p-2 rounded-full"
+                      />
+                    </a>
+                    <a
+                      className=" w-10/12 h-4/6 m-2 py-4 rounded-full"
+                      href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+                      aria-label="Linkedin"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <Image
+                        src="/linkedin.svg"
+                        alt="linkedin Icon"
+                        width={200}
+                        height={200}
+                        className="bg-white p-2 rounded-full"
+                      />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

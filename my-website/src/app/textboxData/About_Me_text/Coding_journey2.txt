@@ -1,2 +1,0 @@
-This desire to improve my skills has stuck me as I continue along my software development journey.
-As a matter of fact this website was my introduction into Nextjs and Tailwindcss!
