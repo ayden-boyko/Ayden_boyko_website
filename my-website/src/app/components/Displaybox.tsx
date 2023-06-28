@@ -1,5 +1,6 @@
 import React from "react";
 import fileToText from "./fileToText";
+import { InView } from "react-intersection-observer";
 
 type textboxinfo = {
   file: string;

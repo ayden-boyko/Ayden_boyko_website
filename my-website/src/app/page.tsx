@@ -6,7 +6,6 @@ import Image from "next/image";
 import fileToText from "./components/fileToText";
 import ContactMe from "./components/email";
 import Navbar from "./components/Navbar";
-import { InView } from "react-intersection-observer";
 
 export const metadata: Metadata = {
   title: "Home",
