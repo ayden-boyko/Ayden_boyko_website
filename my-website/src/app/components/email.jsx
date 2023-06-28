@@ -39,7 +39,7 @@ const ContactMe = ({ style }) => {
               "rounded-sm border-black border-2 bg-green-500 " + style)
           : ""
       }
-      ClassName=""
+      className=""
     >
       <form
         ref={form}
