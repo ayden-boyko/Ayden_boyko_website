@@ -6,7 +6,6 @@ type textboxinfo = {
   content: string;
   style: string;
   side: "left" | "right";
-  num: string;
 };
 
 const Displaybox = (text: textboxinfo) => {

@@ -6,6 +6,7 @@ import Image from "next/image";
 import fileToText from "./components/fileToText";
 import ContactMe from "./components/email";
 import Navbar from "./components/Navbar";
+import { InView } from "react-intersection-observer";
 
 export const metadata: Metadata = {
   title: "Home",
@@ -28,7 +29,6 @@ export default function Home() {
               I enjoy Fullstack development, but I prefer frontend soley because I get to bring my ideas to life."
               style="bg-red-500 w-2/6 h-2/6 "
               side="left"
-              num={"1"}
             />
           </div>
           <div className="inline-flex flex-row-reverse">
@@ -38,7 +38,6 @@ export default function Home() {
               I was so interested that I took college coding classes during the summer in order to learn more."
               style="bg-red-500 w-2/6 h-2/6 "
               side="right"
-              num={"2"}
             />
           </div>
           <div className="inline-flex ">
@@ -47,7 +46,6 @@ export default function Home() {
               As a matter of fact this website was my introduction into Nextjs and Tailwindcss!"
               style="bg-red-500 w-2/6 h-2/6 "
               side="left"
-              num={"3"}
             />
           </div>
           {/** About Me texhnology */}
@@ -233,7 +231,6 @@ export default function Home() {
               "
               style="bg-blue-500 w-2/6 h-2/6 "
               side="left"
-              num={"4"}
             />
           </div>
           <div className="inline-flex flex-row-reverse my-16">
