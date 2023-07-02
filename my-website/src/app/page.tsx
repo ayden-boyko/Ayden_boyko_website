@@ -6,6 +6,7 @@ import Image from "next/image";
 import fileToText from "./components/fileToText";
 import ContactMe from "./components/email";
 import Navbar from "./components/Navbar";
+import Imagebox from "./components/Imagebox";
 
 export const metadata: Metadata = {
   title: "Home",
@@ -411,7 +412,19 @@ export default function Home() {
             className="flex flex-row my-16 justify-center pb-16"
             id="Contact"
           >
-            <div className="-translate-y-16 "></div>
+            <div className="-translate-y-16 ">
+              <Imagebox
+                num_of_images={2}
+                Images={[]}
+                rows={1}
+                cols={2}
+                styling={
+                  "bg-green-500 w-10/12 h-10/12 rounded-sm border-black border-2 my-16 "
+                }
+                animation={"animate-left"}
+                text={"Reach out to me through these other ways"}
+              ></Imagebox>
+            </div>
             <div className=" translate-x-16 -translate-y-0.5">
               <ContactMe style="animate-right w-full h-10/12"></ContactMe>
             </div>
