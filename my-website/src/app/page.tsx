@@ -6,7 +6,6 @@ import Image from "next/image";
 import fileToText from "./components/fileToText";
 import ContactMe from "./components/email";
 import Navbar from "./components/Navbar";
-import { InView } from "react-intersection-observer";
 
 export const metadata: Metadata = {
   title: "Home",
@@ -23,7 +22,7 @@ export default function Home() {
             <Navbar></Navbar>
           </div>
           {/** About Me */}
-          <div className="inline-flex my-16">
+          <div className="inline-flex my-16" id="About_Me">
             <Displaybox
               content="I am currently a third year Software Enginner at Rochester Institute of Technology.
               I enjoy Fullstack development, but I prefer frontend soley because I get to bring my ideas to life."
@@ -223,7 +222,7 @@ export default function Home() {
           </div>
 
           {/** Projects */}
-          <div className="inline-flex my-16">
+          <div className="inline-flex my-16" id="Projects">
             <Displaybox
               content="Below Are My projects.
               For each one, I focused on a specific part of fulllstack development that I was not confident in.
@@ -408,47 +407,11 @@ export default function Home() {
             </div>
           </div>
           {/** Contact */}
-          <div className="flex flex-row my-16 justify-center pb-16">
-            <div className=" -translate-y-16">
-              <div className="bg-green-500 w-10/12 h-10/12 rounded-sm border-black border-2 my-16 animate-left">
-                <div className=" bg-white rounded-sm border-black border-2 -translate-y-2 translate-x-2 text-black w-full h-full dark:bg-slate-500 dark:text-white pl-16 pb-2 pr-16 pt-2 gap-x-16">
-                  <p>Other ways to contact me</p>
-                  <div className=" flex flex-row">
-                    <a
-                      className=" w-10/12 h-4/6 m-2 py-4 rounded-full"
-                      href="https://discordapp.com/users/bb_tornado"
-                      aria-label="Discord"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      <Image
-                        src="/discordapp.svg"
-                        alt="discord Icon"
-                        width={200}
-                        height={200}
-                        className="bg-white p-2 rounded-full"
-                      />
-                    </a>
-                    <a
-                      className=" w-10/12 h-4/6 m-2 py-4 rounded-full"
-                      href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
-                      aria-label="Linkedin"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      <Image
-                        src="/linkedin.svg"
-                        alt="linkedin Icon"
-                        width={200}
-                        height={200}
-                        className="bg-white p-2 rounded-full"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
+          <div
+            className="flex flex-row my-16 justify-center pb-16"
+            id="Contact"
+          >
+            <div className="-translate-y-16 "></div>
             <div className=" translate-x-16 -translate-y-0.5">
               <ContactMe style="animate-right w-full h-10/12"></ContactMe>
             </div>
