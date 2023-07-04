@@ -17,10 +17,9 @@ const Imagebox = (props: props) => {
     props;
   const [finalstyle, setFinalStyle] = useState(styling);
   const [style, setStyle] = useState(gridStyle);
-  console.log(style);
   const imageslayout = Array.from(Images).map(([key, value]) => {
     return (
-      <div>
+      <div key={key}>
         <a
           className={imageStyle}
           href={value}
