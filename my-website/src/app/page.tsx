@@ -49,178 +49,32 @@ export default function Home() {
             />
           </div>
           {/** About Me texhnology */}
-          <div className="bg-red-500 w-9/12 h-1/5 rounded-sm border-black border-2 my-16 animate-left">
-            <div className=" bg-white rounded-sm border-black border-2 -translate-y-2 translate-x-2 text-black w-full h-full grid-cols-5 grid place-content-center dark:bg-slate-500 gap-x-16 pl-12">
-              <div>
-                <a
-                  className=" w-10/12 h-4/6 m-2"
-                  href="https://github.com/ayden-boyko/React-Timer"
-                  aria-label="Website Repo"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <Image
-                    src="/python-icon.svg"
-                    alt="Python"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-              </div>
-              <div>
-                <a
-                  className=" w-10/12 h-4/6 m-2"
-                  href="https://github.com/ayden-boyko/React-Timer"
-                  aria-label="Website Repo"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <Image
-                    src="/java-icon.svg"
-                    alt="Java"
-                    width={50}
-                    height={50}
-                    className="bg-white rounded-xl border-white border-2"
-                  />
-                </a>
-              </div>
-              <div>
-                <a
-                  className=" w-10/12 h-4/6 m-2"
-                  href="https://github.com/ayden-boyko/React-Timer"
-                  aria-label="Website Repo"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <Image
-                    src="/angular-icon.svg"
-                    alt="Angular"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-              </div>
-              <div>
-                <a
-                  className=" w-10/12 h-4/6 m-2"
-                  href="https://github.com/ayden-boyko/React-Timer"
-                  aria-label="Website Repo"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <Image
-                    src="/javascript-icon.svg"
-                    alt="JavaScript"
-                    width={50}
-                    height={50}
-                    className="bg-white rounded-xl border-white border-2"
-                  />
-                </a>
-              </div>
-              <div>
-                <a
-                  className=" w-10/12 h-4/6 m-2"
-                  href="https://github.com/ayden-boyko/React-Timer"
-                  aria-label="Website Repo"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <Image
-                    src="/typescript.svg"
-                    alt="TypeScript"
-                    width={50}
-                    height={50}
-                    className="bg-white rounded-xl"
-                  />
-                </a>
-              </div>
-              <div>
-                <a
-                  className=" w-10/12 h-4/6 m-2"
-                  href="https://github.com/ayden-boyko/React-Timer"
-                  aria-label="Website Repo"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <Image
-                    src="/postgresql.svg"
-                    alt="Postgresql"
-                    width={50}
-                    height={50}
-                    className="bg-white rounded-xl border-white border-2"
-                  />
-                </a>
-              </div>
-              <div>
-                <a
-                  className=" w-10/12 h-4/6 m-2"
-                  href="https://github.com/ayden-boyko/React-Timer"
-                  aria-label="Website Repo"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <Image
-                    src="/next-js.svg"
-                    alt="Nextjs"
-                    width={50}
-                    height={50}
-                    className="bg-white rounded-xl border-white border-2"
-                  />
-                </a>
-              </div>
-              <div>
-                <a
-                  className=" w-10/12 h-4/6 m-2"
-                  href="https://github.com/ayden-boyko/React-Timer"
-                  aria-label="Website Repo"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <Image
-                    src="/react.svg"
-                    alt="React"
-                    width={50}
-                    height={50}
-                    className="bg-white rounded-xl border-white border-2"
-                  />
-                </a>
-              </div>
-              <div>
-                <a
-                  className=" w-10/12 h-4/6 m-2"
-                  href="https://github.com/ayden-boyko/React-Timer"
-                  aria-label="Website Repo"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <Image
-                    src="/nodejs-icon.svg"
-                    alt="Nodejs"
-                    width={50}
-                    height={50}
-                    className="bg-white rounded-xl border-white border-2"
-                  />
-                </a>
-              </div>
-              <div>
-                <a
-                  className=" w-10/12 h-4/6 m-2"
-                  href="https://www.w3.org/Style/CSS/Overview.en.html#:~:text=Cascading%20Style%20Sheets%20(CSS)%20is,CSS%20and%20on%20available%20software."
-                  aria-label="Css"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <Image
-                    src="/docker-tile.svg"
-                    alt="Docker Icon"
-                    width={50}
-                    height={50}
-                    className="rounded-xl"
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
+          <Imagebox
+            Images={
+              new Map<string, string>([
+                ["/python-icon.svg", ""],
+                ["/java-icon.svg", ""],
+                ["/angular-icon.svg", ""],
+                ["/javascript-icon.svg", ""],
+                ["/typescript.svg", ""],
+                ["/postgresql.svg", ""],
+                ["/next-js.svg", ""],
+                ["/react.svg", ""],
+                ["/nodejs-icon.svg", ""],
+                ["/docker-tile.svg", ""],
+              ])
+            }
+            styling={
+              "bg-red-500 w-9/12 h-7/12 rounded-sm border-black border-2 my-16 "
+            }
+            animation={"animate-left"}
+            text={"Reach out to me through these other ways"}
+            size={60}
+            imageStyle={" w-10/12 h-4/6 m-2 "}
+            gridStyle={
+              "grid-cols-5 grid place-content-center dark:bg-slate-500 gap-x-16 pl-12"
+            }
+          ></Imagebox>
 
           {/** Projects */}
           <div className="inline-flex my-16" id="Projects">
@@ -408,24 +262,34 @@ export default function Home() {
             </div>
           </div>
           {/** Contact */}
-          <div
-            className="flex flex-row my-16 justify-center pb-16"
-            id="Contact"
-          >
-            <div className="-translate-y-16 ">
+          <div className="flex flex-row my-16 justify-center " id="Contact">
+            <div className="-translate-y-16 -translate-x-20">
               <Imagebox
-                num_of_images={2}
-                Images={[]}
-                rows={1}
-                cols={2}
+                Images={
+                  new Map<string, string>([
+                    [
+                      "/discordapp.svg",
+                      "https://discordapp.com/users/bb_tornado",
+                    ],
+                    [
+                      "/linkedin.svg",
+                      "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
+                    ],
+                  ])
+                }
                 styling={
-                  "bg-green-500 w-10/12 h-10/12 rounded-sm border-black border-2 my-16 "
+                  "bg-green-500 w-full h-10/12 rounded-sm border-black border-2 my-16 "
                 }
                 animation={"animate-left"}
                 text={"Reach out to me through these other ways"}
+                size={250}
+                imageStyle={"w-10/12 h-4/6 m-2 py-4 rounded-full "}
+                gridStyle={
+                  "grid-cols-1 grid place-content-center dark:bg-slate-500 gap-x-16 pl-7"
+                }
               ></Imagebox>
             </div>
-            <div className=" translate-x-16 -translate-y-0.5">
+            <div className=" translate-x-16 -translate-y-0.5 pl-">
               <ContactMe style="animate-right w-full h-10/12"></ContactMe>
             </div>
           </div>
