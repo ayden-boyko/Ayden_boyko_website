@@ -35,8 +35,9 @@ const ContactMe = ({ style }) => {
       id="email"
       onChange={(inView, entry) =>
         inView
-          ? (document.getElementById("email").className =
-              "rounded-sm border-black border-2 bg-green-500 " + style)
+          ? document
+              .getElementById("email")
+              .className.replace("invisible", "visible")
           : ""
       }
       className=""
@@ -78,11 +79,11 @@ const ContactMe = ({ style }) => {
           className="transition duration-500 delay-100 rounded-sm border-black border p-1 hover:bg-gray-400 bg-white"
         />
         <br />
-        {/** <ReCAPTCHA
+        <ReCAPTCHA
           size="normal"
           sitekey={process.env.RECAPTCHA_CODE}
           className="m-2 -translate-x-2 "
-        />*/}
+        />
       </form>
     </InView>
   );

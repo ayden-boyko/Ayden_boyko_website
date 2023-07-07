@@ -2,11 +2,10 @@ import type { Metadata } from "next";
 import StartBox from "./components/StartBox";
 import React from "react";
 import Displaybox from "./components/Displaybox";
-import Image from "next/image";
-import fileToText from "./components/fileToText";
 import ContactMe from "./components/email";
 import Navbar from "./components/Navbar";
 import Imagebox from "./components/Imagebox";
+import Projectbox from "./components/Projectbox";
 
 export const metadata: Metadata = {
   title: "Home",
@@ -16,7 +15,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <div className="transition delay-200 flex min-h-screen flex-col items-center justify-between p-24">
+      <div className="transition delay-200 flex min-h-screen flex-col justify-between">
         <div className="h-screen bg-transparent ">
           {/** Navbar */}
           <div className="flex flex-col">
@@ -27,7 +26,7 @@ export default function Home() {
             <Displaybox
               content="I am currently a third year Software Enginner at Rochester Institute of Technology.
               I enjoy Fullstack development, but I prefer frontend soley because I get to bring my ideas to life."
-              style="bg-red-500 w-2/6 h-2/6 "
+              style="bg-red-500 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6"
               side="left"
             />
           </div>
@@ -36,15 +35,15 @@ export default function Home() {
               content="My coding journey is a long one, I had my first coding exposure with Scratch when I was around 10/11 years old.
               It wasn't until highschool when I re-developed my love for coding.
               I was so interested that I took college coding classes during the summer in order to learn more."
-              style="bg-red-500 w-2/6 h-2/6 "
+              style="bg-red-500 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6"
               side="right"
             />
           </div>
-          <div className="inline-flex ">
+          <div className="inline-flex my-16">
             <Displaybox
               content="This desire to improve my skills has stuck me as I continue along my software development journey.
               As a matter of fact this website was my introduction into Nextjs and Tailwindcss!"
-              style="bg-red-500 w-2/6 h-2/6 "
+              style="bg-red-500 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6 "
               side="left"
             />
           </div>
@@ -54,7 +53,7 @@ export default function Home() {
               new Map<string, string>([
                 ["/python-icon.svg", ""],
                 ["/java-icon.svg", ""],
-                ["/angular-icon.svg", ""],
+                ["/flask.svg", ""],
                 ["/javascript-icon.svg", ""],
                 ["/typescript.svg", ""],
                 ["/postgresql.svg", ""],
@@ -65,15 +64,18 @@ export default function Home() {
               ])
             }
             styling={
-              "bg-red-500 w-9/12 h-7/12 rounded-sm border-black border-2 my-16 "
+              "bg-red-500 w-9/12 h-7/12 my-16 rounded-sm border-black border-2 "
             }
             animation={"animate-left"}
-            text={"Reach out to me through these other ways"}
-            size={60}
-            imageStyle={" w-10/12 h-4/6 m-2 "}
-            gridStyle={
-              "grid-cols-5 grid place-content-center dark:bg-slate-500 gap-x-16 pl-12"
+            text={
+              "These are the languages and libraries that I feel most comfortable using."
             }
+            size={60}
+            imageStyle={" bg-white rounded-2xl"}
+            gridStyle={
+              "grid-cols-5 grid place-content-center dark:bg-slate-500 gap-x-16 p-4"
+            }
+            linkStyle={" w-10/12 h-4/6 m-2 "}
           ></Imagebox>
 
           {/** Projects */}
@@ -83,214 +85,119 @@ export default function Home() {
               For each one, I focused on a specific part of fulllstack development that I was not confident in.
               This allowed me to round out my skills as a developer as well as create fun and interesting projects!
               "
-              style="bg-blue-500 w-2/6 h-2/6 "
+              style="bg-blue-500 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6"
               side="left"
             />
           </div>
           <div className="inline-flex flex-row-reverse my-16">
-            <div className="bg-blue-500 w-9/12 h-full rounded-sm border-black border-2 animate-right">
-              <div className=" flex flex-row">
-                <a
-                  className=" w-10/12 h-4/6 m-2"
-                  href="https://github.com/ayden-boyko/React-Timer"
-                  aria-label="Website Repo"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <Image
-                    src="/React_client_page.jpeg"
-                    alt="First React Client"
-                    width={200}
-                    height={200}
-                    className="rounded-sm border border-black"
-                  />
-                </a>
-                <div className="inline-flex bg-blue-200 rounded-sm border-black border-2 -translate-y-2 -translate-x-2 gap-4">
-                  <div className="flex scale-110 flex-col-reverse m-2">
-                    <a
-                      className=" w-10/12 h-4/6 m-2 py-4 rounded-full"
-                      href="https://react.dev/"
-                      aria-label="React homepage"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      <Image
-                        src="/react.svg"
-                        alt="react Icon"
-                        width={250}
-                        height={200}
-                        className="rounded-full border bg-white"
-                      />
-                    </a>
-                    <a
-                      className=" w-10/12 h-4/6 m-2 py-4 rounded-full"
-                      href="https://www.w3.org/Style/CSS/Overview.en.html#:~:text=Cascading%20Style%20Sheets%20(CSS)%20is,CSS%20and%20on%20available%20software."
-                      aria-label="Css"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      <Image
-                        src="/css.svg"
-                        alt="css Icon"
-                        width={100}
-                        height={100}
-                        className="bg-white rounded-full scale-110"
-                      />
-                    </a>
-                  </div>
-                  <div className="bg-slate-200 text-black -translate-y-2 -translate-x-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 p-2 animate-none">
-                    {fileToText("../textboxData/Projects_text/Project1.txt")}
-                  </div>
-                </div>
-              </div>
-            </div>
+            <Projectbox
+              Images={
+                new Map<string, string>([
+                  [
+                    "/css.svg",
+                    "https://www.w3.org/Style/CSS/Overview.en.html#:~:text=Cascading%20Style%20Sheets%20(CSS)%20is,CSS%20and%20on%20available%20software.",
+                  ],
+                  ["/react.svg", "https://react.dev/"],
+                ])
+              }
+              boxStyling={
+                "bg-blue-500 w-9/12 h-full rounded-sm border-black border-2 "
+              }
+              side={"right"}
+              text="This Project was my first introduction to frontend development, and I was hooked! 
+              Using React components I created a timer that was able to:
+              log times,
+              edit times logged,
+              change the name of the user who was using the timer (this will change the name displayed when time is logged), 
+              It is important to note that this project has no backend, therefore I only allowed one user to be made."
+              imageBoxStyling={
+                "inline-flex bg-blue-200 rounded-sm border-black border-2 -translate-y-2 -translate-x-2 gap-4"
+              }
+              imageStyle={"rounded-full bg-white md:bg-white md:rounded-md"}
+              projectImage={"/React_client_page.jpeg"}
+              projectLink={"https://github.com/ayden-boyko/React-Timer"}
+            ></Projectbox>
           </div>
           <div className="inline-flex flex-row my-16">
-            <div className="bg-blue-500 w-9/12 h-full rounded-sm border-black border-2 animate-left ">
-              <div className=" flex flex-row translate-x-4">
-                <div className="inline-flex bg-blue-200 rounded-sm border-black border-2 -translate-y-2 -translate-x-2 gap-4">
-                  <div className="bg-slate-200 text-black translate-x-2 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 px-2 py-2 animate-none">
-                    {fileToText("../textboxData/Projects_text/Project2.txt")}
-                  </div>
-                  <div className="flex scale-110 flex-col-reverse m-2">
-                    <a
-                      className=" w-10/12 h-4/6 my-2 py-4 rounded-full"
-                      href="https://tailwindcss.com/"
-                      aria-label="Tailwindcss homepage"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      <Image
-                        src="/tailwind.svg"
-                        alt="tailwindcss Icon"
-                        width={200}
-                        height={200}
-                        className="rounded-full bg-white"
-                      />
-                    </a>
-                    <a
-                      className=" w-10/12 h-4/6 my-2 py-4 rounded-full"
-                      href="https://nextjs.org/"
-                      aria-label="Nextjs homepage"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      <Image
-                        src="/next-js.svg"
-                        alt="next Icon"
-                        width={200}
-                        height={200}
-                        className="rounded-full bg-white"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <a
-                  className=" w-10/12 h-4/6 ml-4 mt-2"
-                  href="https://github.com/ayden-boyko/Website"
-                  aria-label="Website Repo"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <Image
-                    src="/homepage.jpg"
-                    alt="Website github"
-                    width={200}
-                    height={200}
-                    className="rounded-sm border border-black m-2"
-                  />
-                </a>
-              </div>
-            </div>
+            <Projectbox
+              Images={
+                new Map<string, string>([
+                  ["/tailwind.svg", "https://tailwindcss.com/"],
+                  ["/next-js.svg", "https://nextjs.org/"],
+                ])
+              }
+              boxStyling={
+                "bg-blue-500 w-9/12 h-full rounded-sm border-black border-2"
+              }
+              side={"left"}
+              text="This Project is actually my personal website. It was made using Nextjs version 13 and tailwindcss. 
+              Both of which I had no prior experience using so this was a big learning experience for me."
+              imageBoxStyling={
+                "inline-flex bg-blue-200 rounded-sm border-black border-2 -translate-y-2 translate-x-2 gap-4"
+              }
+              imageStyle={"rounded-full bg-white"}
+              projectImage={"/homepage.jpg"}
+              projectLink={"https://github.com/ayden-boyko/Website"}
+            ></Projectbox>
           </div>
           <div className="inline-flex flex-row-reverse my-16">
-            <div className="bg-blue-500 w-10/12 h-full rounded-sm border-black border-2 animate-idle-right animate-right">
-              <div className=" flex flex-row ">
-                <a
-                  className=" w-10/12 h-4/6 m-2"
-                  href=""
-                  aria-label="Website Repo"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <Image
-                    src="/React_client_page.jpeg"
-                    alt="First Reaestful api"
-                    width={200}
-                    height={200}
-                    className="rounded-sm border border-black"
-                  />
-                </a>
-                <div className="inline-flex bg-blue-200 rounded-sm border-black border-2 -translate-y-2 -translate-x-2 gap-4">
-                  <div className="flex scale-110 flex-col-reverse m-2">
-                    <a
-                      className=" w-10/12 h-4/6 m-2 py-4 rounded-full"
-                      href=""
-                      aria-label="Postgresql"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      <Image
-                        src="/postgresql2.svg"
-                        alt="Postgres Icon"
-                        width={300}
-                        height={200}
-                        className="bg-white rounded-full"
-                      />
-                    </a>
-                    <a
-                      className=" w-10/12 h-4/6 m-2 py-4 rounded-full"
-                      href=""
-                      aria-label="Flask"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      <Image
-                        src="/flask.svg"
-                        alt="Flask Icon"
-                        width={300}
-                        height={200}
-                        className="bg-white p-2 rounded-full"
-                      />
-                    </a>
-                  </div>
-                  <div className="bg-slate-200 text-black -translate-y-2 -translate-x-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 p-2 animate-none">
-                    {fileToText("../textboxData/Projects_text/Project3.txt")}
-                  </div>
-                </div>
-              </div>
-            </div>
+            <Projectbox
+              Images={
+                new Map<string, string>([
+                  ["/postgresql2.svg", ""],
+                  ["/flask.svg", ""],
+                ])
+              }
+              boxStyling={
+                "bg-blue-500 w-10/12 h-full rounded-sm border-black border-2 "
+              }
+              side={"right"}
+              text="This project is a mock rideshare backend. The Database I used was Postgresql.
+              The Api conforms to the REST architectural style. The api allows all information related to rider or driver to be accessed.
+              The user can also view the reciepts for all their rides. The Database allows full functionality for a ridesharing app,
+               this includes: creating/deleting accounts, finding rides, starting rides,
+              carpooling, leaving reviews for riders and drivers and also responding to said reviews."
+              imageBoxStyling={
+                "inline-flex bg-blue-200 rounded-sm border-black border-2 -translate-y-2 -translate-x-2 gap-4"
+              }
+              imageStyle={"rounded-full bg-white"}
+              projectImage={"/React_client_page.jpeg"}
+              projectLink={"https://github.com/ayden-boyko/React-Timer"}
+            ></Projectbox>
           </div>
           {/** Contact */}
-          <div className="flex flex-row my-16 justify-center " id="Contact">
-            <div className="-translate-y-16 -translate-x-20">
-              <Imagebox
-                Images={
-                  new Map<string, string>([
-                    [
-                      "/discordapp.svg",
-                      "https://discordapp.com/users/bb_tornado",
-                    ],
-                    [
-                      "/linkedin.svg",
-                      "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
-                    ],
-                  ])
-                }
-                styling={
-                  "bg-green-500 w-full h-10/12 rounded-sm border-black border-2 my-16 "
-                }
-                animation={"animate-left"}
-                text={"Reach out to me through these other ways"}
-                size={250}
-                imageStyle={"w-10/12 h-4/6 m-2 py-4 rounded-full "}
-                gridStyle={
-                  "grid-cols-1 grid place-content-center dark:bg-slate-500 gap-x-16 pl-7"
-                }
-              ></Imagebox>
-            </div>
-            <div className=" translate-x-16 -translate-y-0.5 pl-">
-              <ContactMe style="animate-right w-full h-10/12"></ContactMe>
+          <div className="pb-5" id="Contact">
+            <div className="grid grid-cols-2 grid-rows-1 gap-64">
+              <div>
+                <Imagebox
+                  Images={
+                    new Map<string, string>([
+                      [
+                        "/discordapp.svg",
+                        "https://discordapp.com/users/bb_tornado",
+                      ],
+                      [
+                        "/linkedin.svg",
+                        "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
+                      ],
+                    ])
+                  }
+                  styling={
+                    "bg-green-500 w-full h-10/12 rounded-sm border-black border-2 my-16 "
+                  }
+                  animation={"animate-left"}
+                  text={"Reach out to me through these other ways"}
+                  size={250}
+                  imageStyle={" bg-white p-2 rounded-full "}
+                  gridStyle={
+                    "grid-cols-1 grid place-content-center dark:bg-slate-500 gap-x-16 "
+                  }
+                  linkStyle={"w-10/12 h-4/6 m-2 py-4 rounded-full "}
+                ></Imagebox>
+              </div>
+              <div>
+                <ContactMe style=" invisible rounded-sm border-black border-2 bg-green-500 animate-right my-16 w-full h-full md:w-full md:h-auto sm:w-4/6 sm:h-3/6"></ContactMe>
+              </div>
             </div>
           </div>
         </div>

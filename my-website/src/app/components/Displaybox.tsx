@@ -9,7 +9,7 @@ type textboxinfo = {
 };
 
 const Displaybox = (text: textboxinfo) => {
-  let basestyle: string = "rounded-sm border-black border-2 ";
+  let basestyle: string = "rounded-sm border-black border-2 invisible ";
   const [style1, setStyle1] = useState(basestyle.concat(text.style.toString()));
   const [style2, setStyle2] = useState(basestyle.concat(text.style.toString()));
   switch (text.side) {
@@ -18,7 +18,11 @@ const Displaybox = (text: textboxinfo) => {
         <InView
           as="div"
           onChange={(inView, entry) =>
-            inView ? setStyle1(style1 + " animate-left") : ""
+            inView
+              ? setStyle1(
+                  style1.replace("invisible", "visible") + " animate-left"
+                )
+              : ""
           }
           className={style1}
         >
@@ -32,7 +36,11 @@ const Displaybox = (text: textboxinfo) => {
         <InView
           as="div"
           onChange={(inView, entry) =>
-            inView ? setStyle2(style2 + " animate-right") : ""
+            inView
+              ? setStyle2(
+                  style2.replace("invisible", "visible") + " animate-right"
+                )
+              : ""
           }
           className={style2}
         >

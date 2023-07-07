@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { ReactNode, useState } from "react";
+import { useState } from "react";
 import { InView } from "react-intersection-observer";
 
 type props = {
@@ -11,17 +11,26 @@ type props = {
   size: Number;
   imageStyle: string;
   gridStyle: string;
+  linkStyle: string;
 };
 const Imagebox = (props: props) => {
-  const { Images, styling, animation, text, size, imageStyle, gridStyle } =
-    props;
+  const {
+    Images,
+    styling,
+    animation,
+    text,
+    size,
+    linkStyle,
+    gridStyle,
+    imageStyle,
+  } = props;
   const [finalstyle, setFinalStyle] = useState(styling);
-  const [style, setStyle] = useState(gridStyle);
+  const [style, setStyle] = useState(gridStyle.concat(" invisible "));
   const imageslayout = Array.from(Images).map(([key, value]) => {
     return (
       <div key={key}>
         <a
-          className={imageStyle}
+          className={linkStyle}
           href={value}
           aria-label="label"
           target="_blank"
@@ -32,7 +41,7 @@ const Imagebox = (props: props) => {
             alt="Icon"
             width={size as number}
             height={size as number}
-            className="bg-white p-2 rounded-full"
+            className={imageStyle}
           />
         </a>
       </div>
@@ -42,12 +51,14 @@ const Imagebox = (props: props) => {
     <InView
       as="div"
       onChange={(inView, entry) =>
-        inView ? setFinalStyle(styling + animation) : ""
+        inView
+          ? setFinalStyle(styling.replace("invisible", "visible") + animation)
+          : ""
       }
       className={finalstyle}
     >
       <div className=" bg-white rounded-sm border-black border-2 -translate-y-2 translate-x-2 text-black w-full h-full dark:bg-slate-500 dark:text-white pl-16 pb-2 pr-16 pt-2 gap-x-16">
-        {text === null ? <></> : <p>{text}</p>}
+        {text === null ? <></> : <p className="text-center">{text}</p>}
         <div className={style}>{imageslayout}</div>
       </div>
     </InView>

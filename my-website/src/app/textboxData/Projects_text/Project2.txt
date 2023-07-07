@@ -1,2 +1,0 @@
-This Project is actually my personal website. It was made using Nextjs version 13 and tailwindcss. 
-Both of which I had no prior experience using so this was a big learning experience for me.
