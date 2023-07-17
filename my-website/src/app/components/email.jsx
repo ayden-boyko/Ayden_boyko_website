@@ -4,9 +4,10 @@ import emailjs from "@emailjs/browser";
 import ReCAPTCHA from "react-google-recaptcha";
 import { InView } from "react-intersection-observer";
 
-const ContactMe = ({ style }) => {
+const ContactMe = (props) => {
+  const { style } = props;
   const form = useRef();
-  const [widgetStyle, setSyle] = useState(style.concat(" invisible"));
+  const [widgetStyle, setSyle] = useState(style);
 
   const sendEmail = (e) => {
     e.preventDefault();

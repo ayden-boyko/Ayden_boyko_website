@@ -196,7 +196,7 @@ export default function Home() {
                 ></Imagebox>
               </div>
               <div>
-                <ContactMe style=" rounded-sm border-black border-2 bg-green-500 animate-right my-16 w-full h-full md:w-full md:h-auto sm:w-4/6 sm:h-3/6"></ContactMe>
+                <ContactMe style=" invisible rounded-sm border-black border-2 bg-green-500 animate-right my-16 w-full h-full md:w-full md:h-auto sm:w-4/6 sm:h-3/6"></ContactMe>
               </div>
             </div>
           </div>
