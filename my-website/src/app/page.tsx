@@ -51,16 +51,16 @@ export default function Home() {
           <Imagebox
             Images={
               new Map<string, string>([
-                ["/python-icon.svg", ""],
-                ["/java-icon.svg", ""],
-                ["/flask.svg", ""],
-                ["/javascript-icon.svg", ""],
-                ["/typescript.svg", ""],
-                ["/postgresql.svg", ""],
-                ["/next-js.svg", ""],
-                ["/react.svg", ""],
-                ["/nodejs-icon.svg", ""],
-                ["/docker-tile.svg", ""],
+                ["/python-icon.svg", "/10-python-icon.svg"],
+                ["/java-icon.svg", "/10-java-icon.svg"],
+                ["/flask.svg", "/10-flask.svg"],
+                ["/javascript-icon.svg", "/10-javascript-icon.svg"],
+                ["/typescript.svg", "/10-typescript.svg"],
+                ["/postgresql.svg", "/10-postgresql.svg"],
+                ["/next-js.svg", "/10-next-js.svg"],
+                ["/react.svg", "/10-react.svg"],
+                ["/nodejs-icon.svg", "/10-nodejs-icon.svg"],
+                ["/docker-tile.svg", "/10-docker-tile.svg"],
               ])
             }
             styling={

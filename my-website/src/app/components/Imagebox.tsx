@@ -42,6 +42,8 @@ const Imagebox = (props: props) => {
             width={size as number}
             height={size as number}
             className={imageStyle}
+            placeholder="blur"
+            blurDataURL={value}
           />
         </a>
       </div>
