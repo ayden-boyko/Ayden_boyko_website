@@ -64,7 +64,7 @@ export default function Home() {
               ])
             }
             styling={
-              "bg-red-500 w-9/12 h-7/12 my-16 rounded-sm border-black border-2 "
+              " invisible bg-red-500 w-9/12 h-7/12 my-16 rounded-sm border-black border-2 "
             }
             animation={"animate-left"}
             text={
@@ -183,7 +183,7 @@ export default function Home() {
                     ])
                   }
                   styling={
-                    "bg-green-500 w-full h-10/12 rounded-sm border-black border-2 my-16 "
+                    " invisible bg-green-500 w-full h-10/12 rounded-sm border-black border-2 my-16 "
                   }
                   animation={"animate-left"}
                   text={"Reach out to me through these other ways"}
@@ -196,7 +196,7 @@ export default function Home() {
                 ></Imagebox>
               </div>
               <div>
-                <ContactMe style=" invisible rounded-sm border-black border-2 bg-green-500 animate-right my-16 w-full h-full md:w-full md:h-auto sm:w-4/6 sm:h-3/6"></ContactMe>
+                <ContactMe style=" rounded-sm border-black border-2 bg-green-500 animate-right my-16 w-full h-full md:w-full md:h-auto sm:w-4/6 sm:h-3/6"></ContactMe>
               </div>
             </div>
           </div>

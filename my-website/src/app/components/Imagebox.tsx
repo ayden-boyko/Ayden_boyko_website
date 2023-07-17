@@ -25,7 +25,7 @@ const Imagebox = (props: props) => {
     imageStyle,
   } = props;
   const [finalstyle, setFinalStyle] = useState(styling);
-  const [style, setStyle] = useState(gridStyle.concat(" invisible "));
+  const [style, setStyle] = useState(gridStyle);
   const imageslayout = Array.from(Images).map(([key, value]) => {
     return (
       <div key={key}>

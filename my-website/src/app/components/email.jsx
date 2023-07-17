@@ -1,11 +1,12 @@
 "use client";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import ReCAPTCHA from "react-google-recaptcha";
 import { InView } from "react-intersection-observer";
 
 const ContactMe = ({ style }) => {
   const form = useRef();
+  const [widgetStyle, setSyle] = useState(style.concat(" invisible"));
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -34,13 +35,9 @@ const ContactMe = ({ style }) => {
       as="div"
       id="email"
       onChange={(inView, entry) =>
-        inView
-          ? document
-              .getElementById("email")
-              .className.replace("invisible", "visible")
-          : ""
+        inView ? setSyle(widgetStyle.replace("invisible", "visible")) : ""
       }
-      className=""
+      className={widgetStyle}
     >
       <form
         ref={form}
@@ -81,7 +78,7 @@ const ContactMe = ({ style }) => {
         <br />
         <ReCAPTCHA
           size="normal"
-          sitekey={process.env.RECAPTCHA_CODE}
+          sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
           className="m-2 -translate-x-2 "
         />
       </form>
