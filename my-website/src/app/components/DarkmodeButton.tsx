@@ -4,14 +4,17 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import sun from "src/app/icons/sun.svg";
 import moon from "src/app/icons/moon.svg";
+import SvgAnimator from "./svgAnimator";
 
 type ContainerProps = {
   children: React.ReactNode;
+  id: string;
 };
 
 const DarkModeButton = (props: ContainerProps) => {
   const [darkMode, setDarkMode] = useState(false);
   const [text, setText] = useState("Dark");
+  const background_svg = "src/app/icons/lightgrid.svg";
 
   useEffect(() => {
     // Check if the user has set a preferred color scheme
