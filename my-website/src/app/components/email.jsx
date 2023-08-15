@@ -36,7 +36,11 @@ const ContactMe = (props) => {
       as="div"
       id="email"
       onChange={(inView, entry) =>
-        inView ? setSyle(widgetStyle.replace("invisible", "visible")) : ""
+        inView
+          ? setSyle(
+              widgetStyle.replace("invisible", "visible") + " animate-right"
+            )
+          : ""
       }
       className={widgetStyle}
     >

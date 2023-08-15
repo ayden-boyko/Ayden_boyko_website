@@ -1,15 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800" opacity="1" width="800" height="800">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800" opacity="1" width="800" height="800" id="svg-background">
     <g stroke-width="0.5" stroke="hsla(215.3,25%,26.7%, 1.00)" fill="none">
         <rect width="66.66666666666667" height="66.66666666666667" x="0" y="0" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="0" cy="0" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -17,18 +18,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="66.66666666666667" y="0" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="66.66666666666667" cy="0" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -36,18 +39,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="133.33333333333334" y="0" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="133.33333333333334" cy="0" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -55,18 +60,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="200" y="0" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="200" cy="0" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -74,18 +81,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.6666    6666666667" x="266.6666666666667" y="0" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="266.6666666666667" cy="0" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -93,18 +102,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="333.33333333333337" y="0" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="333.33333333333337" cy="0" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -112,18 +123,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="400.00000000000006" y="0" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="400.00000000000006" cy="0" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -131,18 +144,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="466.66666666666674" y="0" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="466.66666666666674" cy="0" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -150,18 +165,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="533.3333333333334" y="0" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="533.3333333333334" cy="0" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -169,18 +186,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="600" y="0" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="600" cy="0" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -188,18 +207,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="666.6666666666666" y="0" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="666.6666666666666" cy="0" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -207,18 +228,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="733.3333333333333" y="0" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="733.3333333333333" cy="0" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -226,18 +249,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="799.9999999999999" y="0" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="799.9999999999999" cy="0" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -245,18 +270,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="0" y="66.66666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="0" cy="66.66666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -264,18 +291,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="66.66666666666667" y="66.66666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="66.66666666666667" cy="66.66666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -283,18 +312,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="133.33333333333334" y="66.66666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="133.33333333333334" cy="66.66666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -302,18 +333,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="200" y="66.66666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="200" cy="66.66666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -321,18 +354,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="266.6666666666667" y="66.66666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="266.6666666666667" cy="66.66666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -340,18 +375,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="333.33333333333337" y="66.66666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="333.33333333333337" cy="66.66666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -359,18 +396,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="400.00000000000006" y="66.66666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="400.00000000000006" cy="66.66666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -378,18 +417,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="466.66666666666674" y="66.66666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="466.66666666666674" cy="66.66666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -397,18 +438,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="533.3333333333334" y="66.66666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="533.3333333333334" cy="66.66666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -416,18 +459,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="600" y="66.66666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="600" cy="66.66666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -435,18 +480,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="666.6666666666666" y="66.66666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="666.6666666666666" cy="66.66666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -454,18 +501,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="733.3333333333333" y="66.66666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="733.3333333333333" cy="66.66666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -473,18 +522,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="799.9999999999999" y="66.66666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="799.9999999999999" cy="66.66666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -492,18 +543,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="0" y="133.33333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="0" cy="133.33333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -511,18 +564,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="66.66666666666667" y="133.33333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="66.66666666666667" cy="133.33333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -530,18 +585,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="133.33333333333334" y="133.33333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="133.33333333333334" cy="133.33333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -549,18 +606,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="200" y="133.33333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="200" cy="133.33333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -568,18 +627,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="266.6666666666667" y="133.33333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="266.6666666666667" cy="133.33333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -587,18 +648,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="333.33333333333337" y="133.33333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="333.33333333333337" cy="133.33333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -606,18 +669,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="400.00000000000006" y="133.33333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="400.00000000000006" cy="133.33333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -625,18 +690,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="466.66666666666674" y="133.33333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="466.66666666666674" cy="133.33333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -644,18 +711,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="533.3333333333334" y="133.33333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="533.3333333333334" cy="133.33333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -663,18 +732,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="600" y="133.33333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="600" cy="133.33333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -682,18 +753,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="666.6666666666666" y="133.33333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="666.6666666666666" cy="133.33333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -701,18 +774,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="733.3333333333333" y="133.33333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="733.3333333333333" cy="133.33333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -720,18 +795,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="799.9999999999999" y="133.33333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="799.9999999999999" cy="133.33333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -739,18 +816,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="0" y="200" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="0" cy="200" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -758,18 +837,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="66.66666666666667" y="200" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="66.66666666666667" cy="200" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -777,18 +858,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="133.33333333333334" y="200" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="133.33333333333334" cy="200" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -796,18 +879,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="200" y="200" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="200" cy="200" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -815,18 +900,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="266.6666666666667" y="200" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="266.6666666666667" cy="200" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -834,18 +921,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="333.33333333333337" y="200" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="333.33333333333337" cy="200" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -853,18 +942,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="400.00000000000006" y="200" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="400.00000000000006" cy="200" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -872,18 +963,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="466.66666666666674" y="200" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="466.66666666666674" cy="200" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -891,18 +984,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="533.3333333333334" y="200" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="533.3333333333334" cy="200" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -910,18 +1005,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="600" y="200" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="600" cy="200" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -929,18 +1026,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="666.6666666666666" y="200" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="666.6666666666666" cy="200" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -948,18 +1047,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="733.3333333333333" y="200" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="733.3333333333333" cy="200" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -967,18 +1068,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="799.9999999999999" y="200" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="799.9999999999999" cy="200" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -986,18 +1089,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="0" y="266.6666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="0" cy="266.6666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1005,18 +1110,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="66.66666666666667" y="266.6666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="66.66666666666667" cy="266.6666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1024,18 +1131,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="133.33333333333334" y="266.6666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="133.33333333333334" cy="266.6666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1043,18 +1152,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="200" y="266.6666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="200" cy="266.6666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1062,18 +1173,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="266.6666666666667" y="266.6666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="266.6666666666667" cy="266.6666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1081,18 +1194,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="333.33333333333337" y="266.6666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="333.33333333333337" cy="266.6666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1100,18 +1215,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="400.00000000000006" y="266.6666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="400.00000000000006" cy="266.6666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1119,18 +1236,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="466.66666666666674" y="266.6666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="466.66666666666674" cy="266.6666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1138,18 +1257,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="533.3333333333334" y="266.6666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="533.3333333333334" cy="266.6666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1157,18 +1278,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="600" y="266.6666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="600" cy="266.6666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1176,18 +1299,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="666.6666666666666" y="266.6666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="666.6666666666666" cy="266.6666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1195,18 +1320,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="733.3333333333333" y="266.6666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="733.3333333333333" cy="266.6666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1214,18 +1341,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="799.9999999999999" y="266.6666666666667" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="799.9999999999999" cy="266.6666666666667" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1233,18 +1362,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="0" y="333.33333333333337" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="0" cy="333.33333333333337" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1252,18 +1383,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="66.66666666666667" y="333.33333333333337" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="66.66666666666667" cy="333.33333333333337" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1271,18 +1404,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="133.33333333333334" y="333.33333333333337" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="133.33333333333334" cy="333.33333333333337" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1290,18 +1425,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="200" y="333.33333333333337" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="200" cy="333.33333333333337" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1309,18 +1446,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="266.6666666666667" y="333.33333333333337" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="266.6666666666667" cy="333.33333333333337" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1328,18 +1467,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="333.33333333333337" y="333.33333333333337" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="333.33333333333337" cy="333.33333333333337" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1347,18 +1488,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="400.00000000000006" y="333.33333333333337" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="400.00000000000006" cy="333.33333333333337" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1366,18 +1509,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="466.66666666666674" y="333.33333333333337" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="466.66666666666674" cy="333.33333333333337" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1385,18 +1530,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="533.3333333333334" y="333.33333333333337" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="533.3333333333334" cy="333.33333333333337" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1404,18 +1551,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="600" y="333.33333333333337" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="600" cy="333.33333333333337" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1423,18 +1572,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="666.6666666666666" y="333.33333333333337" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="666.6666666666666" cy="333.33333333333337" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1442,18 +1593,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="733.3333333333333" y="333.33333333333337" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="733.3333333333333" cy="333.33333333333337" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1461,18 +1614,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="799.9999999999999" y="333.33333333333337" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="799.9999999999999" cy="333.33333333333337" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1480,18 +1635,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="0" y="400.00000000000006" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="0" cy="400.00000000000006" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1499,18 +1656,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="66.66666666666667" y="400.00000000000006" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="66.66666666666667" cy="400.00000000000006" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1518,18 +1677,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="133.33333333333334" y="400.00000000000006" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="133.33333333333334" cy="400.00000000000006" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1537,18 +1698,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="200" y="400.00000000000006" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="200" cy="400.00000000000006" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1556,18 +1719,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="266.6666666666667" y="400.00000000000006" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="266.6666666666667" cy="400.00000000000006" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1575,18 +1740,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="333.33333333333337" y="400.00000000000006" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="333.33333333333337" cy="400.00000000000006" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1594,18 +1761,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="400.00000000000006" y="400.00000000000006" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="400.00000000000006" cy="400.00000000000006" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1613,18 +1782,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="466.66666666666674" y="400.00000000000006" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="466.66666666666674" cy="400.00000000000006" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1632,18 +1803,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="533.3333333333334" y="400.00000000000006" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="533.3333333333334" cy="400.00000000000006" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1651,18 +1824,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="600" y="400.00000000000006" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="600" cy="400.00000000000006" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1670,18 +1845,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="666.6666666666666" y="400.00000000000006" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="666.6666666666666" cy="400.00000000000006" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1689,18 +1866,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="733.3333333333333" y="400.00000000000006" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="733.3333333333333" cy="400.00000000000006" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1708,18 +1887,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="799.9999999999999" y="400.00000000000006" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="799.9999999999999" cy="400.00000000000006" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1727,18 +1908,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="0" y="466.66666666666674" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="0" cy="466.66666666666674" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1746,18 +1929,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="66.66666666666667" y="466.66666666666674" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="66.66666666666667" cy="466.66666666666674" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1765,18 +1950,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="133.33333333333334" y="466.66666666666674" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="133.33333333333334" cy="466.66666666666674" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1784,18 +1971,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="200" y="466.66666666666674" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="200" cy="466.66666666666674" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1803,18 +1992,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="266.6666666666667" y="466.66666666666674" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="266.6666666666667" cy="466.66666666666674" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1822,18 +2013,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="333.33333333333337" y="466.66666666666674" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="333.33333333333337" cy="466.66666666666674" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1841,18 +2034,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="400.00000000000006" y="466.66666666666674" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="400.00000000000006" cy="466.66666666666674" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1860,18 +2055,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="466.66666666666674" y="466.66666666666674" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="466.66666666666674" cy="466.66666666666674" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1879,18 +2076,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="533.3333333333334" y="466.66666666666674" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="533.3333333333334" cy="466.66666666666674" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1898,18 +2097,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="600" y="466.66666666666674" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="600" cy="466.66666666666674" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1917,18 +2118,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="666.6666666666666" y="466.66666666666674" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="666.6666666666666" cy="466.66666666666674" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1936,18 +2139,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="733.3333333333333" y="466.66666666666674" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="733.3333333333333" cy="466.66666666666674" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1955,18 +2160,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="799.9999999999999" y="466.66666666666674" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="799.9999999999999" cy="466.66666666666674" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1974,18 +2181,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="0" y="533.3333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="0" cy="533.3333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -1993,18 +2202,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="66.66666666666667" y="533.3333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="66.66666666666667" cy="533.3333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2012,18 +2223,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="133.33333333333334" y="533.3333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="133.33333333333334" cy="533.3333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2031,18 +2244,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="200" y="533.3333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="200" cy="533.3333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2050,18 +2265,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="266.6666666666667" y="533.3333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="266.6666666666667" cy="533.3333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2069,18 +2286,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="333.33333333333337" y="533.3333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="333.33333333333337" cy="533.3333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2088,18 +2307,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="400.00000000000006" y="533.3333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="400.00000000000006" cy="533.3333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2107,18 +2328,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="466.66666666666674" y="533.3333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="466.66666666666674" cy="533.3333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2126,18 +2349,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="533.3333333333334" y="533.3333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="533.3333333333334" cy="533.3333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2145,18 +2370,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="600" y="533.3333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="600" cy="533.3333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2164,18 +2391,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="666.6666666666666" y="533.3333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="666.6666666666666" cy="533.3333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2183,18 +2412,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="733.3333333333333" y="533.3333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="733.3333333333333" cy="533.3333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2202,18 +2433,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="799.9999999999999" y="533.3333333333334" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="799.9999999999999" cy="533.3333333333334" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2221,18 +2454,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="0" y="600" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="0" cy="600" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2240,18 +2475,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="66.66666666666667" y="600" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="66.66666666666667" cy="600" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2259,18 +2496,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="133.33333333333334" y="600" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="133.33333333333334" cy="600" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2278,18 +2517,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="200" y="600" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="200" cy="600" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2297,18 +2538,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="266.6666666666667" y="600" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="266.6666666666667" cy="600" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2316,18 +2559,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="333.33333333333337" y="600" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="333.33333333333337" cy="600" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2335,18 +2580,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="400.00000000000006" y="600" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="400.00000000000006" cy="600" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2354,18 +2601,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="466.66666666666674" y="600" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="466.66666666666674" cy="600" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2373,18 +2622,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="533.3333333333334" y="600" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="533.3333333333334" cy="600" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2392,18 +2643,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="600" y="600" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="600" cy="600" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2411,18 +2664,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="666.6666666666666" y="600" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="666.6666666666666" cy="600" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2430,18 +2685,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="733.3333333333333" y="600" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="733.3333333333333" cy="600" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2449,18 +2706,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="799.9999999999999" y="600" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="799.9999999999999" cy="600" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2468,18 +2727,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="0" y="666.6666666666666" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="0" cy="666.6666666666666" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2487,18 +2748,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="66.66666666666667" y="666.6666666666666" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="66.66666666666667" cy="666.6666666666666" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2506,18 +2769,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="133.33333333333334" y="666.6666666666666" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="133.33333333333334" cy="666.6666666666666" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2525,18 +2790,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="200" y="666.6666666666666" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="200" cy="666.6666666666666" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2544,18 +2811,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="266.6666666666667" y="666.6666666666666" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="266.6666666666667" cy="666.6666666666666" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2563,18 +2832,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="333.33333333333337" y="666.6666666666666" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="333.33333333333337" cy="666.6666666666666" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2582,18 +2853,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="400.00000000000006" y="666.6666666666666" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="400.00000000000006" cy="666.6666666666666" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2601,18 +2874,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="466.66666666666674" y="666.6666666666666" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="466.66666666666674" cy="666.6666666666666" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2620,18 +2895,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="533.3333333333334" y="666.6666666666666" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="533.3333333333334" cy="666.6666666666666" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2639,18 +2916,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="600" y="666.6666666666666" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="600" cy="666.6666666666666" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2658,18 +2937,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="666.6666666666666" y="666.6666666666666" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="666.6666666666666" cy="666.6666666666666" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2677,18 +2958,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="733.3333333333333" y="666.6666666666666" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="733.3333333333333" cy="666.6666666666666" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2696,18 +2979,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="799.9999999999999" y="666.6666666666666" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="799.9999999999999" cy="666.6666666666666" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2715,18 +3000,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="0" y="733.3333333333333" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="0" cy="733.3333333333333" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2734,18 +3021,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="66.66666666666667" y="733.3333333333333" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="66.66666666666667" cy="733.3333333333333" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2753,18 +3042,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="133.33333333333334" y="733.3333333333333" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="133.33333333333334" cy="733.3333333333333" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2772,18 +3063,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="200" y="733.3333333333333" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="200" cy="733.3333333333333" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2791,18 +3084,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="266.6666666666667" y="733.3333333333333" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="266.6666666666667" cy="733.3333333333333" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2810,18 +3105,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="333.33333333333337" y="733.3333333333333" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="333.33333333333337" cy="733.3333333333333" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2829,18 +3126,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="400.00000000000006" y="733.3333333333333" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="400.00000000000006" cy="733.3333333333333" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2848,18 +3147,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="466.66666666666674" y="733.3333333333333" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="466.66666666666674" cy="733.3333333333333" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2867,18 +3168,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="533.3333333333334" y="733.3333333333333" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="533.3333333333334" cy="733.3333333333333" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2886,18 +3189,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="600" y="733.3333333333333" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="600" cy="733.3333333333333" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2905,18 +3210,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="666.6666666666666" y="733.3333333333333" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="666.6666666666666" cy="733.3333333333333" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2924,18 +3231,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="733.3333333333333" y="733.3333333333333" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="733.3333333333333" cy="733.3333333333333" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2943,18 +3252,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="799.9999999999999" y="733.3333333333333" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="799.9999999999999" cy="733.3333333333333" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2962,18 +3273,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="0" y="799.9999999999999" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="0" cy="799.9999999999999" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -2981,18 +3294,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="66.66666666666667" y="799.9999999999999" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="66.66666666666667" cy="799.9999999999999" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -3000,18 +3315,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="133.33333333333334" y="799.9999999999999" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="133.33333333333334" cy="799.9999999999999" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -3019,18 +3336,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="200" y="799.9999999999999" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="200" cy="799.9999999999999" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -3038,18 +3357,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="266.6666666666667" y="799.9999999999999" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="266.6666666666667" cy="799.9999999999999" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -3057,18 +3378,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="333.33333333333337" y="799.9999999999999" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="333.33333333333337" cy="799.9999999999999" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -3076,18 +3399,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="400.00000000000006" y="799.9999999999999" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="400.00000000000006" cy="799.9999999999999" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -3095,18 +3420,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="466.66666666666674" y="799.9999999999999" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="466.66666666666674" cy="799.9999999999999" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -3114,18 +3441,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="533.3333333333334" y="799.9999999999999" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="533.3333333333334" cy="799.9999999999999" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -3133,18 +3462,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="600" y="799.9999999999999" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="600" cy="799.9999999999999" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -3152,18 +3483,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="666.6666666666666" y="799.9999999999999" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="666.6666666666666" cy="799.9999999999999" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -3171,18 +3504,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="733.3333333333333" y="799.9999999999999" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="733.3333333333333" cy="799.9999999999999" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -3190,18 +3525,20 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
         <rect width="66.66666666666667" height="66.66666666666667" x="799.9999999999999" y="799.9999999999999" opacity="1">
             <animate attributeName="opacity"
                 values=".15;.15" dur="3s"
-                repeatCount="1"/>
+                repeatCount="1" begin="indefinite"
+                id="animation"/>
         </rect>
         <circle id="circle" r="43" cx="799.9999999999999" cy="799.9999999999999" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity='1'> 
             <animate
             attributeName="r"
-            id="animation-to-dark"
-            begin="0s"
+            id="animation"
+            begin="indefinite"
             calcMode="linear"
             values="3.75;43"
             dur="3s"
@@ -3209,7 +3546,8 @@
             />
             <animate attributeName="opacity"
             values=".51 ;1" dur="2.5s"
-            repeatCount="1"/>
+            repeatCount="1" begin="indefinite"
+            id="animation"/>
         </circle>
     </g>
 </svg>
