@@ -8,11 +8,7 @@ const StartBox = () => {
     setCardCount(Math.floor(Math.random() * 100));
   });
 
-  return (
-    <div className="bg-black">
-      <p> {cardcount}</p>
-    </div>
-  );
+  return <div className="bg-black"></div>;
 };
 
 export default StartBox;
