@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import StartBox from "./components/StartBox";
 import React from "react";
 import Displaybox from "./components/Displaybox";
 import ContactMe from "./components/email";
