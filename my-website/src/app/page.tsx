@@ -27,6 +27,7 @@ export default function Home() {
               I enjoy Fullstack development, but I prefer frontend soley because I get to bring my ideas to life."
               style="bg-red-500 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6"
               side="left"
+              initial={true}
             />
           </div>
           <div className="inline-flex flex-row-reverse">
@@ -36,6 +37,7 @@ export default function Home() {
               I was so interested that I took college coding classes during the summer in order to learn more."
               style="bg-red-500 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6"
               side="right"
+              initial={true}
             />
           </div>
           <div className="inline-flex my-16">
@@ -44,6 +46,7 @@ export default function Home() {
               As a matter of fact this website was my introduction into Nextjs and Tailwindcss!"
               style="bg-red-500 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6 "
               side="left"
+              initial={true}
             />
           </div>
           {/** About Me texhnology */}
