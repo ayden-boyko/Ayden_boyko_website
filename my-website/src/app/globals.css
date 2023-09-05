@@ -81,3 +81,7 @@
 .animate-right {
   animation: load-right 2s ease-out 1, idle-right 3s 2s infinite linear;
 }
+
+#initial {
+  animation-delay: 1000ms;
+}

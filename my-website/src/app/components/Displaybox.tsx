@@ -6,13 +6,15 @@ type textboxinfo = {
   content: string;
   style: string;
   side: "left" | "right";
+  id?: string;
 };
 
 const Displaybox = (text: textboxinfo) => {
-  let basestyle: string = "rounded-sm border-black border-2 invisible ";
-  const [style1, setStyle1] = useState(basestyle.concat(text.style.toString()));
-  const [style2, setStyle2] = useState(basestyle.concat(text.style.toString()));
-  switch (text.side) {
+  const { content, style, side, id } = text;
+  const basestyle: string = "rounded-sm border-black border-2 invisible ";
+  const [style1, setStyle1] = useState(basestyle.concat(style.toString()));
+  const [style2, setStyle2] = useState(basestyle.concat(style.toString()));
+  switch (side) {
     case "left":
       return (
         <InView
@@ -25,9 +27,10 @@ const Displaybox = (text: textboxinfo) => {
               : ""
           }
           className={style1}
+          id={id}
         >
           <p className="bg-slate-200 text-black translate-x-2 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 px-2 py-2 animate-none">
-            {text.content}
+            {content}
           </p>
         </InView>
       );
@@ -43,9 +46,10 @@ const Displaybox = (text: textboxinfo) => {
               : ""
           }
           className={style2}
+          id={id}
         >
           <div className="bg-slate-200 text-black -translate-x-2 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 px-2 py-2 animate-none">
-            {text.content}
+            {content}
           </div>
         </InView>
       );
