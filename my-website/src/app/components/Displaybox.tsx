@@ -21,8 +21,7 @@ const Displaybox = (text: textboxinfo) => {
           onChange={(inView, entry) =>
             inView
               ? setStyle1(
-                  style1.replace("invisible", "visible") +
-                    " delay-[4000ms] animate-left"
+                  style1.replace("invisible", "visible") + " animate-left "
                 )
               : ""
           }
@@ -40,8 +39,7 @@ const Displaybox = (text: textboxinfo) => {
           onChange={(inView, entry) =>
             inView
               ? setStyle2(
-                  style2.replace("invisible", "visible") +
-                    " delay-[4000ms] animate-right"
+                  style2.replace("invisible", "visible") + " animate-right "
                 )
               : ""
           }
