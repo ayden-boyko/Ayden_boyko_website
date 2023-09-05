@@ -68,7 +68,7 @@ export default function Home() {
             styling={
               " invisible bg-red-500 w-9/12 h-7/12 my-16 rounded-sm border-black border-2 "
             }
-            animation={"animate-left"}
+            animation={"initial-load-left"}
             text={
               "These are the languages and libraries that I feel most comfortable using."
             }
