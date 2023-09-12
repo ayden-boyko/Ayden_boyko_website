@@ -69,10 +69,10 @@ export default function Home() {
               " invisible bg-red-500 w-9/12 h-7/12 my-16 rounded-sm border-black border-2 "
             }
             animation={"initial-load-left"}
+            size={60}
             text={
               "These are the languages and libraries that I feel most comfortable using."
             }
-            size={60}
             imageStyle={" bg-white rounded-2xl"}
             gridStyle={
               "grid-cols-5 grid place-content-center dark:bg-slate-500 gap-x-16 p-4"
@@ -113,7 +113,7 @@ export default function Home() {
               change the name of the user who was using the timer (this will change the name displayed when time is logged), 
               It is important to note that this project has no backend, therefore I only allowed one user to be made."
               imageBoxStyling={
-                "inline-flex bg-blue-200 rounded-sm border-black border-2 -translate-y-2 -translate-x-2 gap-4"
+                "inline-flex bg-blue-200 rounded-sm border-black border-2 -translate-y-2 translate-x-4 gap-4"
               }
               imageStyle={"rounded-full bg-white md:bg-white md:rounded-md"}
               projectImage={"/React_client_page.jpeg"}
@@ -135,7 +135,7 @@ export default function Home() {
               text="This Project is actually my personal website. It was made using Nextjs version 13 and tailwindcss. 
               Both of which I had no prior experience using so this was a big learning experience for me."
               imageBoxStyling={
-                "inline-flex bg-blue-200 rounded-sm border-black border-2 -translate-y-2 translate-x-2 gap-4"
+                "inline-flex bg-blue-200 rounded-sm border-black border-2 -translate-y-2 -translate-x-4 gap-4"
               }
               imageStyle={"rounded-full bg-white"}
               projectImage={"/homepage.jpg"}
@@ -160,7 +160,7 @@ export default function Home() {
                this includes: creating/deleting accounts, finding rides, starting rides,
               carpooling, leaving reviews for riders and drivers and also responding to said reviews."
               imageBoxStyling={
-                "inline-flex bg-blue-200 rounded-sm border-black border-2 -translate-y-2 -translate-x-2 gap-4"
+                "inline-flex bg-blue-200 rounded-sm border-black border-2 -translate-y-2 translate-x-4 gap-4"
               }
               imageStyle={"rounded-full bg-white"}
               projectImage={"/React_client_page.jpeg"}

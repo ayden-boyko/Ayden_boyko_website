@@ -47,7 +47,7 @@ const ContactMe = (props) => {
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="bg-white text-black -translate-x-2 -translate-y-2 rounded-sm border-black border-2 p-2 dark:bg-slate-500"
+        className="bg-white text-black translate-x-2 -translate-y-2 rounded-sm border-black border-2 p-2 dark:bg-slate-500"
       >
         <label className="dark:text-white">Name</label>
         <br />
