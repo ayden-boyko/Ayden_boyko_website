@@ -185,14 +185,14 @@ export default function Home() {
                     ])
                   }
                   styling={
-                    " invisible bg-green-500 w-full h-10/12 rounded-sm border-black border-2 my-16 "
+                    " invisible bg-green-500 w-10/12 h-10/12 rounded-sm border-black border-2 my-16 "
                   }
                   animation={"animate-left"}
                   text={"Reach out to me through these other ways"}
                   size={250}
                   imageStyle={" bg-white p-2 rounded-full "}
                   gridStyle={
-                    "grid-cols-1 grid place-content-center dark:bg-slate-500 gap-x-16 "
+                    "flex flex-col items-center dark:bg-slate-500 gap-x-16 "
                   }
                   linkStyle={"w-10/12 h-4/6 m-2 py-4 rounded-full "}
                 ></Imagebox>
