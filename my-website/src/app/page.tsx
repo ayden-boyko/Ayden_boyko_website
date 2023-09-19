@@ -27,7 +27,7 @@ export default function Home() {
               content="Hello and welcome to my website! My name is Ayden Boyko. 
               I am currently a third year Software Enginner at Rochester Institute of Technology.
               I enjoy Fullstack development, and experimenting with new technologies"
-              style="bg-red-500 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6"
+              style="bg-red-400 dark:bg-red-700 w-2/6 h-2/6 sm:w-full sm:h-full md:w-3/6 md:h-3/6 "
               side="left"
               initial={true}
             />
@@ -38,7 +38,7 @@ export default function Home() {
               I continued to do so for a couple more years before falling out of love with it.
               It wasn't until the 10th grade when I re-developed my love for coding during a computer science class.
               I was so interested that I took college coding classes during the summer in order to learn more."
-              style="bg-red-500 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6"
+              style="bg-red-400 dark:bg-red-700 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6"
               side="right"
               initial={true}
             />
@@ -47,7 +47,7 @@ export default function Home() {
             <Displaybox
               content="This love of coding has stuck with me as I continue my software development journey.
               As a matter of fact this website was my introduction into Nextjs and Tailwindcss!"
-              style="bg-red-500 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6 "
+              style="bg-red-400 dark:bg-red-700 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6 "
               side="left"
               initial={true}
             />
@@ -69,7 +69,7 @@ export default function Home() {
               ])
             }
             styling={
-              " transition duration-1000 invisible bg-red-500 w-9/12 h-7/12 my-16 rounded-sm border-black border-2 "
+              " transition duration-1000 invisible bg-red-400 dark:bg-red-700 w-9/12 h-7/12 my-16 rounded-sm border-black border-2 "
             }
             animation={"initial-load-left"}
             size={60}
@@ -90,7 +90,7 @@ export default function Home() {
               For each one, I focused on a specific part of fulllstack development that I was not confident in.
               This allowed me to round out my skills as a developer as well as create fun and interesting projects!
               "
-              style="bg-blue-500 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6"
+              style="bg-orange-300 dark:bg-orange-700 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6"
               side="left"
             />
           </div>
@@ -106,7 +106,7 @@ export default function Home() {
                 ])
               }
               boxStyling={
-                " bg-blue-500 w-9/12 h-full rounded-sm border-black border-2 "
+                " bg-orange-300 dark:bg-orange-700 w-9/12 h-full rounded-sm border-black border-2 "
               }
               side={"right"}
               text="This Project was my first introduction to frontend development, and I was hooked! 
@@ -116,7 +116,7 @@ export default function Home() {
               change the name of the user who was using the timer (this will change the name displayed when time is logged), 
               It is important to note that this project has no backend, therefore I only allowed one user to be made."
               imageBoxStyling={
-                "inline-flex bg-blue-200 rounded-sm border-black border-2 -translate-y-2 translate-x-4 gap-4"
+                "inline-flex bg-orange-100 dark:bg-orange-500 rounded-sm border-black border-2 -translate-y-2 translate-x-4 gap-4"
               }
               imageStyle={"rounded-full bg-white md:bg-white md:rounded-md"}
               projectImage={"/React_client_page.jpeg"}
@@ -132,13 +132,13 @@ export default function Home() {
                 ])
               }
               boxStyling={
-                "bg-blue-500 w-9/12 h-full rounded-sm border-black border-2"
+                "bg-orange-300 dark:bg-orange-700 w-9/12 h-full rounded-sm border-black border-2"
               }
               side={"left"}
               text="This Project is actually my personal website. It was made using Nextjs version 13 and tailwindcss. 
               Both of which I had no prior experience using so this was a big learning experience for me."
               imageBoxStyling={
-                "inline-flex bg-blue-200 rounded-sm border-black border-2 -translate-y-2 -translate-x-4 gap-4"
+                "inline-flex bg-orange-100 dark:bg-orange-500 rounded-sm border-black border-2 -translate-y-2 -translate-x-4 gap-4"
               }
               imageStyle={"rounded-full bg-white"}
               projectImage={"/homepage.jpg"}
@@ -154,7 +154,7 @@ export default function Home() {
                 ])
               }
               boxStyling={
-                "bg-blue-500 w-10/12 h-full rounded-sm border-black border-2 "
+                "bg-orange-300 dark:bg-orange-700 w-10/12 h-full rounded-sm border-black border-2 "
               }
               side={"right"}
               text="This project is a mock rideshare backend. The Database I used was Postgresql.
@@ -163,7 +163,7 @@ export default function Home() {
               this includes: creating/deleting accounts, finding rides, starting rides,
               carpooling, leaving reviews for riders and drivers, and also responding to reviews."
               imageBoxStyling={
-                "inline-flex bg-blue-200 rounded-sm border-black border-2 -translate-y-2 translate-x-4 gap-4"
+                "inline-flex bg-orange-100 dark:bg-orange-500 rounded-sm border-black border-2 -translate-y-2 translate-x-4 gap-4"
               }
               imageStyle={"rounded-full bg-white"}
               projectImage={"/React_client_page.jpeg"}
@@ -188,7 +188,7 @@ export default function Home() {
                     ])
                   }
                   styling={
-                    " invisible bg-green-500 w-10/12 h-10/12 rounded-sm border-black border-2 my-16 "
+                    " invisible bg-amber-300 dark:bg-amber-700 w-10/12 h-10/12 rounded-sm border-black border-2 my-16 "
                   }
                   animation={"animate-left"}
                   text={"Reach out to me through these other ways"}
@@ -201,7 +201,7 @@ export default function Home() {
                 ></Imagebox>
               </div>
               <div>
-                <ContactMe style=" invisible rounded-sm border-black border-2 bg-green-500 my-16 w-full h-full md:w-full md:h-auto sm:w-4/6 sm:h-3/6"></ContactMe>
+                <ContactMe style=" invisible rounded-sm border-black border-2 bg-amber-300 dark:bg-amber-700 my-16 w-full h-full md:w-full md:h-auto sm:w-4/6 sm:h-3/6"></ContactMe>
               </div>
             </div>
           </div>
