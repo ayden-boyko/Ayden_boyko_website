@@ -32,7 +32,6 @@ const DarkModeButton = (props: ContainerProps) => {
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
-
     {
       text === "Dark" ? setText("Light") : setText("Dark");
     }
@@ -40,10 +39,10 @@ const DarkModeButton = (props: ContainerProps) => {
 
   return (
     <main>
-      <div className="flex flex-row-reverse translate-y-6 -translate-x-6">
+      <div className="flex flex-row-reverse translate-y-6 -translate-x-6 sticky top-0">
         <button
           className="transition animate-load-right duration-200 bg-slate-700 dark:bg-slate-300 rounded p-2 w-12 h-12 flex items-center justify-center
-          text-white dark:text-black hover:shadow-lg hover:translate-y-1 -mx-72 dark:hover:shadow-lg dark:hover:shadow-amber-300  "
+          text-white dark:text-black hover:shadow-lg hover:translate-y-1 -mx-72 dark:hover:shadow-lg dark:hover:shadow-amber-300 border-black border-2"
           onClick={toggleDarkMode}
         >
           {darkMode ? (

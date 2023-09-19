@@ -83,7 +83,7 @@ const Projectbox = (props: props) => {
               <div className="flex flex-col pl-2 justify-center translate-x-5 scale-125">
                 {imageslayout}
               </div>
-              <div className="bg-slate-200 text-black -translate-y-2 translate-x-4 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 p-2 animate-none">
+              <div className=" transition duration-1000 bg-slate-200 text-black -translate-y-2 translate-x-4 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 p-2 animate-none">
                 <p>{text}</p>
               </div>
             </div>
@@ -105,7 +105,7 @@ const Projectbox = (props: props) => {
         >
           <div className=" flex flex-row ">
             <div className={imageBoxStyling}>
-              <div className="bg-slate-200 text-black -translate-x-4 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 px-2 py-2 animate-none">
+              <div className=" transition duration-1000 bg-slate-200 text-black -translate-x-4 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 px-2 py-2 animate-none">
                 <p>{text}</p>
               </div>
               <div className="flex flex-col justify-center">{imageslayout}</div>

@@ -12,7 +12,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head />
-      <body className=" transition duration-1000 ease-in-out bg-[url('../app/icons/lightgrid.svg')] dark:bg-[url('../app/icons/darkgrid.svg')] bg-slate-300  dark:text-white mx-72">
+      <body className=" transition-all duration-1000 delay-100 bg-[url('../app/icons/lightgrid.svg')] dark:bg-[url('../app/icons/darkgrid.svg')] bg-slate-300  dark:text-white mx-72">
         <Providers>
           <DarkModeButton id="darkmodebutton">{children}</DarkModeButton>
         </Providers>

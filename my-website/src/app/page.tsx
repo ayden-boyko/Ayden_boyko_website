@@ -17,14 +17,16 @@ export default function Home() {
       <div className="flex min-h-screen flex-col justify-between">
         <div className="h-screen bg-transparent ">
           {/** Navbar */}
-          <div className="flex flex-col">
+          <div>
             <Navbar></Navbar>
           </div>
+
           {/** About Me */}
           <div className="inline-flex my-16" id="About_Me">
             <Displaybox
-              content="I am currently a third year Software Enginner at Rochester Institute of Technology.
-              I enjoy Fullstack development, but I prefer frontend soley because I get to bring my ideas to life."
+              content="Hello and welcome to my website! My name is Ayden Boyko. 
+              I am currently a third year Software Enginner at Rochester Institute of Technology.
+              I enjoy Fullstack development, and experimenting with new technologies"
               style="bg-red-500 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6"
               side="left"
               initial={true}
@@ -32,8 +34,9 @@ export default function Home() {
           </div>
           <div className="inline-flex flex-row-reverse">
             <Displaybox
-              content="My coding journey is a long one, I had my first coding exposure with Scratch when I was around 10/11 years old.
-              It wasn't until highschool when I re-developed my love for coding.
+              content="My coding journey began when I was very young. I learned how to make games with Scratch when I was around 10/11 years old.
+              I continued to do so for a couple more years before falling out of love with it.
+              It wasn't until the 10th grade when I re-developed my love for coding during a computer science class.
               I was so interested that I took college coding classes during the summer in order to learn more."
               style="bg-red-500 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6"
               side="right"
@@ -42,7 +45,7 @@ export default function Home() {
           </div>
           <div className="inline-flex my-16">
             <Displaybox
-              content="This desire to improve my skills has stuck me as I continue along my software development journey.
+              content="This love of coding has stuck with me as I continue my software development journey.
               As a matter of fact this website was my introduction into Nextjs and Tailwindcss!"
               style="bg-red-500 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6 "
               side="left"
@@ -55,9 +58,9 @@ export default function Home() {
               new Map<string, string>([
                 ["/python-icon.svg", "/10-python-icon.svg"],
                 ["/java-icon.svg", "/10-java-icon.svg"],
-                ["/flask.svg", "/10-flask.svg"],
                 ["/javascript-icon.svg", "/10-javascript-icon.svg"],
                 ["/typescript.svg", "/10-typescript.svg"],
+                ["/flask.svg", "/10-flask.svg"],
                 ["/postgresql.svg", "/10-postgresql.svg"],
                 ["/next-js.svg", "/10-next-js.svg"],
                 ["/react.svg", "/10-react.svg"],
@@ -66,16 +69,16 @@ export default function Home() {
               ])
             }
             styling={
-              " invisible bg-red-500 w-9/12 h-7/12 my-16 rounded-sm border-black border-2 "
+              " transition duration-1000 invisible bg-red-500 w-9/12 h-7/12 my-16 rounded-sm border-black border-2 "
             }
             animation={"initial-load-left"}
             size={60}
             text={
               "These are the languages and libraries that I feel most comfortable using."
             }
-            imageStyle={" bg-white rounded-2xl"}
+            imageStyle={" transition duration-1000 bg-white rounded-2xl"}
             gridStyle={
-              "grid-cols-5 grid place-content-center dark:bg-slate-500 gap-x-16 p-4"
+              " transition duration-1000 grid-cols-5 grid place-content-center dark:bg-slate-500 gap-x-16 p-4"
             }
             linkStyle={" w-10/12 h-4/6 m-2 "}
           ></Imagebox>
@@ -103,7 +106,7 @@ export default function Home() {
                 ])
               }
               boxStyling={
-                "bg-blue-500 w-9/12 h-full rounded-sm border-black border-2 "
+                " bg-blue-500 w-9/12 h-full rounded-sm border-black border-2 "
               }
               side={"right"}
               text="This Project was my first introduction to frontend development, and I was hooked! 
@@ -157,8 +160,8 @@ export default function Home() {
               text="This project is a mock rideshare backend. The Database I used was Postgresql.
               The Api conforms to the REST architectural style. The api allows all information related to rider or driver to be accessed.
               The user can also view the reciepts for all their rides. The Database allows full functionality for a ridesharing app,
-               this includes: creating/deleting accounts, finding rides, starting rides,
-              carpooling, leaving reviews for riders and drivers and also responding to said reviews."
+              this includes: creating/deleting accounts, finding rides, starting rides,
+              carpooling, leaving reviews for riders and drivers, and also responding to reviews."
               imageBoxStyling={
                 "inline-flex bg-blue-200 rounded-sm border-black border-2 -translate-y-2 translate-x-4 gap-4"
               }

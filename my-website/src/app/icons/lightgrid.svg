@@ -7,8 +7,8 @@
                 repeatCount="1" begin="0s"
                 id="animation"
                 restart="always"
-            fill="freeze"
-                />
+                fill="freeze"
+            />
         </rect>
 
         <circle id="circle" r="3.75" cx="0" cy="0" fill="hsla(215.3,25%,26.7%, 1.00)" stroke="none" opacity=".51"> 

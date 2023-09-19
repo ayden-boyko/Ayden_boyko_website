@@ -47,7 +47,7 @@ const ContactMe = (props) => {
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="bg-white text-black translate-x-2 -translate-y-2 rounded-sm border-black border-2 p-2 dark:bg-slate-500"
+        className=" transition duration-1000 bg-white text-black translate-x-2 -translate-y-2 rounded-sm border-black border-2 p-2 dark:bg-slate-500"
       >
         <label className="dark:text-white">Name</label>
         <br />
@@ -55,7 +55,7 @@ const ContactMe = (props) => {
           type="text"
           name="user_name"
           id="user_name"
-          className="bg-white border-black rounded border text-black "
+          className=" transition duration-1000 bg-white border-black rounded border text-black "
         />
         <br />
         <label className="dark:text-white">Email</label>
@@ -64,7 +64,7 @@ const ContactMe = (props) => {
           type="email"
           name="email"
           id="email"
-          className="bg-white border-black rounded border text-black "
+          className=" transition duration-1000 bg-white border-black rounded border text-black "
         />
         <br />
         <label className="dark:text-white">Message</label>
@@ -72,7 +72,7 @@ const ContactMe = (props) => {
         <textarea
           name="message"
           id="message"
-          className="bg-white border-black rounded border w-2/3"
+          className=" transition duration-1000 bg-white border-black rounded border w-2/3"
         />
         <br />
         <input

@@ -59,7 +59,7 @@ const Imagebox = (props: props) => {
       }
       className={finalstyle}
     >
-      <div className=" bg-white rounded-sm border-black border-2 -translate-y-2 -translate-x-2 text-black w-full h-full dark:bg-slate-500 dark:text-white pl-16 pb-2 pr-16 pt-2 gap-x-16">
+      <div className="  transition duration-1000 bg-white rounded-sm border-black border-2 -translate-y-2 -translate-x-2 text-black w-full h-full dark:bg-slate-500 dark:text-white pl-16 pb-2 pr-16 pt-2 gap-x-16">
         {text === null ? <></> : <p className="text-center">{text}</p>}
         <div className={style}>{imageslayout}</div>
       </div>
