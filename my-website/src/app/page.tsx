@@ -56,16 +56,22 @@ export default function Home() {
           <Imagebox
             Images={
               new Map<string, string>([
-                ["/python-icon.svg", "/10-python-icon.svg"],
-                ["/java-icon.svg", "/10-java-icon.svg"],
-                ["/javascript-icon.svg", "/10-javascript-icon.svg"],
-                ["/typescript.svg", "/10-typescript.svg"],
-                ["/flask.svg", "/10-flask.svg"],
-                ["/postgresql.svg", "/10-postgresql.svg"],
-                ["/next-js.svg", "/10-next-js.svg"],
-                ["/react.svg", "/10-react.svg"],
-                ["/nodejs-icon.svg", "/10-nodejs-icon.svg"],
-                ["/docker-tile.svg", "/10-docker-tile.svg"],
+                ["/python-icon.svg", "https://www.python.org/"],
+                [
+                  "/java-icon.svg",
+                  "https://www.java.com/en/download/help/whatis_java.html",
+                ],
+                ["/javascript-icon.svg", "https://www.javascript.com/"],
+                ["/typescript.svg", "https://www.typescriptlang.org/"],
+                ["/flask.svg", "https://palletsprojects.com/p/flask/"],
+                [
+                  "/postgresql.svg",
+                  "https://www.postgresql.org/docs/current/intro-whatis.html",
+                ],
+                ["/next-js.svg", "https://nextjs.org/docs"],
+                ["/react.svg", "https://react.dev/"],
+                ["/nodejs-icon.svg", "https://nodejs.org/en/about"],
+                ["/docker-tile.svg", "https://docs.docker.com/get-started/"],
               ])
             }
             styling={
