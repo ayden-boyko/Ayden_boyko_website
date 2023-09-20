@@ -8,7 +8,7 @@ import Projectbox from "./components/Projectbox";
 
 export const metadata: Metadata = {
   title: "Home",
-  description: "Welcome to my Website",
+  description: "Welcome to my personal software engineering website",
 };
 
 export default function Home() {
@@ -96,7 +96,7 @@ export default function Home() {
               For each one, I focused on a specific part of fulllstack development that I was not confident in.
               This allowed me to round out my skills as a developer as well as create fun and interesting projects!
               "
-              style="bg-orange-300 dark:bg-orange-700 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6"
+              style="bg-lime-400 dark:bg-lime-700 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6"
               side="left"
             />
           </div>
@@ -112,7 +112,7 @@ export default function Home() {
                 ])
               }
               boxStyling={
-                " bg-orange-300 dark:bg-orange-700 w-9/12 h-full rounded-sm border-black border-2 "
+                " bg-lime-400 dark:bg-lime-700 w-9/12 h-full rounded-sm border-black border-2 "
               }
               side={"right"}
               text="This Project was my first introduction to frontend development, and I was hooked! 
@@ -122,7 +122,7 @@ export default function Home() {
               change the name of the user who was using the timer (this will change the name displayed when time is logged), 
               It is important to note that this project has no backend, therefore I only allowed one user to be made."
               imageBoxStyling={
-                "inline-flex bg-orange-100 dark:bg-orange-500 rounded-sm border-black border-2 -translate-y-2 translate-x-4 gap-4"
+                "inline-flex bg-lime-200 dark:bg-lime-400 rounded-sm border-black border-2 -translate-y-2 translate-x-4 gap-4"
               }
               imageStyle={"rounded-full bg-white md:bg-white md:rounded-md"}
               projectImage={"/React_client_page.jpeg"}
@@ -138,13 +138,13 @@ export default function Home() {
                 ])
               }
               boxStyling={
-                "bg-orange-300 dark:bg-orange-700 w-9/12 h-full rounded-sm border-black border-2"
+                "bg-lime-400 dark:bg-lime-700 w-9/12 h-full rounded-sm border-black border-2"
               }
               side={"left"}
               text="This Project is actually my personal website. It was made using Nextjs version 13 and tailwindcss. 
               Both of which I had no prior experience using so this was a big learning experience for me."
               imageBoxStyling={
-                "inline-flex bg-orange-100 dark:bg-orange-500 rounded-sm border-black border-2 -translate-y-2 -translate-x-4 gap-4"
+                "inline-flex bg-lime-200 dark:bg-lime-500 rounded-sm border-black border-2 -translate-y-2 -translate-x-4 gap-4"
               }
               imageStyle={"rounded-full bg-white"}
               projectImage={"/homepage.jpg"}
@@ -160,7 +160,7 @@ export default function Home() {
                 ])
               }
               boxStyling={
-                "bg-orange-300 dark:bg-orange-700 w-10/12 h-full rounded-sm border-black border-2 "
+                "bg-lime-400 dark:bg-lime-700 w-10/12 h-full rounded-sm border-black border-2 "
               }
               side={"right"}
               text="This project is a mock rideshare backend. The Database I used was Postgresql.
@@ -169,7 +169,7 @@ export default function Home() {
               this includes: creating/deleting accounts, finding rides, starting rides,
               carpooling, leaving reviews for riders and drivers, and also responding to reviews."
               imageBoxStyling={
-                "inline-flex bg-orange-100 dark:bg-orange-500 rounded-sm border-black border-2 -translate-y-2 translate-x-4 gap-4"
+                "inline-flex bg-lime-200 dark:bg-lime-500 rounded-sm border-black border-2 -translate-y-2 translate-x-4 gap-4"
               }
               imageStyle={"rounded-full bg-white"}
               projectImage={"/React_client_page.jpeg"}
@@ -194,7 +194,7 @@ export default function Home() {
                     ])
                   }
                   styling={
-                    " invisible bg-amber-300 dark:bg-amber-700 w-10/12 h-10/12 rounded-sm border-black border-2 my-16 "
+                    " invisible bg-teal-400 dark:bg-teal-700 w-10/12 h-10/12 rounded-sm border-black border-2 my-16 "
                   }
                   animation={"animate-left"}
                   text={"Reach out to me through these other ways"}
@@ -207,7 +207,7 @@ export default function Home() {
                 ></Imagebox>
               </div>
               <div>
-                <ContactMe style=" invisible rounded-sm border-black border-2 bg-amber-300 dark:bg-amber-700 my-16 w-full h-full md:w-full md:h-auto sm:w-4/6 sm:h-3/6"></ContactMe>
+                <ContactMe style=" invisible rounded-sm border-black border-2 bg-teal-400 dark:bg-teal-700 my-16 w-full h-full md:w-full md:h-auto sm:w-4/6 sm:h-3/6"></ContactMe>
               </div>
             </div>
           </div>

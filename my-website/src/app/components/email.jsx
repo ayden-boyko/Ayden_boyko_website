@@ -1,8 +1,12 @@
 "use client";
 import React, { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
 import ReCAPTCHA from "react-google-recaptcha";
 import { InView } from "react-intersection-observer";
+import dynamic from "next/dynamic";
+
+const email = dynamic(() => import("@emailjs/browser"), {
+  loading: () => <p>Email Widget Loading</p>,
+});
 
 const ContactMe = (props) => {
   const { style } = props;
@@ -12,7 +16,7 @@ const ContactMe = (props) => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
+    email
       .sendForm(
         process.env.SERVICE_CODE,
         process.env.TEMPLATE_CODE,
