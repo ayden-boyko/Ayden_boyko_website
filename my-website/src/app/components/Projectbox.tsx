@@ -5,24 +5,28 @@ import { InView } from "react-intersection-observer";
 
 type props = {
   Images: Map<string, string>;
+  imagesSize: number;
   boxStyling: string;
   side: string;
   text: string;
   imageBoxStyling: string;
   imageStyle: string;
   projectImage: string;
+  projectImageSize: number;
   projectLink: string;
 };
 
 const Projectbox = (props: props) => {
   const {
     Images,
+    imagesSize,
     boxStyling,
     side,
     text,
     imageBoxStyling,
     imageStyle,
     projectImage,
+    projectImageSize,
     projectLink,
   } = props;
   const imageslayout = Array.from(Images).map(([key, value]) => {
@@ -38,8 +42,8 @@ const Projectbox = (props: props) => {
           <Image
             src={key}
             alt="Icon"
-            width={200}
-            height={200}
+            width={imagesSize}
+            height={imagesSize}
             className={imageStyle}
           />
         </a>
@@ -62,9 +66,9 @@ const Projectbox = (props: props) => {
           className={finalstyle}
         >
           <div className=" flex flex-row">
-            <div className="m-4 ">
+            <div className="">
               <a
-                className=" w-10/12 h-4/6 m-2"
+                className=" w-10/12 h-4/6"
                 href={projectLink}
                 aria-label="label"
                 target="_blank"
@@ -73,9 +77,9 @@ const Projectbox = (props: props) => {
                 <Image
                   src={projectImage}
                   alt={projectImage}
-                  width={200}
-                  height={200}
-                  className="rounded-sm border border-black"
+                  width={projectImageSize}
+                  height={projectImageSize}
+                  className="rounded-sm border border-black ml-2 mt-2"
                 />
               </a>
             </div>
@@ -121,8 +125,8 @@ const Projectbox = (props: props) => {
                 <Image
                   src={projectImage}
                   alt={projectImage}
-                  width={200}
-                  height={200}
+                  width={projectImageSize}
+                  height={projectImageSize}
                   className="rounded-sm border border-black"
                 />
               </a>

@@ -111,6 +111,7 @@ export default function Home() {
                   ["/react.svg", "https://react.dev/"],
                 ])
               }
+              imagesSize={200}
               boxStyling={
                 " bg-lime-400 dark:bg-lime-700 w-9/12 h-full rounded-sm border-black border-2 "
               }
@@ -124,8 +125,9 @@ export default function Home() {
               imageBoxStyling={
                 "inline-flex bg-lime-200 dark:bg-lime-400 rounded-sm border-black border-2 -translate-y-2 translate-x-4 gap-4"
               }
-              imageStyle={"rounded-full bg-white md:bg-white md:rounded-md"}
+              imageStyle={"rounded-full bg-white "}
               projectImage={"/React_client_page.jpeg"}
+              projectImageSize={600}
               projectLink={"https://github.com/ayden-boyko/React-Timer"}
             ></Projectbox>
           </div>
@@ -137,8 +139,9 @@ export default function Home() {
                   ["/next-js.svg", "https://nextjs.org/"],
                 ])
               }
+              imagesSize={150}
               boxStyling={
-                "bg-lime-400 dark:bg-lime-700 w-9/12 h-full rounded-sm border-black border-2"
+                "bg-lime-400 dark:bg-lime-700 w-9/12 h-2/6 rounded-sm border-black border-2"
               }
               side={"left"}
               text="This Project is actually my personal website. It was made using Nextjs version 13 and tailwindcss. 
@@ -148,6 +151,7 @@ export default function Home() {
               }
               imageStyle={"rounded-full bg-white"}
               projectImage={"/homepage.jpg"}
+              projectImageSize={300}
               projectLink={"https://github.com/ayden-boyko/Website"}
             ></Projectbox>
           </div>
@@ -155,12 +159,16 @@ export default function Home() {
             <Projectbox
               Images={
                 new Map<string, string>([
-                  ["/postgresql2.svg", ""],
-                  ["/flask.svg", ""],
+                  [
+                    "/postgresql2.svg",
+                    "https://www.postgresql.org/docs/current/intro-whatis.html",
+                  ],
+                  ["/flask.svg", "https://palletsprojects.com/p/flask/"],
                 ])
               }
+              imagesSize={250}
               boxStyling={
-                "bg-lime-400 dark:bg-lime-700 w-10/12 h-full rounded-sm border-black border-2 "
+                "bg-lime-400 dark:bg-lime-700 w-9/12 h-full rounded-sm border-black border-2 "
               }
               side={"right"}
               text="This project is a mock rideshare backend. The Database I used was Postgresql.
@@ -172,43 +180,45 @@ export default function Home() {
                 "inline-flex bg-lime-200 dark:bg-lime-500 rounded-sm border-black border-2 -translate-y-2 translate-x-4 gap-4"
               }
               imageStyle={"rounded-full bg-white"}
-              projectImage={"/React_client_page.jpeg"}
+              projectImage={"/rideshare.svg"}
+              projectImageSize={700}
               projectLink={"https://github.com/ayden-boyko/React-Timer"}
             ></Projectbox>
           </div>
           {/** Contact */}
-          <div className="pb-5" id="Contact">
-            <div className="grid grid-cols-2 grid-rows-1 gap-64">
-              <div>
-                <Imagebox
-                  Images={
-                    new Map<string, string>([
-                      [
-                        "/discordapp.svg",
-                        "https://discordapp.com/users/bb_tornado",
-                      ],
-                      [
-                        "/linkedin.svg",
-                        "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
-                      ],
-                    ])
-                  }
-                  styling={
-                    " invisible bg-teal-400 dark:bg-teal-700 w-10/12 h-10/12 rounded-sm border-black border-2 my-16 "
-                  }
-                  animation={"animate-left"}
-                  text={"Reach out to me through these other ways"}
-                  size={250}
-                  imageStyle={" bg-white p-2 rounded-full "}
-                  gridStyle={
-                    "flex flex-col items-center dark:bg-slate-500 gap-x-16 "
-                  }
-                  linkStyle={"w-10/12 h-4/6 m-2 py-4 rounded-full "}
-                ></Imagebox>
-              </div>
-              <div>
-                <ContactMe style=" invisible rounded-sm border-black border-2 bg-teal-400 dark:bg-teal-700 my-16 w-full h-full md:w-full md:h-auto sm:w-4/6 sm:h-3/6"></ContactMe>
-              </div>
+          <div
+            className="pb-5 grid grid-cols-2 grid-rows-1 gap-64"
+            id="Contact"
+          >
+            <div>
+              <Imagebox
+                Images={
+                  new Map<string, string>([
+                    [
+                      "/discordapp.svg",
+                      "https://discordapp.com/users/bb_tornado",
+                    ],
+                    [
+                      "/linkedin.svg",
+                      "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
+                    ],
+                  ])
+                }
+                styling={
+                  " invisible bg-teal-400 dark:bg-teal-700 w-10/12 h-10/12 rounded-sm border-black border-2 my-16 "
+                }
+                animation={"animate-left"}
+                text={"Reach out to me through these other ways"}
+                size={250}
+                imageStyle={" bg-white p-2 rounded-full "}
+                gridStyle={
+                  "flex flex-col items-center dark:bg-slate-500 gap-x-16 "
+                }
+                linkStyle={"w-10/12 h-4/6 m-2 py-4 rounded-full "}
+              ></Imagebox>
+            </div>
+            <div>
+              <ContactMe style=" invisible rounded-sm border-black border-2 bg-teal-400 dark:bg-teal-700 my-16 w-full h-full md:w-full md:h-auto sm:w-4/6 sm:h-3/6"></ContactMe>
             </div>
           </div>
         </div>
