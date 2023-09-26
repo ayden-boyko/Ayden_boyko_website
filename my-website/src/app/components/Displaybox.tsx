@@ -28,7 +28,7 @@ const Displaybox = (text: textboxinfo) => {
         }
         className={style1}
       >
-        <p className=" transition duration-1000 bg-slate-200 text-black -translate-x-2 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 px-2 py-2 animate-none">
+        <p className=" transition duration-1000 bg-white text-black -translate-x-2 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 px-2 py-2 animate-none">
           {content}
         </p>
       </InView>
@@ -46,7 +46,7 @@ const Displaybox = (text: textboxinfo) => {
         }
         className={style2}
       >
-        <div className=" transition duration-1000 bg-slate-200 text-black -translate-x-2 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 px-2 py-2 animate-none">
+        <div className=" transition duration-1000 bg-white text-black -translate-x-2 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 px-2 py-2 animate-none">
           {content}
         </div>
       </InView>
@@ -64,7 +64,7 @@ const Displaybox = (text: textboxinfo) => {
         }
         className={style2}
       >
-        <div className=" transition duration-1000 bg-slate-200 text-black translate-x-2 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 px-2 py-2 animate-none">
+        <div className=" transition duration-1000 bg-white text-black translate-x-2 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 px-2 py-2 animate-none">
           {content}
         </div>
       </InView>
@@ -82,7 +82,7 @@ const Displaybox = (text: textboxinfo) => {
         }
         className={style2}
       >
-        <div className=" transition duration-1000 bg-slate-200 text-black -translate-x-2 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 px-2 py-2 animate-none">
+        <div className=" transition duration-1000 bg-white text-black -translate-x-2 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 px-2 py-2 animate-none">
           {content}
         </div>
       </InView>
