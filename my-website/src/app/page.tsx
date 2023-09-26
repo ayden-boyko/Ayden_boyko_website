@@ -113,7 +113,7 @@ export default function Home() {
               }
               imagesSize={200}
               boxStyling={
-                " bg-lime-400 dark:bg-lime-700 w-9/12 h-full rounded-sm border-black border-2 "
+                " bg-lime-400 dark:bg-lime-700 w-9/12 h-9/12 rounded-sm border-black border-2 "
               }
               side={"right"}
               text="This Project was my first introduction to frontend development, and I was hooked! 
@@ -125,9 +125,10 @@ export default function Home() {
               imageBoxStyling={
                 "inline-flex bg-lime-200 dark:bg-lime-400 rounded-sm border-black border-2 -translate-y-2 translate-x-4 gap-4"
               }
-              imageStyle={"rounded-full bg-white "}
+              imageStyle={"rounded-full  bg-white"}
               projectImage={"/React_client_page.jpeg"}
-              projectImageSize={600}
+              projectImageSize={640}
+              projectImageStyle="rounded-sm border border-black m-2"
               projectLink={"https://github.com/ayden-boyko/React-Timer"}
             ></Projectbox>
           </div>
@@ -149,9 +150,10 @@ export default function Home() {
               imageBoxStyling={
                 "inline-flex bg-lime-200 dark:bg-lime-500 rounded-sm border-black border-2 -translate-y-2 -translate-x-4 gap-4"
               }
-              imageStyle={"rounded-full bg-white"}
+              imageStyle={"rounded-full bg-white -translate-x-2"}
               projectImage={"/homepage.jpg"}
-              projectImageSize={300}
+              projectImageSize={400}
+              projectImageStyle="rounded-sm border border-black m-2 -translate-x-4"
               projectLink={"https://github.com/ayden-boyko/Website"}
             ></Projectbox>
           </div>
@@ -181,7 +183,8 @@ export default function Home() {
               }
               imageStyle={"rounded-full bg-white"}
               projectImage={"/rideshare.svg"}
-              projectImageSize={700}
+              projectImageSize={750}
+              projectImageStyle="rounded-sm border border-black m-2"
               projectLink={"https://github.com/ayden-boyko/React-Timer"}
             ></Projectbox>
           </div>

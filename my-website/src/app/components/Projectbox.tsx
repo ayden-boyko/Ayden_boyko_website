@@ -13,6 +13,7 @@ type props = {
   imageStyle: string;
   projectImage: string;
   projectImageSize: number;
+  projectImageStyle: string;
   projectLink: string;
 };
 
@@ -27,6 +28,7 @@ const Projectbox = (props: props) => {
     imageStyle,
     projectImage,
     projectImageSize,
+    projectImageStyle,
     projectLink,
   } = props;
   const imageslayout = Array.from(Images).map(([key, value]) => {
@@ -79,7 +81,7 @@ const Projectbox = (props: props) => {
                   alt={projectImage}
                   width={projectImageSize}
                   height={projectImageSize}
-                  className="rounded-sm border border-black ml-2 mt-2"
+                  className={projectImageStyle}
                 />
               </a>
             </div>
@@ -114,9 +116,9 @@ const Projectbox = (props: props) => {
               </div>
               <div className="flex flex-col justify-center">{imageslayout}</div>
             </div>
-            <div className="m-4 ">
+            <div className="">
               <a
-                className=" w-10/12 h-4/6 m-2"
+                className=" w-10/12 h-4/6"
                 href={projectLink}
                 aria-label="label"
                 target="_blank"
@@ -127,7 +129,7 @@ const Projectbox = (props: props) => {
                   alt={projectImage}
                   width={projectImageSize}
                   height={projectImageSize}
-                  className="rounded-sm border border-black"
+                  className={projectImageStyle}
                 />
               </a>
             </div>
