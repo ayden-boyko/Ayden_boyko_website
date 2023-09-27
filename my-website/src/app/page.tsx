@@ -22,37 +22,40 @@ export default function Home() {
           </div>
 
           {/** About Me */}
-          <div className="inline-flex 2xl:my-10 xl:my-6" id="About_Me">
+          <div
+            className="inline-flex 2xl:my-10 md:my-6 sm:my-6 sm:mt-24 min-[280px]:m-20"
+            id="About_Me"
+          >
             <Displaybox
               content="Hello and welcome to my website! My name is Ayden Boyko. 
               I am currently a third year Software Enginner at Rochester Institute of Technology.
               I enjoy Fullstack development, and experimenting with new technologies"
-              style="bg-red-400 dark:bg-red-700 2xl:w-2/6 2xl:h-2/6 sm:w-full sm:h-full md:w-3/6 md:h-3/6 "
+              style="bg-red-400 dark:bg-red-700 2xl:w-2/6 2xl:h-2/6 xl:w-4/6 xl:h-4/6 lg:w-4/6 lg:h-4/6 md:w-5/6 md:h-auto sm:w-full sm:h-full  "
               side="left"
               initial={true}
             />
           </div>
-          <div className="inline-flex flex-row-reverse 2xl:my-10 xl:my-6">
+          <div className="inline-flex flex-row-reverse 2xl:my-10 md:my-6 sm:my-6">
             <Displaybox
               content="My coding journey began when I was very young. I learned how to make games with Scratch when I was around 10/11 years old.
               I continued to do so for a couple more years before falling out of love with it.
               It wasn't until the 10th grade when I re-developed my love for coding during a computer science class.
               I was so interested that I took college coding classes during the summer in order to learn more."
-              style="bg-red-400 dark:bg-red-700 2xl:w-2/6 2xl:h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6"
+              style="bg-red-400 dark:bg-red-700 2xl:w-2/6 2xl:h-2/6 xl:w-4/6 xl:h-4/6 lg:w-4/6 lg:h-4/6 md:w-5/6 md:h-auto sm:w-5/6 sm:h-3/6"
               side="right"
               initial={true}
             />
           </div>
-          <div className="inline-flex 2xl:my-10 xl:my-6">
+          <div className="inline-flex 2xl:my-10 md:my-6 sm:my-6">
             <Displaybox
               content="This love of coding has stuck with me as I continue my software development journey.
               As a matter of fact this website was my introduction into Nextjs and Tailwindcss!"
-              style="bg-red-400 dark:bg-red-700 2xl:w-2/6 2xl:h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6 "
+              style="bg-red-400 dark:bg-red-700 2xl:w-2/6 2xl:h-2/6 xl:w-4/6 xl:h-4/6 lg:w-4/6 lg:h-4/6 md:w-5/6 md:h-auto sm:w-4/6 sm:h-3/6 "
               side="left"
               initial={true}
             />
           </div>
-          {/** About Me texhnology */}
+          {/** About Me technology */}
           <Imagebox
             Images={
               new Map<string, string>([
@@ -75,7 +78,7 @@ export default function Home() {
               ])
             }
             styling={
-              " transition duration-1000 invisible bg-red-400 dark:bg-red-700 2xl:w-9/12 2xl:h-7/12 2xl:my-10 xl:my-6 rounded-sm border-black border-2 "
+              " transition duration-1000 invisible bg-red-400 dark:bg-red-700 2xl:w-9/12 2xl:h-7/12 2xl:my-10 xl:w-11/12 xl:h-10/12 xl:my-6 lg:w-11/12 lg:h-10/12 lg:my-6 sm:my-6 rounded-sm border-black border-2 "
             }
             animation={"initial-load-left"}
             size={60}
@@ -90,17 +93,17 @@ export default function Home() {
           ></Imagebox>
 
           {/** Projects */}
-          <div className="inline-flex 2xl:my-10 xl:my-6" id="Projects">
+          <div className="inline-flex 2xl:my-10 md:my-6 sm:my-6" id="Projects">
             <Displaybox
               content="Below Are My projects.
               For each one, I focused on a specific part of fulllstack development that I was not confident in.
               This allowed me to round out my skills as a developer as well as create fun and interesting projects!
               "
-              style="bg-lime-400 dark:bg-lime-700 2xl:w-2/6 2xl:h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6"
+              style="bg-lime-400 dark:bg-lime-700 2xl:w-2/6 2xl:h-2/6 xl:w-4/6 xl:h-4/6 lg:w-4/6 lg:h-4/6 md:w-5/6 md:h-auto sm:w-4/6 sm:h-3/6"
               side="left"
             />
           </div>
-          <div className="inline-flex flex-row-reverse 2xl:my-10">
+          <div className="inline-flex flex-row-reverse 2xl:my-10 md:my-6 sm:my-6">
             <Projectbox
               Images={
                 new Map<string, string>([
@@ -111,9 +114,9 @@ export default function Home() {
                   ["/react.svg", "https://react.dev/"],
                 ])
               }
-              iconSize={200}
+              iconSize={300}
               backboxStyling={
-                " bg-lime-400 dark:bg-lime-700 2xl:w-9/12 2xl:h-9/12 rounded-sm border-black border-2 "
+                " bg-lime-400 dark:bg-lime-700 2xl:w-9/12 2xl:h-9/12 xl:w-11/12 xl:h-10/12 rounded-sm border-black border-2 "
               }
               side={"right"}
               text="This Project was my first introduction to frontend development, and I was hooked! 
@@ -123,16 +126,18 @@ export default function Home() {
               change the name of the user who was using the timer (this will change the name displayed when time is logged), 
               It is important to note that this project has no backend, therefore I only allowed one user to be made."
               secondBoxStyling={
-                "inline-flex bg-lime-200 dark:bg-lime-400 rounded-sm border-black border-2 2xl:-translate-y-2 2xl:translate-x-4 gap-4"
+                "inline-flex bg-lime-200 dark:bg-lime-400 rounded-sm border-black border-2 -translate-y-2 translate-x-4 gap-4  "
               }
-              iconStyle={"rounded-full  bg-white"}
+              iconStyle={
+                "rounded-full bg-white border-grey xl:scale-[.8] xl:-my-1 border-2 "
+              }
               projectImage={"/React_client_page.jpeg"}
               projectImageSize={640}
-              projectImageStyle="rounded-sm border border-black m-2"
+              projectImageStyle="rounded-sm border-2 border-black m-2 xl:translate-x-1 lg:translate-y-3 md:translate-y-4"
               projectLink={"https://github.com/ayden-boyko/React-Timer"}
             ></Projectbox>
           </div>
-          <div className="inline-flex flex-row 2xl:my-10 xl:my-6">
+          <div className="inline-flex flex-row 2xl:my-10 md:my-6 sm:my-6">
             <Projectbox
               Images={
                 new Map<string, string>([
@@ -142,22 +147,24 @@ export default function Home() {
               }
               iconSize={150}
               backboxStyling={
-                "bg-lime-400 dark:bg-lime-700 2xl:w-9/12 2xl:h-2/6 rounded-sm border-black border-2"
+                "bg-lime-400 dark:bg-lime-700 2xl:w-9/12 2xl:h-2/6 xl:w-10/12 xl:h-10/12 rounded-sm border-black border-2"
               }
               side={"left"}
               text="This Project is actually my personal website. It was made using Nextjs version 13 and tailwindcss. 
               Both of which I had no prior experience using so this was a big learning experience for me."
               secondBoxStyling={
-                "inline-flex bg-lime-200 dark:bg-lime-500 rounded-sm border-black border-2 2xl:-translate-y-2 2xl:-translate-x-4 2xl:gap-4"
+                "inline-flex bg-lime-200 dark:bg-lime-500 rounded-sm border-black border-2 -translate-y-2 -translate-x-4 gap-4"
               }
-              iconStyle={"rounded-full bg-white -translate-x-2"}
+              iconStyle={
+                "rounded-full bg-white border-grey border-2 2xl:-translate-x-2 xl:-translate-x-3 xl:scale-110 lg:-translate-x-3 lg:scale-125 md:scale-150 md:-translate-x-3 sm:-translate-x-3 sm:scale-150 sm:my-2"
+              }
               projectImage={"/homepage.jpg"}
               projectImageSize={400}
-              projectImageStyle="rounded-sm border border-black m-2 -translate-x-4"
+              projectImageStyle="rounded-sm border-2 border-black m-2 2xl:-translate-x-4 xl:-translate-x-5 md:translate-y-2 sm:-translate-x-4"
               projectLink={"https://github.com/ayden-boyko/Website"}
             ></Projectbox>
           </div>
-          <div className="inline-flex flex-row-reverse 2xl:my-10">
+          <div className="inline-flex flex-row-reverse 2xl:my-10 md:my-6 sm:my-6">
             <Projectbox
               Images={
                 new Map<string, string>([
@@ -170,7 +177,7 @@ export default function Home() {
               }
               iconSize={250}
               backboxStyling={
-                "bg-lime-400 dark:bg-lime-700 2xl:w-9/12 2xl:h-full rounded-sm border-black border-2 "
+                "bg-lime-400 dark:bg-lime-700 2xl:w-9/12 2xl:h-full xl:w-10/12 xl:h-10/12 lg:w-auto lg:h-auto rounded-sm border-black border-2 "
               }
               side={"right"}
               text="This project is a mock rideshare backend. The Database I used was Postgresql.
@@ -179,18 +186,20 @@ export default function Home() {
               this includes: creating/deleting accounts, finding rides, starting rides,
               carpooling, leaving reviews for riders and drivers, and also responding to reviews."
               secondBoxStyling={
-                "inline-flex bg-lime-200 dark:bg-lime-500 rounded-sm border-black border-2 2xl:-translate-y-2 2xl:translate-x-4 2xl:gap-4"
+                "inline-flex bg-lime-200 dark:bg-lime-500 rounded-sm border-black border-2 -translate-y-2 translate-x-4 xl:ml-4 md:gap-2"
               }
-              iconStyle={"rounded-full bg-white"}
+              iconStyle={
+                "rounded-full bg-white border-grey border-2 xl:scale-125 xl:my-2 xl:-translate-x-2.5 lg:-translate-x-2 lg:scale-125 lg:my-1 md:scale-150 md:-translate-x-1.5 md:my-1 "
+              }
               projectImage={"/rideshare.svg"}
               projectImageSize={750}
-              projectImageStyle="rounded-sm border border-black 2xl:m-2"
+              projectImageStyle="rounded-sm border-2 border-black 2xl:m-2 xl:scale-[1.2] xl:translate-y-8 xl:translate-x-5 lg:translate-x-2 lg:translate-y-4 md:translate-y-8 sm:translate-y-2 sm:translate-x-2"
               projectLink={"https://github.com/ayden-boyko/React-Timer"}
             ></Projectbox>
           </div>
           {/** Contact */}
           <div
-            className="pb-5 grid grid-cols-2 grid-rows-1 2xl:gap-64 2xl:my-10 xl:my-6 xl:gap-32"
+            className="pb-5 grid grid-cols-2 grid-rows-1 2xl:gap-64 2xl:my-10 xl:my-6 xl:gap-32 lg:gap-24 lg:my-6 md:gap-14 sm:my-6 sm:gap-10"
             id="Contact"
           >
             <div>
@@ -215,13 +224,13 @@ export default function Home() {
                 size={250}
                 imageStyle={" bg-white p-2 rounded-full "}
                 gridStyle={
-                  "flex flex-col items-center dark:bg-slate-500 2xl:gap-x-16 "
+                  "flex flex-col items-center dark:bg-slate-500 2xl:gap-16 md:gap-2"
                 }
                 linkStyle={"2xl:w-10/12 2xl:h-4/6 m-2 py-4 rounded-full "}
               ></Imagebox>
             </div>
             <div>
-              <ContactMe style=" invisible rounded-sm border-black border-2 bg-teal-400 dark:bg-teal-700 2xl:my-10 2xl:w-full 2xl:h-fit xl:w-full md:w-full md:h-auto sm:w-4/6 sm:h-3/6 "></ContactMe>
+              <ContactMe style=" invisible rounded-sm border-black border-2 bg-teal-400 dark:bg-teal-700 2xl:my-10 2xl:w-full 2xl:h-fit xl:w-full md:w-full lg:w-full lg:h-4/6 md:h-auto sm:w-5/6 sm:h-auto "></ContactMe>
             </div>
           </div>
         </div>

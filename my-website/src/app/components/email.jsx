@@ -51,7 +51,7 @@ const ContactMe = (props) => {
       <form
         ref={form}
         onSubmit={sendEmail}
-        className=" transition duration-1000 bg-white text-black translate-x-2 -translate-y-2 rounded-sm border-black border-2 p-2 dark:bg-slate-500"
+        className=" transition duration-1000 bg-white text-black translate-x-2 -translate-y-2 rounded-sm border-black border-2 p-2 dark:bg-slate-500 md:py-4 md:h-64 sm:h-60"
       >
         <label className="dark:text-white">Name</label>
         <br />
@@ -59,7 +59,7 @@ const ContactMe = (props) => {
           type="text"
           name="user_name"
           id="user_name"
-          className=" transition duration-1000 bg-white border-black rounded border text-black "
+          className=" transition duration-1000 bg-white border-black rounded border text-black sm:w-5/6"
         />
         <br />
         <label className="dark:text-white">Email</label>
@@ -68,7 +68,7 @@ const ContactMe = (props) => {
           type="email"
           name="email"
           id="email"
-          className=" transition duration-1000 bg-white border-black rounded border text-black "
+          className=" transition duration-1000 bg-white border-black rounded border text-black sm:w-5/6"
         />
         <br />
         <label className="dark:text-white">Message</label>
@@ -88,7 +88,7 @@ const ContactMe = (props) => {
         <ReCAPTCHA
           size="normal"
           sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
-          className="m-2 -translate-x-2 "
+          className="m-2 -translate-x-2 lg:visible min-[300px]:invisible"
         />
       </form>
     </InView>
