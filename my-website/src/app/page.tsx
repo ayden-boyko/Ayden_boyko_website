@@ -229,9 +229,6 @@ export default function Home() {
                 linkStyle={"2xl:w-10/12 2xl:h-4/6 m-2 py-4 rounded-full "}
               ></Imagebox>
             </div>
-            <div>
-              <ContactMe style=" invisible rounded-sm border-black border-2 bg-teal-400 dark:bg-teal-700 2xl:my-10 2xl:w-full 2xl:h-fit xl:w-full md:w-full lg:w-full lg:h-4/6 md:h-auto sm:w-5/6 sm:h-auto "></ContactMe>
-            </div>
           </div>
         </div>
       </div>
