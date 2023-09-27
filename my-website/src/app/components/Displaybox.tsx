@@ -56,11 +56,7 @@ const Displaybox = (text: textboxinfo) => {
       <InView
         as="div"
         onChange={(inView, entry) =>
-          inView
-            ? setStyle2(
-                style2.replace("invisible", "visible") + " initial-load-right "
-              )
-            : ""
+          inView ? setStyle2(style2 + " initial-load-right ") : ""
         }
         className={style2}
       >
@@ -74,11 +70,7 @@ const Displaybox = (text: textboxinfo) => {
       <InView
         as="div"
         onChange={(inView, entry) =>
-          inView
-            ? setStyle2(
-                style2.replace("invisible", "visible") + " initial-load-left "
-              )
-            : ""
+          inView ? setStyle2(style2 + " initial-load-left ") : ""
         }
         className={style2}
       >
