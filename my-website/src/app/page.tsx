@@ -160,7 +160,7 @@ export default function Home() {
               }
               projectImage={"/homepage.jpg"}
               projectImageSize={400}
-              projectImageStyle="rounded-sm border-2 border-black m-2 2xl:-translate-x-4 xl:-translate-x-5 md:translate-y-2 sm:-translate-x-4"
+              projectImageStyle="rounded-sm border-2 border-black m-2 2xl:-translate-x-4 xl:-translate-x-5 md:translate-y-0 sm:-translate-x-4"
               projectLink={"https://github.com/ayden-boyko/Website"}
             ></Projectbox>
           </div>
