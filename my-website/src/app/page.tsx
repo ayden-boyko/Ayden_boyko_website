@@ -133,7 +133,7 @@ export default function Home() {
               }
               projectImage={"/React_client_page.jpeg"}
               projectImageSize={640}
-              projectImageStyle="rounded-sm border-2 border-black m-2 xl:translate-x-1 lg:translate-y-1.5 md:translate-y-4"
+              projectImageStyle="rounded-sm border-2 border-black m-2 xl:translate-x-1 lg:translate-y-1 md:translate-y-4"
               projectLink={"https://github.com/ayden-boyko/React-Timer"}
             ></Projectbox>
           </div>
