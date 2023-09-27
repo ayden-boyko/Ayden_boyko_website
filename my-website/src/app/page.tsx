@@ -189,11 +189,11 @@ export default function Home() {
                 "inline-flex bg-lime-200 dark:bg-lime-500 rounded-sm border-black border-2 -translate-y-2 translate-x-4 xl:ml-4 md:gap-2"
               }
               iconStyle={
-                "rounded-full bg-white border-grey border-2 xl:scale-125 xl:my-2 xl:-translate-x-3.5 xl:translate-y-1.5 lg:-translate-x-2 lg:scale-125 lg:my-1 md:scale-150 md:-translate-x-1.5 md:my-1 "
+                "rounded-full bg-white border-grey border-2 xl:scale-125 xl:my-2 xl:-translate-x-2 xl:translate-y-0 lg:-translate-x-2 lg:scale-125 lg:my-1 md:scale-150 md:-translate-x-1.5 md:my-1 "
               }
               projectImage={"/rideshare.svg"}
               projectImageSize={750}
-              projectImageStyle="rounded-sm border-2 border-black 2xl:m-2 lg:translate-x-2 lg:-translate-y-3 md:translate-y-0 sm:translate-y-2 sm:translate-x-2"
+              projectImageStyle="rounded-sm border-2 border-black 2xl:m-2 lg:translate-x-2.5 lg:translate-y-1 md:translate-y-0 sm:translate-y-2 sm:translate-x-2"
               projectLink={"https://github.com/ayden-boyko/React-Timer"}
             ></Projectbox>
           </div>
