@@ -5,12 +5,12 @@ import { InView } from "react-intersection-observer";
 
 type props = {
   Images: Map<string, string>;
-  imagesSize: number;
-  boxStyling: string;
+  iconSize: number;
+  backboxStyling: string;
   side: string;
   text: string;
-  imageBoxStyling: string;
-  imageStyle: string;
+  secondBoxStyling: string;
+  iconStyle: string;
   projectImage: string;
   projectImageSize: number;
   projectImageStyle: string;
@@ -20,12 +20,12 @@ type props = {
 const Projectbox = (props: props) => {
   const {
     Images,
-    imagesSize,
-    boxStyling,
+    iconSize,
+    backboxStyling,
     side,
     text,
-    imageBoxStyling,
-    imageStyle,
+    secondBoxStyling,
+    iconStyle,
     projectImage,
     projectImageSize,
     projectImageStyle,
@@ -44,15 +44,17 @@ const Projectbox = (props: props) => {
           <Image
             src={key}
             alt="Icon"
-            width={imagesSize}
-            height={imagesSize}
-            className={imageStyle}
+            width={iconSize}
+            height={iconSize}
+            className={iconStyle}
           />
         </a>
       </div>
     );
   });
-  const [finalstyle, setFinalStyle] = useState(boxStyling.concat(" invisible"));
+  const [finalstyle, setFinalStyle] = useState(
+    backboxStyling.concat(" invisible")
+  );
   switch (side) {
     case "right":
       return (
@@ -85,7 +87,7 @@ const Projectbox = (props: props) => {
                 />
               </a>
             </div>
-            <div className={imageBoxStyling}>
+            <div className={secondBoxStyling}>
               <div className="flex flex-col pl-2 justify-center translate-x-5 scale-125">
                 {imageslayout}
               </div>
@@ -110,7 +112,7 @@ const Projectbox = (props: props) => {
           className={finalstyle}
         >
           <div className=" flex flex-row ">
-            <div className={imageBoxStyling}>
+            <div className={secondBoxStyling}>
               <div className=" transition duration-1000 bg-white text-black -translate-x-4 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 px-2 py-2 animate-none">
                 <p>{text}</p>
               </div>

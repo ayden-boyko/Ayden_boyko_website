@@ -22,32 +22,32 @@ export default function Home() {
           </div>
 
           {/** About Me */}
-          <div className="inline-flex my-16" id="About_Me">
+          <div className="inline-flex 2xl:my-10 xl:my-6" id="About_Me">
             <Displaybox
               content="Hello and welcome to my website! My name is Ayden Boyko. 
               I am currently a third year Software Enginner at Rochester Institute of Technology.
               I enjoy Fullstack development, and experimenting with new technologies"
-              style="bg-red-400 dark:bg-red-700 w-2/6 h-2/6 sm:w-full sm:h-full md:w-3/6 md:h-3/6 "
+              style="bg-red-400 dark:bg-red-700 2xl:w-2/6 2xl:h-2/6 sm:w-full sm:h-full md:w-3/6 md:h-3/6 "
               side="left"
               initial={true}
             />
           </div>
-          <div className="inline-flex flex-row-reverse">
+          <div className="inline-flex flex-row-reverse 2xl:my-10 xl:my-6">
             <Displaybox
               content="My coding journey began when I was very young. I learned how to make games with Scratch when I was around 10/11 years old.
               I continued to do so for a couple more years before falling out of love with it.
               It wasn't until the 10th grade when I re-developed my love for coding during a computer science class.
               I was so interested that I took college coding classes during the summer in order to learn more."
-              style="bg-red-400 dark:bg-red-700 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6"
+              style="bg-red-400 dark:bg-red-700 2xl:w-2/6 2xl:h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6"
               side="right"
               initial={true}
             />
           </div>
-          <div className="inline-flex my-16">
+          <div className="inline-flex 2xl:my-10 xl:my-6">
             <Displaybox
               content="This love of coding has stuck with me as I continue my software development journey.
               As a matter of fact this website was my introduction into Nextjs and Tailwindcss!"
-              style="bg-red-400 dark:bg-red-700 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6 "
+              style="bg-red-400 dark:bg-red-700 2xl:w-2/6 2xl:h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6 "
               side="left"
               initial={true}
             />
@@ -75,7 +75,7 @@ export default function Home() {
               ])
             }
             styling={
-              " transition duration-1000 invisible bg-red-400 dark:bg-red-700 w-9/12 h-7/12 my-16 rounded-sm border-black border-2 "
+              " transition duration-1000 invisible bg-red-400 dark:bg-red-700 2xl:w-9/12 2xl:h-7/12 2xl:my-10 xl:my-6 rounded-sm border-black border-2 "
             }
             animation={"initial-load-left"}
             size={60}
@@ -84,23 +84,23 @@ export default function Home() {
             }
             imageStyle={" transition duration-1000 bg-white rounded-2xl"}
             gridStyle={
-              " transition duration-1000 grid-cols-5 grid place-content-center dark:bg-slate-500 gap-x-16 p-4"
+              " transition duration-1000 grid-cols-5 grid place-content-center dark:bg-slate-500 2xl:gap-x-16 2xl:p-4"
             }
-            linkStyle={" w-10/12 h-4/6 m-2 "}
+            linkStyle={" 2xl:w-10/12 2xl:h-4/6 m-2 "}
           ></Imagebox>
 
           {/** Projects */}
-          <div className="inline-flex my-16" id="Projects">
+          <div className="inline-flex 2xl:my-10 xl:my-6" id="Projects">
             <Displaybox
               content="Below Are My projects.
               For each one, I focused on a specific part of fulllstack development that I was not confident in.
               This allowed me to round out my skills as a developer as well as create fun and interesting projects!
               "
-              style="bg-lime-400 dark:bg-lime-700 w-2/6 h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6"
+              style="bg-lime-400 dark:bg-lime-700 2xl:w-2/6 2xl:h-2/6 md:w-3/6 md:h-3/6 sm:w-4/6 sm:h-3/6"
               side="left"
             />
           </div>
-          <div className="inline-flex flex-row-reverse my-16">
+          <div className="inline-flex flex-row-reverse 2xl:my-10">
             <Projectbox
               Images={
                 new Map<string, string>([
@@ -111,9 +111,9 @@ export default function Home() {
                   ["/react.svg", "https://react.dev/"],
                 ])
               }
-              imagesSize={200}
-              boxStyling={
-                " bg-lime-400 dark:bg-lime-700 w-9/12 h-9/12 rounded-sm border-black border-2 "
+              iconSize={200}
+              backboxStyling={
+                " bg-lime-400 dark:bg-lime-700 2xl:w-9/12 2xl:h-9/12 rounded-sm border-black border-2 "
               }
               side={"right"}
               text="This Project was my first introduction to frontend development, and I was hooked! 
@@ -122,17 +122,17 @@ export default function Home() {
               edit times logged,
               change the name of the user who was using the timer (this will change the name displayed when time is logged), 
               It is important to note that this project has no backend, therefore I only allowed one user to be made."
-              imageBoxStyling={
-                "inline-flex bg-lime-200 dark:bg-lime-400 rounded-sm border-black border-2 -translate-y-2 translate-x-4 gap-4"
+              secondBoxStyling={
+                "inline-flex bg-lime-200 dark:bg-lime-400 rounded-sm border-black border-2 2xl:-translate-y-2 2xl:translate-x-4 gap-4"
               }
-              imageStyle={"rounded-full  bg-white"}
+              iconStyle={"rounded-full  bg-white"}
               projectImage={"/React_client_page.jpeg"}
               projectImageSize={640}
               projectImageStyle="rounded-sm border border-black m-2"
               projectLink={"https://github.com/ayden-boyko/React-Timer"}
             ></Projectbox>
           </div>
-          <div className="inline-flex flex-row my-16">
+          <div className="inline-flex flex-row 2xl:my-10 xl:my-6">
             <Projectbox
               Images={
                 new Map<string, string>([
@@ -140,24 +140,24 @@ export default function Home() {
                   ["/next-js.svg", "https://nextjs.org/"],
                 ])
               }
-              imagesSize={150}
-              boxStyling={
-                "bg-lime-400 dark:bg-lime-700 w-9/12 h-2/6 rounded-sm border-black border-2"
+              iconSize={150}
+              backboxStyling={
+                "bg-lime-400 dark:bg-lime-700 2xl:w-9/12 2xl:h-2/6 rounded-sm border-black border-2"
               }
               side={"left"}
               text="This Project is actually my personal website. It was made using Nextjs version 13 and tailwindcss. 
               Both of which I had no prior experience using so this was a big learning experience for me."
-              imageBoxStyling={
-                "inline-flex bg-lime-200 dark:bg-lime-500 rounded-sm border-black border-2 -translate-y-2 -translate-x-4 gap-4"
+              secondBoxStyling={
+                "inline-flex bg-lime-200 dark:bg-lime-500 rounded-sm border-black border-2 2xl:-translate-y-2 2xl:-translate-x-4 2xl:gap-4"
               }
-              imageStyle={"rounded-full bg-white -translate-x-2"}
+              iconStyle={"rounded-full bg-white -translate-x-2"}
               projectImage={"/homepage.jpg"}
               projectImageSize={400}
               projectImageStyle="rounded-sm border border-black m-2 -translate-x-4"
               projectLink={"https://github.com/ayden-boyko/Website"}
             ></Projectbox>
           </div>
-          <div className="inline-flex flex-row-reverse my-16">
+          <div className="inline-flex flex-row-reverse 2xl:my-10">
             <Projectbox
               Images={
                 new Map<string, string>([
@@ -168,9 +168,9 @@ export default function Home() {
                   ["/flask.svg", "https://palletsprojects.com/p/flask/"],
                 ])
               }
-              imagesSize={250}
-              boxStyling={
-                "bg-lime-400 dark:bg-lime-700 w-9/12 h-full rounded-sm border-black border-2 "
+              iconSize={250}
+              backboxStyling={
+                "bg-lime-400 dark:bg-lime-700 2xl:w-9/12 2xl:h-full rounded-sm border-black border-2 "
               }
               side={"right"}
               text="This project is a mock rideshare backend. The Database I used was Postgresql.
@@ -178,19 +178,19 @@ export default function Home() {
               The user can also view the reciepts for all their rides. The Database allows full functionality for a ridesharing app,
               this includes: creating/deleting accounts, finding rides, starting rides,
               carpooling, leaving reviews for riders and drivers, and also responding to reviews."
-              imageBoxStyling={
-                "inline-flex bg-lime-200 dark:bg-lime-500 rounded-sm border-black border-2 -translate-y-2 translate-x-4 gap-4"
+              secondBoxStyling={
+                "inline-flex bg-lime-200 dark:bg-lime-500 rounded-sm border-black border-2 2xl:-translate-y-2 2xl:translate-x-4 2xl:gap-4"
               }
-              imageStyle={"rounded-full bg-white"}
+              iconStyle={"rounded-full bg-white"}
               projectImage={"/rideshare.svg"}
               projectImageSize={750}
-              projectImageStyle="rounded-sm border border-black m-2"
+              projectImageStyle="rounded-sm border border-black 2xl:m-2"
               projectLink={"https://github.com/ayden-boyko/React-Timer"}
             ></Projectbox>
           </div>
           {/** Contact */}
           <div
-            className="pb-5 grid grid-cols-2 grid-rows-1 gap-64"
+            className="pb-5 grid grid-cols-2 grid-rows-1 2xl:gap-64 2xl:my-10 xl:my-6 xl:gap-32"
             id="Contact"
           >
             <div>
@@ -208,20 +208,20 @@ export default function Home() {
                   ])
                 }
                 styling={
-                  " invisible bg-teal-400 dark:bg-teal-700 w-10/12 h-10/12 rounded-sm border-black border-2 my-16 "
+                  " invisible bg-teal-400 dark:bg-teal-700 2xl:w-10/12 2xl:h-10/12 rounded-sm border-black border-2 2xl:my-10 "
                 }
                 animation={"animate-left"}
                 text={"Reach out to me through these other ways"}
                 size={250}
                 imageStyle={" bg-white p-2 rounded-full "}
                 gridStyle={
-                  "flex flex-col items-center dark:bg-slate-500 gap-x-16 "
+                  "flex flex-col items-center dark:bg-slate-500 2xl:gap-x-16 "
                 }
-                linkStyle={"w-10/12 h-4/6 m-2 py-4 rounded-full "}
+                linkStyle={"2xl:w-10/12 2xl:h-4/6 m-2 py-4 rounded-full "}
               ></Imagebox>
             </div>
             <div>
-              <ContactMe style=" invisible rounded-sm border-black border-2 bg-teal-400 dark:bg-teal-700 my-16 w-full h-full md:w-full md:h-auto sm:w-4/6 sm:h-3/6"></ContactMe>
+              <ContactMe style=" invisible rounded-sm border-black border-2 bg-teal-400 dark:bg-teal-700 2xl:my-10 2xl:w-full 2xl:h-fit xl:w-full md:w-full md:h-auto sm:w-4/6 sm:h-3/6 "></ContactMe>
             </div>
           </div>
         </div>
