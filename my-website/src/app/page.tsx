@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <div className="flex min-h-screen flex-col justify-between">
+      <div className="flex h-screen w-screen flex-col justify-between">
         <div className="h-screen bg-transparent ">
           {/** Navbar */}
           <div>
