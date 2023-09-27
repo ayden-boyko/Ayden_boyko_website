@@ -193,7 +193,7 @@ export default function Home() {
               }
               projectImage={"/rideshare.svg"}
               projectImageSize={750}
-              projectImageStyle="rounded-sm border-2 border-black 2xl:m-2 lg:translate-x-1.5 lg:-translate-y-2.5 md:translate-y-0 sm:translate-y-2 sm:translate-x-2"
+              projectImageStyle="rounded-sm border-2 border-black 2xl:m-2 lg:translate-x-2 lg:-translate-y-3 md:translate-y-0 sm:translate-y-2 sm:translate-x-2"
               projectLink={"https://github.com/ayden-boyko/React-Timer"}
             ></Projectbox>
           </div>
