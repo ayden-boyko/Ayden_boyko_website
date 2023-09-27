@@ -160,7 +160,7 @@ export default function Home() {
               }
               projectImage={"/homepage.jpg"}
               projectImageSize={400}
-              projectImageStyle="rounded-sm border-2 border-black m-2 2xl:-translate-x-4 xl:-translate-x-5 md:translate-y-0 sm:-translate-x-4"
+              projectImageStyle="rounded-sm border-2 border-black m-2 2xl:-translate-x-03.5 xl:-translate-x-5 md:translate-y-0 sm:-translate-x-4"
               projectLink={"https://github.com/ayden-boyko/Website"}
             ></Projectbox>
           </div>
@@ -193,7 +193,7 @@ export default function Home() {
               }
               projectImage={"/rideshare.svg"}
               projectImageSize={750}
-              projectImageStyle="rounded-sm border-2 border-black 2xl:m-2 lg:translate-x-2.5 lg:translate-y-1 md:translate-y-0 sm:translate-y-2 sm:translate-x-2"
+              projectImageStyle="rounded-sm border-2 border-black 2xl:m-2 lg:translate-x-3  lg:translate-y-0 md:translate-y-0 sm:translate-y-2 sm:translate-x-2"
               projectLink={"https://github.com/ayden-boyko/React-Timer"}
             ></Projectbox>
           </div>
