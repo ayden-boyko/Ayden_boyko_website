@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import React from "react";
 import Displaybox from "./components/Displaybox";
-import ContactMe from "./components/email";
 import Navbar from "./components/Navbar";
 import Imagebox from "./components/Imagebox";
 import Projectbox from "./components/Projectbox";
@@ -231,7 +230,31 @@ export default function Home() {
             </div>
 
             <div>
-              <ContactMe style=" invisible rounded-sm border-black border-2 bg-teal-400 dark:bg-teal-700 2xl:my-10 2xl:w-full 2xl:h-fit xl:w-full md:w-full lg:w-full lg:h-4/6 md:h-auto sm:w-5/6 sm:h-auto "></ContactMe>
+              <Imagebox
+                Images={
+                  new Map<string, string>([
+                    [
+                      "/discordapp.svg",
+                      "https://discordapp.com/users/bb_tornado",
+                    ],
+                    [
+                      "/linkedin.svg",
+                      "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
+                    ],
+                  ])
+                }
+                styling={
+                  " invisible bg-teal-400 dark:bg-teal-700 2xl:w-10/12 2xl:h-10/12 rounded-sm border-black border-2 2xl:my-10 "
+                }
+                animation={"animate-right"}
+                text={"Below Is my resume"}
+                size={250}
+                imageStyle={" bg-white p-2 rounded-full "}
+                gridStyle={
+                  "flex flex-col items-center dark:bg-slate-500 2xl:gap-16 md:gap-2"
+                }
+                linkStyle={"2xl:w-10/12 2xl:h-4/6 m-2 py-4 rounded-full "}
+              ></Imagebox>
             </div>
           </div>
         </div>
