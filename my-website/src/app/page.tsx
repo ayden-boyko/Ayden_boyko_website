@@ -22,14 +22,14 @@ export default function Home() {
 
           {/** About Me */}
           <div
-            className="inline-flex 2xl:my-10 md:my-6 sm:my-6 sm:mt-24 min-[280px]:m-20"
+            className="inline-flex 2xl:my-10 2xl:-mx-5 md:my-6 sm:my-6 sm:mt-24 min-[280px]:m-20"
             id="About_Me"
           >
             <Displaybox
               content="Hello and welcome to my website! My name is Ayden Boyko. 
               I am currently a third year Software Enginner at Rochester Institute of Technology.
               I enjoy Fullstack development, and experimenting with new technologies"
-              style="bg-red-400 dark:bg-red-700 2xl:w-2/6 2xl:h-2/6 xl:w-4/6 xl:h-4/6 lg:w-4/6 lg:h-4/6 md:w-5/6 md:h-auto sm:w-full sm:h-full  "
+              style="bg-red-400 dark:bg-red-700 2xl:w-3/6 2xl:h-2/6 xl:w-4/6 xl:h-4/6 lg:w-4/6 lg:h-4/6 md:w-5/6 md:h-auto sm:w-full sm:h-full "
               side="left"
               initial={true}
             />
@@ -233,14 +233,7 @@ export default function Home() {
               <Imagebox
                 Images={
                   new Map<string, string>([
-                    [
-                      "/discordapp.svg",
-                      "https://discordapp.com/users/bb_tornado",
-                    ],
-                    [
-                      "/linkedin.svg",
-                      "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
-                    ],
+                    ["/resume.jpg", "https://discordapp.com/users/bb_tornad"],
                   ])
                 }
                 styling={
@@ -248,8 +241,8 @@ export default function Home() {
                 }
                 animation={"animate-right"}
                 text={"Below Is my resume"}
-                size={250}
-                imageStyle={" bg-white p-2 rounded-full "}
+                size={350}
+                imageStyle={" bg-white p-2 border-2 border-black "}
                 gridStyle={
                   "flex flex-col items-center dark:bg-slate-500 2xl:gap-16 md:gap-2"
                 }
