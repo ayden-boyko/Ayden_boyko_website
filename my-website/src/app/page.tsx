@@ -16,13 +16,12 @@ export default function Home() {
       <div className="flex h-screen max-w-screen-md min-w-fit flex-col justify-between">
         <div className="h-screen bg-transparent ">
           {/** Navbar */}
-          <div>
-            <Navbar></Navbar>
-          </div>
+
+          <Navbar></Navbar>
 
           {/** About Me */}
           <div
-            className="inline-flex 2xl:my-10 2xl:-mx-5 md:my-6 sm:my-6 sm:mt-24 min-[280px]:m-20"
+            className="inline-flex 2xl:my-10 2xl:-mx-5 xl:-mx-1 md:my-6 sm:my-6 sm:mt-24 min-[280px]:m-20"
             id="About_Me"
           >
             <Displaybox
@@ -206,10 +205,6 @@ export default function Home() {
                 Images={
                   new Map<string, string>([
                     [
-                      "/discordapp.svg",
-                      "https://discordapp.com/users/bb_tornado",
-                    ],
-                    [
                       "/linkedin.svg",
                       "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
                     ],
@@ -219,9 +214,12 @@ export default function Home() {
                   " invisible bg-teal-400 dark:bg-teal-700 2xl:w-10/12 2xl:h-10/12 rounded-sm border-black border-2 2xl:my-10 "
                 }
                 animation={"animate-left"}
-                text={"Reach out to me through these other ways"}
-                size={250}
-                imageStyle={" bg-white p-2 rounded-full "}
+                text="Reach out to me through these other ways
+                        GMAIL: aydenboyko@gmail.com"
+                size={125}
+                imageStyle={
+                  "transition ease-in delay-100 duration-1000 bg-white p-2 rounded-full border-black border-double border-4 hover:border-4 hover:border-solid"
+                }
                 gridStyle={
                   "flex flex-col items-center dark:bg-slate-500 2xl:gap-16 md:gap-2"
                 }
