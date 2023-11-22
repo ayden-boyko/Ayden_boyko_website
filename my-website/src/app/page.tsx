@@ -39,7 +39,7 @@ export default function Home() {
               I continued to do so for a couple more years before falling out of love with it.
               It wasn't until the 10th grade when I re-developed my love for coding during a computer science class.
               I was so interested that I took college coding classes during the summer in order to learn more."
-              style="bg-red-400 dark:bg-red-700 2xl:w-2/6 2xl:h-2/6 xl:w-4/6 xl:h-4/6 lg:w-4/6 lg:h-4/6 md:w-5/6 md:h-auto sm:w-full sm:h-full"
+              style="bg-red-400 dark:bg-red-700 2xl:w-2/6 2xl:h-2/6 xl:w-4/6 xl:h-4/6 lg:w-4/6 lg:h-4/6 md:w-5/6 md:h-auto sm:w-5/6 sm:h-3/6"
               side="right"
               initial={true}
             />
