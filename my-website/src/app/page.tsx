@@ -13,8 +13,8 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <div className="flex h-screen max-w-screen-md min-w-fit flex-col justify-between">
-        <div className="h-screen bg-transparent ">
+      <div className="flex h-full w-full min-w-fit flex-col justify-between">
+        <div className="h-screen bg-transparent">
           {/** Navbar */}
 
           <Navbar></Navbar>

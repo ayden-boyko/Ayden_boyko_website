@@ -26,10 +26,6 @@
     animation-timing-function: cubic-bezier(0.2, 1);
   }
 }
-.animate-idle-left {
-  animation: idle-left 1s infinite;
-  animation-duration: 5s;
-}
 
 @keyframes idle-right {
   50% {
@@ -41,32 +37,40 @@
     animation-timing-function: cubic-bezier(0.2, 1);
   }
 }
+
+@keyframes load-right {
+  0% {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes load-left {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-idle-left {
+  animation: idle-left 1s infinite;
+  animation-duration: 5s;
+}
+
 .animate-idle-right {
   animation: idle-right 1s infinite;
   animation-duration: 5s;
 }
 
-@keyframes load-right {
-  0% {
-    transform: translateX(300%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
-}
 .animate-load-right {
   animation: load-right 5s ease-out 1;
   animation-duration: 2s;
 }
 
-@keyframes load-left {
-  0% {
-    transform: translateX(-300%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
-}
 .animate-load-left {
   animation: load-left 5s ease-out 1;
   animation-duration: 2s;
