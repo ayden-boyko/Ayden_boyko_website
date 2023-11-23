@@ -20,12 +20,15 @@ export default function Home() {
           <Navbar></Navbar>
 
           {/** About Me */}
-          <div className="inline-flex " id="About_Me">
+          <div
+            className="inline-flex 2xl:my-10 2xl:-mx-5 xl:-mx-1 md:my-6 sm:my-6 sm:mt-24 min-[280px]:m-20"
+            id="About_Me"
+          >
             <Displaybox
               content="Hello and welcome to my website! My name is Ayden Boyko. 
               I am currently a third year Software Enginner at Rochester Institute of Technology.
               I enjoy Fullstack development, and experimenting with new technologies"
-              style="bg-red-400 dark:bg-red-700 "
+              style="bg-red-400 dark:bg-red-700 2xl:w-3/6 2xl:h-2/6 xl:w-4/6 xl:h-4/6 lg:w-4/6 lg:h-4/6 md:w-5/6 md:h-auto sm:w-full sm:h-full "
               side="left"
               initial={true}
             />
