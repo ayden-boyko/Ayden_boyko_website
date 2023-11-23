@@ -11,9 +11,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </head>
+      <head></head>
       <body className=" transition-all duration-1000 delay-100 bg-[url('../app/icons/lightgrid.svg')] dark:bg-[url('../app/icons/darkgrid.svg')] bg-slate-300  dark:text-white sm:mx-10 md:mx-32 xl:mx-44 2xl:mx-72 bg-fixed overflow-x-hidden">
         <Providers>
           <DarkModeButton id="darkmodebutton">{children}</DarkModeButton>
