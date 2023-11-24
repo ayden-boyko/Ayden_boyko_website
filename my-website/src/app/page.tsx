@@ -33,7 +33,7 @@ export default function Home() {
               initial={true}
             />
           </div>
-          <div className="inline-flex flex-row-reverse 2xl:my-10 md:my-6 sm:my-6">
+          <div className="inline-flex flex-row-reverse 2xl:my-10 2xl:-mx-5 xl:-mx-1 md:my-6 sm:my-6 sm:mt-24 min-[280px]:m-20">
             <Displaybox
               content="My coding journey began when I was very young. I learned how to make games with Scratch when I was around 10/11 years old.
               I continued to do so for a couple more years before falling out of love with it.
@@ -44,7 +44,7 @@ export default function Home() {
               initial={true}
             />
           </div>
-          <div className="inline-flex 2xl:my-10 md:my-6 sm:my-6">
+          <div className="inline-flex 2xl:my-10 2xl:-mx-5 xl:-mx-1 md:my-6 sm:my-6 sm:mt-24 min-[280px]:m-20">
             <Displaybox
               content="This love of coding has stuck with me as I continue my software development journey.
               As a matter of fact this website was my introduction into Nextjs and Tailwindcss!"
@@ -91,7 +91,10 @@ export default function Home() {
           ></Imagebox>
 
           {/** Projects */}
-          <div className="inline-flex 2xl:my-10 md:my-6 sm:my-6" id="Projects">
+          <div
+            className="inline-flex 2xl:my-10 2xl:-mx-5 xl:-mx-1 md:my-6 sm:my-6 sm:mt-24 min-[280px]:m-20"
+            id="Projects"
+          >
             <Displaybox
               content="Below Are My projects.
               For each one, I focused on a specific part of fulllstack development that I was not confident in.
@@ -101,7 +104,7 @@ export default function Home() {
               side="left"
             />
           </div>
-          <div className="inline-flex flex-row-reverse 2xl:my-10 md:my-6 sm:my-6">
+          <div className="inline-flex flex-row-reverse 2xl:my-10 2xl:-mx-5 xl:-mx-1 md:my-6 sm:my-6 sm:mt-24 min-[280px]:m-20">
             <Projectbox
               Images={
                 new Map<string, string>([
@@ -135,7 +138,7 @@ export default function Home() {
               projectLink={"https://github.com/ayden-boyko/React-Timer"}
             ></Projectbox>
           </div>
-          <div className="inline-flex flex-row 2xl:my-10 md:my-6 sm:my-6">
+          <div className="inline-flex flex-row 2xl:my-10 2xl:-mx-5 xl:-mx-1 md:my-6 sm:my-6 sm:mt-24 min-[280px]:m-20">
             <Projectbox
               Images={
                 new Map<string, string>([
@@ -162,7 +165,7 @@ export default function Home() {
               projectLink={"https://github.com/ayden-boyko/Website"}
             ></Projectbox>
           </div>
-          <div className="inline-flex flex-row-reverse 2xl:my-10 md:my-6 sm:my-6">
+          <div className="inline-flex flex-row-reverse 2xl:my-10 2xl:-mx-5 xl:-mx-1 md:my-6 sm:my-6 sm:mt-24 min-[280px]:m-20">
             <Projectbox
               Images={
                 new Map<string, string>([
