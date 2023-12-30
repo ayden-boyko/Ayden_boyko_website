@@ -218,15 +218,15 @@ export default function Home() {
                   " invisible bg-teal-400 dark:bg-teal-700 2xl:w-10/12 2xl:h-10/12 rounded-sm border-black border-2 2xl:my-10 "
                 }
                 animation={"animate-left"}
-                text="Reach out to me through these other ways
-                        GMAIL: aydenboyko@gmail.com
-                        "
+                text={
+                  "Reach out to me through these other ways. aydenboyko@gmail.com"
+                }
                 size={125}
                 imageStyle={
                   "transition ease-in delay-100 duration-1000 bg-white p-2 rounded-full border-black border-double border-4 hover:border-4 hover:border-solid"
                 }
                 gridStyle={
-                  "flex flex-col items-center dark:bg-slate-500 2xl:gap-16 md:gap-2"
+                  "flex flex-col items-center dark:bg-slate-500 2xl:gap-2 md:gap-2"
                 }
                 linkStyle={"2xl:w-10/12 2xl:h-4/6 m-2 py-4 rounded-full "}
               ></Imagebox>
