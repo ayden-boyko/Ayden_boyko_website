@@ -76,7 +76,7 @@ export default function Home() {
               ])
             }
             styling={
-              " transition duration-1000 invisible bg-red-400 dark:bg-red-700 2xl:w-9/12 2xl:h-7/12 2xl:my-10 xl:w-11/12 xl:h-10/12 xl:my-6 lg:w-11/12 lg:h-10/12 lg:my-6 sm:my-6 rounded-sm border-black border-2 "
+              " transition duration-1000 invisible bg-red-400 dark:bg-red-700 2xl:w-9/12 2xl:h-7/12 2xl:my-10 xl:w-11/12 xl:h-10/12 xl:my-6 lg:w-11/12 lg:h-10/12 lg:my-6 sm:my-6 place-content-center rounded-sm border-black border-2 "
             }
             animation={"initial-load-left"}
             size={60}
@@ -85,7 +85,7 @@ export default function Home() {
             }
             imageStyle={" transition duration-1000 bg-white rounded-2xl"}
             gridStyle={
-              " transition duration-1000 grid-cols-5 grid place-content-center dark:bg-slate-500 2xl:gap-x-16 2xl:p-4"
+              " transition duration-1000 grid-cols-5 grid dark:bg-slate-500 translate-x-16 "
             }
             linkStyle={" 2xl:w-10/12 2xl:h-4/6 m-2 "}
           ></Imagebox>
@@ -120,12 +120,12 @@ export default function Home() {
                 " bg-lime-400 dark:bg-lime-700 2xl:w-9/12 2xl:h-9/12 xl:w-11/12 xl:h-10/12 rounded-sm border-black border-2 "
               }
               side={"right"}
-              text="This Project was my first introduction to frontend development, and I was hooked! 
+              text="This project was my first introduction to frontend development, and I was hooked! 
               Using React components I created a timer that was able to:
               log times,
               edit times logged,
               change the name of the user who was using the timer (this will change the name displayed when time is logged), 
-              It is important to note that this project has no backend, therefore I only allowed one user to be made."
+              It is important to note that this project has no backend, as a result I did not save users and the times they logged."
               secondBoxStyling={
                 "inline-flex bg-lime-200 dark:bg-lime-400 rounded-sm border-black border-2 -translate-y-2 translate-x-4 gap-4  "
               }
@@ -140,29 +140,24 @@ export default function Home() {
           </div>
           <div className="inline-flex flex-row 2xl:my-10 2xl:-mx-5 xl:-mx-1 md:my-6 sm:my-6 sm:mt-24 min-[280px]:m-20">
             <Projectbox
-              Images={
-                new Map<string, string>([
-                  ["/tailwind.svg", "https://tailwindcss.com/"],
-                  ["/next-js.svg", "https://nextjs.org/"],
-                ])
-              }
+              Images={new Map<string, string>([["/c.svg", ""]])}
               iconSize={150}
               backboxStyling={
-                "bg-lime-400 dark:bg-lime-700 2xl:w-9/12 2xl:h-2/6 xl:w-10/12 xl:h-10/12 rounded-sm border-black border-2"
+                "bg-lime-400 dark:bg-lime-700 2xl:w-8/12 2xl:h-3/4 xl:w-10/12 xl:h-10/12 rounded-sm border-black border-2"
               }
               side={"left"}
-              text="This Project is actually my personal website. It was made using Nextjs version 13 and tailwindcss. 
-              Both of which I had no prior experience using so this was a big learning experience for me."
+              text="This project was created for a stm board, model wb55xx. It allows to board to advertise over bluetooth, connect to a device, 
+              and receive messages from the connected device"
               secondBoxStyling={
                 "inline-flex bg-lime-200 dark:bg-lime-500 rounded-sm border-black border-2 -translate-y-2 -translate-x-4 gap-4"
               }
               iconStyle={
-                "rounded-full bg-white border-grey border-2 2xl:-translate-x-2 xl:-translate-x-3 xl:scale-110 lg:-translate-x-3 lg:scale-125 md:scale-150 md:-translate-x-3 sm:-translate-x-3 sm:scale-150 sm:my-2"
+                "2xl:-translate-x-2 xl:-translate-x-3 xl:scale-110 lg:-translate-x-3 lg:scale-125 md:scale-150 md:-translate-x-3 sm:-translate-x-3 sm:scale-150 sm:my-2"
               }
-              projectImage={"/homepage.jpg"}
+              projectImage={"/board.jpg"}
               projectImageSize={400}
               projectImageStyle="rounded-sm border-2 border-black m-2 2xl:-translate-x-03.5 xl:-translate-x-5 md:translate-y-0 sm:-translate-x-4"
-              projectLink={"https://github.com/ayden-boyko/Website"}
+              projectLink={"https://github.com/ayden-boyko/BLE_Messenger"}
             ></Projectbox>
           </div>
           <div className="inline-flex flex-row-reverse 2xl:my-10 2xl:-mx-5 xl:-mx-1 md:my-6 sm:my-6 sm:mt-24 min-[280px]:m-20">
@@ -181,7 +176,7 @@ export default function Home() {
                 "bg-lime-400 dark:bg-lime-700 2xl:w-9/12 2xl:h-full xl:w-10/12 xl:h-10/12 lg:w-auto lg:h-auto rounded-sm border-black border-2 "
               }
               side={"right"}
-              text="This project is a mock rideshare backend. The Database I used was Postgresql.
+              text="This project is a mock rideshare backend. I used Python, Flask, and PostgreSQL.
               The Api conforms to the REST architectural style. The api allows all information related to rider or driver to be accessed.
               The user can also view the reciepts for all their rides. The Database allows full functionality for a ridesharing app,
               this includes: creating/deleting accounts, finding rides, starting rides,
