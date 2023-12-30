@@ -211,6 +211,7 @@ export default function Home() {
                       "/linkedin.svg",
                       "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
                     ],
+                    ["/github.svg", "github.com/ayden-boyko"],
                   ])
                 }
                 styling={
@@ -218,7 +219,8 @@ export default function Home() {
                 }
                 animation={"animate-left"}
                 text="Reach out to me through these other ways
-                        GMAIL: aydenboyko@gmail.com"
+                        GMAIL: aydenboyko@gmail.com
+                        "
                 size={125}
                 imageStyle={
                   "transition ease-in delay-100 duration-1000 bg-white p-2 rounded-full border-black border-double border-4 hover:border-4 hover:border-solid"
