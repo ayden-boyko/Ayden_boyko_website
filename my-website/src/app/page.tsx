@@ -230,9 +230,7 @@ export default function Home() {
             <div>
               <Imagebox
                 Images={
-                  new Map<string, string>([
-                    ["/resume.jpg", "https://discordapp.com/users/bb_tornad"],
-                  ])
+                  new Map<string, string>([["/resume.jpg", "/resume.pdf"]])
                 }
                 styling={
                   " invisible bg-teal-400 dark:bg-teal-700 2xl:w-10/12 2xl:h-10/12 rounded-sm border-black border-2 2xl:my-10 "
