@@ -206,7 +206,7 @@ export default function Home() {
                       "/linkedin.svg",
                       "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
                     ],
-                    ["/github.svg", "github.com/ayden-boyko"],
+                    ["/github.svg", "https://github.com/ayden-boyko"],
                   ])
                 }
                 styling={
