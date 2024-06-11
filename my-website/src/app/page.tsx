@@ -83,9 +83,9 @@ export default function Home() {
             text={
               "These are the languages and libraries that I feel most comfortable using."
             }
-            imageStyle={" transition duration-1000 bg-white rounded-2xl"}
+            imageStyle={" transition duration-500 bg-white rounded-2xl"}
             gridStyle={
-              " transition duration-1000 grid-cols-5 grid dark:bg-slate-500 translate-x-16 "
+              " transition duration-500 grid-cols-5 grid dark:bg-slate-500 place-items-center "
             }
             linkStyle={" 2xl:w-10/12 2xl:h-4/6 m-2 "}
           ></Imagebox>
@@ -206,7 +206,7 @@ export default function Home() {
                       "/linkedin.svg",
                       "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
                     ],
-                    ["/github.svg", "github.com/ayden-boyko"],
+                    ["/github.svg", "https://github.com/ayden-boyko"],
                   ])
                 }
                 styling={
