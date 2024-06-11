@@ -193,7 +193,7 @@ export default function Home() {
               projectLink={"https://github.com/ayden-boyko/Restful-api"}
             ></Projectbox>
           </div>
-          {/** Contact */}
+          {/* Contact */}
           <div
             className="pb-5 grid grid-cols-2 grid-rows-1 2xl:gap-64 2xl:my-10 xl:my-6 xl:gap-32 lg:gap-24 lg:my-6 md:gap-14 sm:my-6 sm:gap-10"
             id="Contact"
