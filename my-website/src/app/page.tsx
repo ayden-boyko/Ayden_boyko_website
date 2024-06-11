@@ -190,7 +190,7 @@ export default function Home() {
               projectImage={"/rideshare.svg"}
               projectImageSize={750}
               projectImageStyle="rounded-sm border-2 border-black 2xl:m-2 lg:translate-x-3  lg:translate-y-0 md:translate-y-0 sm:translate-y-2 sm:translate-x-2"
-              projectLink={"https://github.com/ayden-boyko/React-Timer"}
+              projectLink={"https://github.com/ayden-boyko/Restful-api"}
             ></Projectbox>
           </div>
           {/** Contact */}
