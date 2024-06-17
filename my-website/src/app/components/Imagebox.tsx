@@ -49,22 +49,40 @@ const Imagebox = (props: props) => {
       </div>
     );
   });
-  return (
-    <InView
-      as="div"
-      onChange={(inView, entry) =>
-        inView
-          ? setFinalStyle(styling.replace("invisible", "visible") + animation)
-          : ""
-      }
-      className={finalstyle}
-    >
-      <div className="  transition duration-1000 bg-white rounded-sm border-black border-2 -translate-y-2 -translate-x-2 text-black w-full h-full dark:bg-slate-500 dark:text-white pl-16 pb-2 pr-16 pt-2 gap-x-16 sm:p-2">
-        {text === null ? <></> : <p className="text-center">{text}</p>}
-        <div className={gridstyle}>{imageslayout}</div>
-      </div>
-    </InView>
-  );
+  if (animation == "animate-right")
+    return (
+      <InView
+        as="div"
+        onChange={(inView, entry) =>
+          inView
+            ? setFinalStyle(styling.replace("invisible", "visible") + animation)
+            : ""
+        }
+        className={finalstyle}
+      >
+        <div className="  transition duration-1000 bg-white rounded-sm border-black border-2 -translate-y-2 translate-x-2 text-black w-full h-full dark:bg-slate-500 dark:text-white pl-16 pb-2 pr-16 pt-2 gap-x-16 sm:p-2">
+          {text === null ? <></> : <p className="text-center">{text}</p>}
+          <div className={gridstyle}>{imageslayout}</div>
+        </div>
+      </InView>
+    );
+  else
+    return (
+      <InView
+        as="div"
+        onChange={(inView, entry) =>
+          inView
+            ? setFinalStyle(styling.replace("invisible", "visible") + animation)
+            : ""
+        }
+        className={finalstyle}
+      >
+        <div className="  transition duration-1000 bg-white rounded-sm border-black border-2 -translate-y-2 -translate-x-2 text-black w-full h-full dark:bg-slate-500 dark:text-white pl-16 pb-2 pr-16 pt-2 gap-x-16 sm:p-2">
+          {text === null ? <></> : <p className="text-center">{text}</p>}
+          <div className={gridstyle}>{imageslayout}</div>
+        </div>
+      </InView>
+    );
 };
 
 export default Imagebox;

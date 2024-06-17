@@ -240,14 +240,15 @@ export default function Home() {
                 linkStyle={"2xl:w-10/12 2xl:h-4/6 m-2 py-4 rounded-full "}
               ></Imagebox>
             </div>
-            <div>
-              <ContactMe
-                styling={
-                  " invisible bg-teal-400 dark:bg-teal-700 2xl:w-10/12 2xl:h-10/12 rounded-sm border-black border-2 2xl:my-10 "
-                }
-              ></ContactMe>
-            </div>
           </div>
+          <div className=" w-5/12">
+            <ContactMe
+              styling={
+                " invisible bg-teal-400 dark:bg-teal-700 2xl:w-10/12 2xl:h-10/12 rounded-sm border-black border-2 2xl:my-10"
+              }
+            ></ContactMe>
+          </div>
+          <br />
         </div>
       </div>
     </main>

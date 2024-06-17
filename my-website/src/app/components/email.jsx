@@ -11,7 +11,7 @@ const email = dynamic(() => import("@emailjs/browser"), {
 const ContactMe = (props) => {
   const { style } = props;
   const form = useRef();
-  const [widgetStyle, setSyle] = useState(style);
+  const [widgetStyle, setSyle] = useState("" + style);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -48,47 +48,50 @@ const ContactMe = (props) => {
       }
       className={widgetStyle}
     >
-      <form
-        ref={form}
-        onSubmit={sendEmail}
-        className=" transition duration-1000 bg-white text-black translate-x-2 -translate-y-2 rounded-sm border-black border-2 p-2 dark:bg-slate-500 md:py-4 md:h-64 sm:h-60"
-      >
-        <label className=" dark:text-white text-xl">
-          Fell free to send me a message
-        </label>
-        <label className="dark:text-white">Name</label>
-        <br />
-        <input
-          type="text"
-          name="user_name"
-          id="user_name"
-          className=" transition duration-1000 bg-white border-black rounded border text-black sm:w-5/6"
-        />
-        <br />
-        <label className="dark:text-white">Email</label>
-        <br />
-        <input
-          type="email"
-          name="email"
-          id="email"
-          className=" transition duration-1000 bg-white border-black rounded border text-black sm:w-5/6"
-        />
-        <br />
-        <label className="dark:text-white">Message</label>
-        <br />
-        <textarea
-          name="message"
-          id="message"
-          className=" transition duration-1000 bg-white border-black rounded border w-2/3"
-        />
-        <br />
-        <input
-          type="submit"
-          value="Send"
-          className="transition duration-500 delay-100 rounded-sm border-black border p-1 hover:bg-gray-400 bg-white"
-        />
-        <br />
-      </form>
+      <div className=" transition duration-1000 bg-teal-400 dark:bg-teal-700 2xl:w-10/12 2xl:h-10/12 rounded-sm border-black border-2 2xl:my-10">
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          className=" transition duration-1000 bg-white text-black -translate-x-2 -translate-y-2 rounded-sm border-black border-2 p-2 dark:bg-slate-500 md:py-4 md:h-70 sm:h-70"
+        >
+          <label className=" dark:text-white text-2xl">
+            Feel free to send me a message
+          </label>
+          <br />
+          <label className="dark:text-white">Name</label>
+          <br />
+          <input
+            type="text"
+            name="user_name"
+            id="user_name"
+            className=" transition duration-1000 bg-white border-black rounded border text-black sm:w-5/6"
+          />
+          <br />
+          <label className="dark:text-white">Email</label>
+          <br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            className=" transition duration-1000 bg-white border-black rounded border text-black sm:w-5/6"
+          />
+          <br />
+          <label className="dark:text-white">Message</label>
+          <br />
+          <textarea
+            name="message"
+            id="message"
+            className=" transition duration-1000 bg-white border-black rounded border w-2/3"
+          />
+          <br />
+          <input
+            type="submit"
+            value="Send"
+            className="transition duration-500 delay-100 rounded-sm border-black border p-1 hover:bg-gray-400 bg-white"
+          />
+          <br />
+        </form>
+      </div>
     </InView>
   );
 };
