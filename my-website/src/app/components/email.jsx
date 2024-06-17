@@ -85,11 +85,6 @@ const ContactMe = (props) => {
           className="transition duration-500 delay-100 rounded-sm border-black border p-1 hover:bg-gray-400 bg-white"
         />
         <br />
-        <ReCAPTCHA
-          size="normal"
-          sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
-          className="m-2 -translate-x-2 lg:visible min-[300px]:invisible"
-        />
       </form>
     </InView>
   );
