@@ -53,6 +53,9 @@ const ContactMe = (props) => {
         onSubmit={sendEmail}
         className=" transition duration-1000 bg-white text-black translate-x-2 -translate-y-2 rounded-sm border-black border-2 p-2 dark:bg-slate-500 md:py-4 md:h-64 sm:h-60"
       >
+        <label className=" dark:text-white text-xl">
+          Fell free to send me a message
+        </label>
         <label className="dark:text-white">Name</label>
         <br />
         <input
