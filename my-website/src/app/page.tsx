@@ -4,6 +4,7 @@ import Displaybox from "./components/Displaybox";
 import Navbar from "./components/Navbar";
 import Imagebox from "./components/Imagebox";
 import Projectbox from "./components/Projectbox";
+import ContactMe from "./components/email";
 
 export const metadata: Metadata = {
   title: "Home",
@@ -209,9 +210,7 @@ export default function Home() {
                   " invisible bg-teal-400 dark:bg-teal-700 2xl:w-10/12 2xl:h-10/12 rounded-sm border-black border-2 2xl:my-10 "
                 }
                 animation={"animate-left"}
-                text={
-                  "Reach out to me through these other ways. aydenboyko@gmail.com"
-                }
+                text={"Reach out to me through these other ways."}
                 size={125}
                 imageStyle={
                   "transition ease-in delay-100 duration-1000 bg-white p-2 rounded-full border-black border-double border-4 hover:border-4 hover:border-solid"
@@ -240,6 +239,13 @@ export default function Home() {
                 }
                 linkStyle={"2xl:w-10/12 2xl:h-4/6 m-2 py-4 rounded-full "}
               ></Imagebox>
+            </div>
+            <div>
+              <ContactMe
+                styling={
+                  " invisible bg-teal-400 dark:bg-teal-700 2xl:w-10/12 2xl:h-10/12 rounded-sm border-black border-2 2xl:my-10 "
+                }
+              ></ContactMe>
             </div>
           </div>
         </div>
