@@ -25,9 +25,8 @@ export default function Home() {
             id="About_Me"
           >
             <Displaybox
-              content="Hello and welcome to my website! My name is Ayden Boyko. 
-              I am currently a third year Software Enginner at Rochester Institute of Technology.
-              I enjoy Fullstack development, and experimenting with new technologies"
+              content="Welcome to my website. My name is Ayden Boyko, and I am a third-year Software Engineering student at Rochester Institute of Technology. 
+              My passion lies in Fullstack development and exploring a wide spectrum of technologies."
               style="bg-red-400 dark:bg-red-700 2xl:w-3/6 2xl:h-2/6 xl:w-4/6 xl:h-4/6 lg:w-4/6 lg:h-4/6 md:w-5/6 md:h-auto sm:w-full sm:h-full "
               side="left"
               initial={true}
@@ -35,10 +34,7 @@ export default function Home() {
           </div>
           <div className="inline-flex flex-row-reverse 2xl:my-10 2xl:-mx-5 xl:-mx-1 md:my-6 sm:my-6 sm:mt-24 min-[280px]:m-20">
             <Displaybox
-              content="My coding journey began when I was very young. I learned how to make games with Scratch when I was around 10/11 years old.
-              I continued to do so for a couple more years before falling out of love with it.
-              It wasn't until the 10th grade when I re-developed my love for coding during a computer science class.
-              I was so interested that I took college coding classes during the summer in order to learn more."
+              content="My journey into coding commenced at a young age, when I first delved into game development using Scratch around the age of 10 or 11. Although my initial passion waned after a few years, it was rekindled in the 10th grade during a computer science course. This renewed interest led me to pursue additional coding education, including college-level courses during summer breaks, to further enhance my skills."
               style="bg-red-400 dark:bg-red-700 2xl:w-2/6 2xl:h-2/6 xl:w-4/6 xl:h-4/6 lg:w-4/6 lg:h-4/6 md:w-5/6 md:h-auto sm:w-5/6 sm:h-3/6"
               side="right"
               initial={true}
