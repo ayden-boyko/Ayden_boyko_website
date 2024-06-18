@@ -143,8 +143,9 @@ export default function Home() {
                 "bg-lime-400 dark:bg-lime-700 2xl:w-8/12 2xl:h-3/4 xl:w-10/12 xl:h-10/12 rounded-sm border-black border-2"
               }
               side={"left"}
-              text="This project was created for a stm board, model wb55xx. It allows to board to advertise over bluetooth, connect to a device, 
-              and receive messages from the connected device"
+              text="This project was developed for the STM board, model WB55xx. 
+              It enables the board to advertise over Bluetooth, establish connections with devices, and receive messages from connected devices. 
+              This endeavor required an in-depth understanding of the documentation, as well as expertise in Bluetooth security and communication protocols such as GATT"
               secondBoxStyling={
                 "inline-flex bg-lime-200 dark:bg-lime-500 rounded-sm border-black border-2 -translate-y-2 -translate-x-4 gap-4"
               }
