@@ -12,6 +12,13 @@ const Navbar = () => {
         </a>
 
         <a
+          className="transition ease-in-out delay-150 duration-400 bg-yellow-400 dark:bg-yellow-700 inline-block py-3 text-center text-black border-2 border-black font-semibold rounded-sm hover:scale-125 hover:shadow-lg hover:px-3"
+          href="#Experience"
+        >
+          Experience
+        </a>
+
+        <a
           className="transition ease-in-out delay-150 duration-400 bg-lime-400 dark:bg-lime-700 inline-block py-3 text-center text-black border-2 border-black font-semibold rounded-sm hover:scale-125 hover:shadow-lg hover:px-3"
           href="#Projects"
         >

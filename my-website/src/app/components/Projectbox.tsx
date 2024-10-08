@@ -55,6 +55,15 @@ const Projectbox = (props: props) => {
   const [finalstyle, setFinalStyle] = useState(
     backboxStyling.concat(" invisible")
   );
+
+  const lines = text.split("@").map((line, index) => (
+    <span key={index}>
+      {line.trim() /* Trim whitespace */}
+      {index < text.split("@").length - 1 && <br />}{" "}
+      {/* Add <br> if it's not the last line */}
+    </span>
+  ));
+
   switch (side) {
     case "right":
       return (
@@ -69,10 +78,10 @@ const Projectbox = (props: props) => {
           }
           className={finalstyle}
         >
-          <div className=" flex flex-row xl:gap-2">
-            <div className="">
+          <div className="flex flex-row items-center justify-center xl:gap-2 h-full">
+            <div className="flex justify-center items-center">
               <a
-                className=" w-10/12 h-4/6"
+                className="w-full h-full" // Make sure this takes up full width and height
                 href={projectLink}
                 aria-label="label"
                 target="_blank"
@@ -82,8 +91,8 @@ const Projectbox = (props: props) => {
                   src={projectImage}
                   alt={projectImage}
                   width={projectImageSize}
-                  height={projectImageSize}
-                  className={projectImageStyle}
+                  height={projectImageSize} // Adjusting the height to fill the container
+                  className={`${projectImageStyle} object-cover`} // object-cover ensures image fills space while maintaining aspect ratio
                 />
               </a>
             </div>
@@ -92,7 +101,7 @@ const Projectbox = (props: props) => {
                 {imageslayout}
               </div>
               <div className=" transition duration-1000 bg-white md:text-base text-black -translate-y-2 translate-x-4 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 p-2 animate-none sm:text-xs">
-                <p>{text}</p>
+                <p>{lines}</p>
               </div>
             </div>
           </div>
@@ -111,14 +120,14 @@ const Projectbox = (props: props) => {
           }
           className={finalstyle}
         >
-          <div className=" flex flex-row xl:gap-2">
+          <div className="flex flex-row items-center justify-center xl:gap-2 h-full">
             <div className={secondBoxStyling}>
               <div className=" transition duration-1000 bg-white md:text-base text-black -translate-x-4 -translate-y-2 rounded-sm border-black border-2 dark:text-white dark:bg-slate-500 px-2 py-2 animate-none sm:text-xs">
-                <p>{text}</p>
+                <p>{lines}</p>
               </div>
               <div className="flex flex-col justify-center">{imageslayout}</div>
             </div>
-            <div className="">
+            <div className="flex justify-center items-center">
               <a
                 className=" w-10/12 h-4/6"
                 href={projectLink}
