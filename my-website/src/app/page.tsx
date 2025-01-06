@@ -277,7 +277,7 @@ export default function Home() {
               <Imagebox
                 Images={
                   new Map<string, string>([
-                    ["/resume.jpg", "/Ayden_Boyko_Resume_web.pdf"],
+                    ["/resume.jpg", "/Ayden_Boyko_resume-1.pdf"],
                   ])
                 }
                 styling={
