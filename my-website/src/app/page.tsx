@@ -26,7 +26,7 @@ export default function Home() {
             id="About_Me"
           >
             <Displaybox
-              content="Welcome to my website. My name is Ayden Boyko, and I am a foruth-year Software Engineering student with a minor in applied statistics at Rochester Institute of Technology.  
+              content="Welcome to my website. My name is Ayden Boyko, and I am a fourth-year Software Engineering student with a minor in applied statistics at Rochester Institute of Technology.  
               I aim to leverage my knowledge and industry experience to build scalable, efficient solutions and contribute to dynamic engineering teams. I view each problem as a new chance to grow, this mindset has led me to be a better programmer as well as discover interesting new libraries!"
               style="bg-red-400 dark:bg-red-700 2xl:w-4/6 2xl:h-2/6 xl:w-4/6 xl:h-4/6 lg:w-4/6 lg:h-4/6 md:w-4/6 md:h-auto sm:w-full sm:h-full "
               side="left"
